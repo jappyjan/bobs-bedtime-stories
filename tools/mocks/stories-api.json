@@ -1,0 +1,129 @@
+{
+  "uuid": "ae0fbc41-14c2-424e-9351-7e3eb51e702c",
+  "lastMigration": 19,
+  "name": "Bobs bedtime stories",
+  "endpointPrefix": "",
+  "latency": 250,
+  "port": 3000,
+  "hostname": "0.0.0.0",
+  "routes": [
+    {
+      "uuid": "9d8c228f-ffba-447d-8bad-00d1f771d54b",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "books",
+      "responses": [
+        {
+          "uuid": "ef18a179-731f-475e-acc9-f118ce36bc52",
+          "body": "[\n  {\n    \"title\": \"Tilda Apfelkern\",\n    \"slug\": \"tilda-apfelkern\"\n  },\n  {\n    \"title\": \"Tod\",\n    \"slug\": \"tod\"\n  }\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "840999c8-505c-42b8-8845-49b71c36cae2",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "books/tilda-apfelkern/stories",
+      "responses": [
+        {
+          "uuid": "74858152-1f9d-4aa2-bceb-32c69b1b1120",
+          "body": "[\n {\n  \"book\": \"tilda-apfelkern\",\n  \"episode\": 1,\n  \"date\": \"2022-02-01T12:23:00Z0\",\n  \"audioUrl\": \"http://localhost:3001/audio/mp4/some-random-id\",\n  \"audioLength\": 504,\n  \"description\": \"Tilda kriegt nen Boot\"\n },\n {\n  \"book\": \"tilda-apfelkern\",\n  \"episode\": 2,\n  \"date\": \"2022-02-02T12:23:00Z0\",\n  \"audioUrl\": \"http://localhost:3001/audio/mp4/some-random-id\",\n  \"audioLength\": 621,\n  \"description\": \"Tilda kriegt kein Boot\"\n },\n {\n  \"book\": \"tilda-apfelkern\",\n  \"episode\": 3,\n  \"date\": \"2022-02-01T12:23:00Z0\",\n  \"audioUrl\": \"http://localhost:3001/audio/mp4/some-random-id\",\n  \"audioLength\": 346,\n  \"description\": \"Tilda kriegt nen Sommerfest\"\n },\n {\n  \"book\": \"tilda-apfelkern\",\n  \"episode\": 4,\n  \"date\": \"2022-02-02T12:23:00Z0\",\n  \"audioUrl\": \"http://localhost:3001/audio/mp4/some-random-id\",\n  \"audioLength\": 625,\n  \"description\": \"Tilda kriegt kein Sommerfest\"\n }\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "1f01a8d4-9325-45c2-ac8d-af33276df5bb",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "books/tilda-apfelkern/stories/1",
+      "responses": [
+        {
+          "uuid": "7916d6dc-be97-4f34-95ea-938dace2f608",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ]
+}

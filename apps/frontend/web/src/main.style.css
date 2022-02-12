@@ -1,0 +1,5 @@
+body {
+  background: var(--sl-color-neutral-50);
+  color: var(--sl-color-neutral-700);
+  font-family: var(--sl-font-sans);
+}
