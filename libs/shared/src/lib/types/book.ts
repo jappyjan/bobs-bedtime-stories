@@ -4,7 +4,7 @@ export interface Book {
   title: string;
   slug: string;
   description: string;
-  coverImageUrl: string;
+  coverImageUrl?: string;
 }
 
 export type BookWithStories = Book & {

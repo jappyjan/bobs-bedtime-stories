@@ -1,13 +1,17 @@
+import {UnauthorizedError} from "@bobs-bedtime-stories/backend-api-rest";
+import {BobsSecretsManager} from "@bobs-bedtime-stories/backend-utils";
 import {environment} from "../environments/environment";
 
-export function authenticate(event: any) {
-  const {'pass-code': passCode} = event.headers;
+export async function authenticate(event: any) {
+  const { 'pass-code': givenPassCode } = event.headers;
 
-  if (!passCode) {
-    throw new Error('PassCode is missing');
+  if (!givenPassCode) {
+    throw new UnauthorizedError('PassCode is missing');
   }
 
-  if (environment.passCode !== passCode) {
-    throw new Error('PassCode is invalid');
+  const secretsManager = new BobsSecretsManager();
+  const expectedPasscode = await secretsManager.getValue(environment.passCodeSecretId);
+  if (expectedPasscode !== givenPassCode) {
+    throw new UnauthorizedError('PassCode is invalid');
   }
 }

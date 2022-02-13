@@ -1,0 +1,146 @@
+[2022-02-12T21:50:37.394Z] Initializing ...
+[2022-02-12T21:50:37.394Z] Setting environment variable LOCAL_DEVELOPMENT_ENVIRONMENT to true
+[2022-02-12T21:50:37.395Z] Setting environment variable AWS_REGION to eu-central-1
+[2022-02-12T21:50:37.395Z] Setting environment variable AWS_DEFAULT_REGION to eu-central-1
+[2022-02-12T21:50:37.395Z] Setting environment variable AWS_ACCESS_KEY_ID to fakeMyKeyId
+[2022-02-12T21:50:37.395Z] Setting environment variable AWS_SECRET_ACCESS_KEY to fakeMySecretKey
+[2022-02-12T21:50:45.952Z] Creating secrets: {"PASS_CODE":"3312"}
+[2022-02-12T21:50:46.315Z] initialized
+[2022-02-12T21:50:46.316Z] HTTP REST Api available at http://localhost:1996
+[2022-02-12T21:50:46.316Z] SecretsManager available at http://localhost:3000
+[2022-02-12T21:55:38.098Z] Initializing ...
+[2022-02-12T21:55:38.098Z] Setting environment variable LOCAL_DEVELOPMENT_ENVIRONMENT to true
+[2022-02-12T21:55:38.099Z] Setting environment variable AWS_REGION to eu-central-1
+[2022-02-12T21:55:38.099Z] Setting environment variable AWS_DEFAULT_REGION to eu-central-1
+[2022-02-12T21:55:38.099Z] Setting environment variable AWS_ACCESS_KEY_ID to fakeMyKeyId
+[2022-02-12T21:55:38.099Z] Setting environment variable AWS_SECRET_ACCESS_KEY to fakeMySecretKey
+[2022-02-12T21:55:45.934Z] Creating secrets: {"PASS_CODE":"3312"}
+[2022-02-12T21:55:46.389Z] initialized
+[2022-02-12T21:55:46.389Z] HTTP REST Api available at http://localhost:1996
+[2022-02-12T21:55:46.389Z] SecretsManager available at http://localhost:3000
+[2022-02-12T21:57:31.801Z] Initializing ...
+[2022-02-12T21:57:31.802Z] Setting environment variable LOCAL_DEVELOPMENT_ENVIRONMENT to true
+[2022-02-12T21:57:31.802Z] Setting environment variable AWS_REGION to eu-central-1
+[2022-02-12T21:57:31.802Z] Setting environment variable AWS_DEFAULT_REGION to eu-central-1
+[2022-02-12T21:57:31.802Z] Setting environment variable AWS_ACCESS_KEY_ID to fakeMyKeyId
+[2022-02-12T21:57:31.802Z] Setting environment variable AWS_SECRET_ACCESS_KEY to fakeMySecretKey
+[2022-02-12T21:57:41.772Z] Creating secrets: {"PASS_CODE":"3312"}
+[2022-02-12T21:57:42.277Z] initialized
+[2022-02-12T21:57:42.278Z] HTTP REST Api available at http://localhost:1996
+[2022-02-12T21:57:42.278Z] SecretsManager available at http://localhost:3000
+[2022-02-12T22:02:30.611Z] Initializing ...
+[2022-02-12T22:02:30.611Z] Setting environment variable LOCAL_DEVELOPMENT_ENVIRONMENT to true
+[2022-02-12T22:02:30.611Z] Setting environment variable AWS_REGION to eu-central-1
+[2022-02-12T22:02:30.612Z] Setting environment variable AWS_DEFAULT_REGION to eu-central-1
+[2022-02-12T22:02:30.612Z] Setting environment variable AWS_ACCESS_KEY_ID to fakeMyKeyId
+[2022-02-12T22:02:30.612Z] Setting environment variable AWS_SECRET_ACCESS_KEY to fakeMySecretKey
+[2022-02-12T22:02:38.753Z] Creating secrets: {"PASS_CODE":"3312"}
+[2022-02-12T22:02:39.264Z] initialized
+[2022-02-12T22:02:39.264Z] HTTP REST Api available at http://localhost:1996
+[2022-02-12T22:02:39.265Z] SecretsManager available at http://localhost:3000
+[2022-02-12T22:05:16.588Z] Initializing ...
+[2022-02-12T22:05:16.589Z] Setting environment variable LOCAL_DEVELOPMENT_ENVIRONMENT to true
+[2022-02-12T22:05:16.589Z] Setting environment variable AWS_REGION to eu-central-1
+[2022-02-12T22:05:16.589Z] Setting environment variable AWS_DEFAULT_REGION to eu-central-1
+[2022-02-12T22:05:16.589Z] Setting environment variable AWS_ACCESS_KEY_ID to fakeMyKeyId
+[2022-02-12T22:05:16.589Z] Setting environment variable AWS_SECRET_ACCESS_KEY to fakeMySecretKey
+[2022-02-12T22:05:25.190Z] Creating secrets: {"PASS_CODE":"3312"}
+[2022-02-12T22:05:25.632Z] initialized
+[2022-02-12T22:05:25.633Z] HTTP REST Api available at http://localhost:1996
+[2022-02-12T22:05:25.634Z] SecretsManager available at http://localhost:3000
+[2022-02-12T22:07:11.439Z] Initializing ...
+[2022-02-12T22:07:11.440Z] Setting environment variable LOCAL_DEVELOPMENT_ENVIRONMENT to true
+[2022-02-12T22:07:11.440Z] Setting environment variable AWS_REGION to eu-central-1
+[2022-02-12T22:07:11.440Z] Setting environment variable AWS_DEFAULT_REGION to eu-central-1
+[2022-02-12T22:07:11.440Z] Setting environment variable AWS_ACCESS_KEY_ID to fakeMyKeyId
+[2022-02-12T22:07:11.441Z] Setting environment variable AWS_SECRET_ACCESS_KEY to fakeMySecretKey
+[2022-02-12T22:07:19.571Z] Creating secrets: {"PASS_CODE":"3312"}
+[2022-02-12T22:07:19.862Z] initialized
+[2022-02-12T22:07:19.862Z] HTTP REST Api available at http://localhost:1996
+[2022-02-12T22:07:19.862Z] SecretsManager available at http://localhost:3000
+[2022-02-12T22:08:54.993Z] Initializing ...
+[2022-02-12T22:08:54.994Z] Setting environment variable LOCAL_DEVELOPMENT_ENVIRONMENT to true
+[2022-02-12T22:08:54.994Z] Setting environment variable AWS_REGION to eu-central-1
+[2022-02-12T22:08:54.994Z] Setting environment variable AWS_DEFAULT_REGION to eu-central-1
+[2022-02-12T22:08:54.995Z] Setting environment variable AWS_ACCESS_KEY_ID to fakeMyKeyId
+[2022-02-12T22:08:54.995Z] Setting environment variable AWS_SECRET_ACCESS_KEY to fakeMySecretKey
+[2022-02-12T22:09:02.062Z] Creating secrets: {"PASS_CODE":"3312"}
+[2022-02-12T22:09:02.667Z] initialized
+[2022-02-12T22:09:02.667Z] HTTP REST Api available at http://localhost:1996
+[2022-02-12T22:09:02.667Z] SecretsManager available at http://localhost:3000
+[2022-02-12T22:10:58.147Z] Initializing ...
+[2022-02-12T22:10:58.148Z] Setting environment variable LOCAL_DEVELOPMENT_ENVIRONMENT to true
+[2022-02-12T22:10:58.148Z] Setting environment variable AWS_REGION to eu-central-1
+[2022-02-12T22:10:58.148Z] Setting environment variable AWS_DEFAULT_REGION to eu-central-1
+[2022-02-12T22:10:58.149Z] Setting environment variable AWS_ACCESS_KEY_ID to fakeMyKeyId
+[2022-02-12T22:10:58.149Z] Setting environment variable AWS_SECRET_ACCESS_KEY to fakeMySecretKey
+[2022-02-12T22:11:06.441Z] Creating secrets: {"PASS_CODE":"3312"}
+[2022-02-12T22:11:07.097Z] initialized
+[2022-02-12T22:11:07.097Z] HTTP REST Api available at http://localhost:1996
+[2022-02-12T22:11:07.098Z] SecretsManager available at http://localhost:3000
+[2022-02-12T22:13:48.952Z] Initializing ...
+[2022-02-12T22:13:48.953Z] Setting environment variable LOCAL_DEVELOPMENT_ENVIRONMENT to true
+[2022-02-12T22:13:48.953Z] Setting environment variable AWS_REGION to eu-central-1
+[2022-02-12T22:13:48.953Z] Setting environment variable AWS_DEFAULT_REGION to eu-central-1
+[2022-02-12T22:13:48.953Z] Setting environment variable AWS_ACCESS_KEY_ID to fakeMyKeyId
+[2022-02-12T22:13:48.953Z] Setting environment variable AWS_SECRET_ACCESS_KEY to fakeMySecretKey
+[2022-02-12T22:13:57.392Z] Creating secrets: {"PASS_CODE":"3312"}
+[2022-02-12T22:13:58.116Z] initialized
+[2022-02-12T22:13:58.116Z] HTTP REST Api available at http://localhost:1996
+[2022-02-12T22:13:58.116Z] SecretsManager available at http://localhost:3000
+[2022-02-12T22:17:24.683Z] Initializing ...
+[2022-02-12T22:17:24.684Z] Setting environment variable LOCAL_DEVELOPMENT_ENVIRONMENT to true
+[2022-02-12T22:17:24.684Z] Setting environment variable AWS_REGION to eu-central-1
+[2022-02-12T22:17:24.684Z] Setting environment variable AWS_DEFAULT_REGION to eu-central-1
+[2022-02-12T22:17:24.685Z] Setting environment variable AWS_ACCESS_KEY_ID to fakeMyKeyId
+[2022-02-12T22:17:24.685Z] Setting environment variable AWS_SECRET_ACCESS_KEY to fakeMySecretKey
+[2022-02-12T22:17:31.761Z] Creating secrets: {"PASS_CODE":"3312"}
+[2022-02-12T22:17:32.175Z] initialized
+[2022-02-12T22:17:32.175Z] HTTP REST Api available at http://localhost:1996
+[2022-02-12T22:17:32.175Z] SecretsManager available at http://localhost:3000
+[2022-02-13T11:04:02.423Z] Initializing ...
+[2022-02-13T11:04:02.439Z] Setting environment variable LOCAL_DEVELOPMENT_ENVIRONMENT to true
+[2022-02-13T11:04:02.439Z] Setting environment variable AWS_REGION to eu-central-1
+[2022-02-13T11:04:02.458Z] Setting environment variable AWS_DEFAULT_REGION to eu-central-1
+[2022-02-13T11:04:02.458Z] Setting environment variable AWS_ACCESS_KEY_ID to fakeMyKeyId
+[2022-02-13T11:04:02.459Z] Setting environment variable AWS_SECRET_ACCESS_KEY to fakeMySecretKey
+[2022-02-13T11:04:13.018Z] Creating secrets: {"PASS_CODE":"3312"}
+[2022-02-13T11:04:13.709Z] initialized
+[2022-02-13T11:04:13.709Z] HTTP REST Api available at http://localhost:1996
+[2022-02-13T11:04:13.710Z] SecretsManager available at http://localhost:3000
+[2022-02-13T12:36:00.199Z] Initializing ...
+[2022-02-13T12:36:00.200Z] Setting environment variable LOCAL_DEVELOPMENT_ENVIRONMENT to true
+[2022-02-13T12:36:00.200Z] Setting environment variable AWS_REGION to eu-central-1
+[2022-02-13T12:36:00.200Z] Setting environment variable AWS_DEFAULT_REGION to eu-central-1
+[2022-02-13T12:36:00.201Z] Setting environment variable AWS_ACCESS_KEY_ID to fakeMyKeyId
+[2022-02-13T12:36:00.201Z] Setting environment variable AWS_SECRET_ACCESS_KEY to fakeMySecretKey
+[2022-02-13T12:36:09.523Z] Creating secrets: {"PASS_CODE":"3312"}
+[2022-02-13T12:36:10.329Z] initialized
+[2022-02-13T12:36:10.329Z] HTTP REST Api available at http://localhost:1996
+[2022-02-13T12:36:10.329Z] SecretsManager available at http://localhost:3000
+[2022-02-13T12:47:33.881Z] Initializing ...
+[2022-02-13T12:47:33.882Z] Setting environment variable LOCAL_DEVELOPMENT_ENVIRONMENT to true
+[2022-02-13T12:47:33.882Z] Setting environment variable AWS_REGION to eu-central-1
+[2022-02-13T12:47:33.882Z] Setting environment variable AWS_DEFAULT_REGION to eu-central-1
+[2022-02-13T12:47:33.883Z] Setting environment variable AWS_ACCESS_KEY_ID to fakeMyKeyId
+[2022-02-13T12:47:33.883Z] Setting environment variable AWS_SECRET_ACCESS_KEY to fakeMySecretKey
+[2022-02-13T12:47:43.636Z] Creating secrets: {"PASS_CODE":"3312"}
+[2022-02-13T12:47:44.384Z] initialized
+[2022-02-13T12:47:44.384Z] HTTP REST Api available at http://localhost:1996
+[2022-02-13T12:47:44.384Z] SecretsManager available at http://localhost:3000
+[2022-02-13T12:49:54.240Z] Initializing ...
+[2022-02-13T12:49:54.253Z] Setting environment variable LOCAL_DEVELOPMENT_ENVIRONMENT to true
+[2022-02-13T12:49:54.254Z] Setting environment variable AWS_REGION to eu-central-1
+[2022-02-13T12:49:54.254Z] Setting environment variable AWS_DEFAULT_REGION to eu-central-1
+[2022-02-13T12:49:54.254Z] Setting environment variable AWS_ACCESS_KEY_ID to fakeMyKeyId
+[2022-02-13T12:49:54.254Z] Setting environment variable AWS_SECRET_ACCESS_KEY to fakeMySecretKey
+[2022-02-13T12:50:04.765Z] Initializing ...
+[2022-02-13T12:50:04.765Z] Setting environment variable LOCAL_DEVELOPMENT_ENVIRONMENT to true
+[2022-02-13T12:50:04.765Z] Setting environment variable AWS_REGION to eu-central-1
+[2022-02-13T12:50:04.765Z] Setting environment variable AWS_DEFAULT_REGION to eu-central-1
+[2022-02-13T12:50:04.766Z] Setting environment variable AWS_ACCESS_KEY_ID to fakeMyKeyId
+[2022-02-13T12:50:04.766Z] Setting environment variable AWS_SECRET_ACCESS_KEY to fakeMySecretKey
+[2022-02-13T12:50:14.252Z] Creating secrets: {"PASS_CODE":"3312"}
+[2022-02-13T12:50:14.914Z] initialized
+[2022-02-13T12:50:14.914Z] HTTP REST Api available at http://localhost:1996
+[2022-02-13T12:50:14.915Z] SecretsManager available at http://localhost:3000

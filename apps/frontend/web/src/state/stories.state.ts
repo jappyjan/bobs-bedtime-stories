@@ -2,9 +2,17 @@ import createState from 'zustand';
 import {Book, BookWithStories, Story} from "@bobs-bedtime-stories/shared";
 import {callApi} from "../utils/api";
 
+type AddBookParams = Omit<Book, 'slug' | 'coverImageUrl'>;
+
+interface AddStoryParams extends Pick<Story, 'bookSlug'> {
+  audioBlob: Blob;
+}
+
 export interface StoriesState {
   books: BookWithStories[];
   fetchBooks: () => Promise<void>;
+  addBook: (data: AddBookParams) => Promise<BookWithStories>;
+  addStory: (data: AddStoryParams) => Promise<Story>;
 }
 
 async function fetchStoriesOfBook(book: Book): Promise<Story[]> {
@@ -19,7 +27,7 @@ async function fetchStoriesOfBook(book: Book): Promise<Story[]> {
 export const useStories = createState<StoriesState>((set) => ({
   books: [],
   fetchBooks: async () => {
-    const books = await callApi('/books', 'GET');
+    const books = await callApi<Book[]>('/books', 'GET');
     await Promise.all(books.map(async (book: Book) => {
       const stories = await fetchStoriesOfBook(book);
       set((state) => {
@@ -37,5 +45,63 @@ export const useStories = createState<StoriesState>((set) => ({
         }
       });
     }));
+  },
+  addBook: async (data: AddBookParams) => {
+    const book = await callApi<Book>('/books', 'POST', {
+      title: data.title,
+      description: data.description,
+    });
+
+    const bookWithStories = {
+      ...book,
+      stories: [],
+    };
+
+    set((state) => {
+      return {
+        ...state,
+        books: [
+          ...state.books,
+          bookWithStories,
+        ]
+      };
+    });
+
+    return bookWithStories;
+  },
+  addStory: async (data: AddStoryParams) => {
+    console.log('addStory', data);
+    const {story, audioUploadUrlData} = await callApi<{
+      story: Story, audioUploadUrlData: {
+        url: string;
+        fields: Record<string, string>;
+      }
+    }>(
+      `/books/${data.bookSlug}/stories`,
+      'POST'
+    );
+
+    const formData = new FormData();
+    Object.entries(audioUploadUrlData.fields).forEach(([k, v]) => {
+      formData.append(k, v);
+    });
+    formData.append('file', data.audioBlob);
+    await fetch(audioUploadUrlData.url, {
+      method: 'POST',
+      body: formData,
+    });
+
+    set((state) => {
+      return {
+        ...state,
+        books: state.books.map((book) => {
+          if (book.slug === data.bookSlug) {
+            book.stories.push(story);
+          }
+          return book;
+        })
+      }
+    });
+    return story;
   }
 }));

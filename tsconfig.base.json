@@ -7,6 +7,8 @@
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
@@ -15,6 +17,12 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@bobs-bedtime-stories/backend-api-rest": [
+        "libs/backend/api/rest/src/index.ts"
+      ],
+      "@bobs-bedtime-stories/backend-utils": [
+        "libs/backend/utils/src/index.ts"
+      ],
       "@bobs-bedtime-stories/dynamoose": ["libs/dynamoose/src/index.ts"],
       "@bobs-bedtime-stories/shared": ["libs/shared/src/index.ts"]
     }

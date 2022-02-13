@@ -1,5 +1,6 @@
 import createState from 'zustand';
 import {BookWithStories} from "@bobs-bedtime-stories/shared";
+import {environment} from "../environments/environment";
 
 interface NowPlaying {
   book: BookWithStories;
@@ -27,13 +28,6 @@ export const usePlayer = createState<PlayerState>((set) => ({
     set({
       audio,
     });
-
-    audio.addEventListener('timeupdate', () => {
-      console.log('timeupdate', audio.currentTime);
-      /*set({
-        seekPosition: audio.currentTime,
-      });*/
-    });
   },
   nowPlaying: null,
   seekPosition: 0,
@@ -52,7 +46,7 @@ export const usePlayer = createState<PlayerState>((set) => ({
         const story = changeTo?.book.stories.find(story => story.episode === changeTo.episode);
 
         if (story) {
-          newBaseState.audio!.src = story.audioUrl;
+          newBaseState.audio!.src = `${environment.cdnEndpoint}/${story.audioS3Key}`;
           newBaseState.audio!.load();
           newBaseState.audio!.currentTime = newBaseState.seekPosition;
         }

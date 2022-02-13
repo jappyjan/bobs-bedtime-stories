@@ -2,7 +2,7 @@ import {environment} from "../environments/environment";
 
 type HttpMethod = 'GET' | 'POST' | 'PUT' | 'DELETE';
 
-export async function callApi(path: string, method: HttpMethod, payload?: any, headers?: Record<string, string | string[]>) {
+export async function callApi<ReturnType>(path: string, method: HttpMethod, payload?: any, headers?: Record<string, string | string[]>): Promise<ReturnType> {
   const fetchParams: RequestInit = {
     method,
     headers: {

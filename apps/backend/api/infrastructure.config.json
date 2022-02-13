@@ -1,0 +1,16 @@
+{
+  "lambda": {
+    "codePath": "dist/apps/backend/api",
+    "handler": "main.handler",
+    "buildConfiguration": "production",
+    "dynamicRestApi": {
+      "file": "dist/apps/backend/api/main.js",
+      "exportName": "routes"
+    },
+    "secrets": ["PASS_CODE"],
+    "dynamoDb": {
+      "readWrite": ["books", "stories"]
+    },
+    "memorySize": 512
+  }
+}

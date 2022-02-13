@@ -1,0 +1,15 @@
+{
+  "staticSite": {
+    "subdomain": "app",
+    "distPath": "dist/apps/frontend/web",
+    "buildConfiguration": "production",
+    "env": {
+      "dynamic": {
+        "cdkBackendStackOutput": {
+          "NX_API_ENDPOINT": "apiEndpoint",
+          "NX_CDN_ENDPOINT": "MainCDN"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "Resources": {
+    "booksTableFB7FB9DA": {
+      "Type": "AWS::DynamoDB::Table",
+      "Properties": {
+        "KeySchema": [
+          {
+            "AttributeName": "slug",
+            "KeyType": "HASH"
+          }
+        ],
+        "AttributeDefinitions": [
+          {
+            "AttributeName": "slug",
+            "AttributeType": "S"
+          }
+        ],
+        "BillingMode": "PAY_PER_REQUEST"
+      },
+      "UpdateReplacePolicy": "Delete",
+      "DeletionPolicy": "Delete",
+      "Metadata": {
+        "aws:cdk:path": "Backend/Dynamo/booksTable/Resource"
+      }
+    },
+    "storiesTable4D95AF8A": {
+      "Type": "AWS::DynamoDB::Table",
+      "Properties": {
+        "KeySchema": [
+          {
+            "AttributeName": "bookSlug",
+            "KeyType": "HASH"
+          },
+          {
+            "AttributeName": "episode",
+            "KeyType": "RANGE"
+          }
+        ],
+        "AttributeDefinitions": [
+          {
+            "AttributeName": "bookSlug",
+            "AttributeType": "S"
+          },
+          {
+            "AttributeName": "episode",
+            "AttributeType": "N"
+          }
+        ],
+        "BillingMode": "PAY_PER_REQUEST"
+      },
+      "UpdateReplacePolicy": "Delete",
+      "DeletionPolicy": "Delete",
+      "Metadata": {
+        "aws:cdk:path": "Backend/Dynamo/storiesTable/Resource"
+      }
+    },
+    "CDKMetadata": {
+      "Type": "AWS::CDK::Metadata",
+      "Properties": {
+        "Analytics": "v2:deflate64:H4sIAAAAAAAA/zWJyw5AMBAAv8W9XUriB9wdcJfqrqQebWKLiPh3QpxmMpOCSiGJ9M7S4Cgn28FZEgfCOmgzime0eDg9e3xOo7uJRNG7Vy5REft1MW/6/RLOI8HA8aZyUBmoaGBr5bK6YGeC6uMN/KeFA3kAAAA="
+      },
+      "Metadata": {
+        "aws:cdk:path": "Backend/Dynamo/CDKMetadata/Default"
+      }
+    }
+  },
+  "Outputs": {
+    "BackendDynamobooksTable7901496AArn": {
+      "Value": {
+        "Fn::GetAtt": [
+          "booksTableFB7FB9DA",
+          "Arn"
+        ]
+      }
+    },
+    "BackendDynamostoriesTable0251692AArn": {
+      "Value": {
+        "Fn::GetAtt": [
+          "storiesTable4D95AF8A",
+          "Arn"
+        ]
+      }
+    },
+    "BackendDynamobooksTable7901496ARef": {
+      "Value": {
+        "Ref": "booksTableFB7FB9DA"
+      }
+    },
+    "BackendDynamostoriesTable0251692ARef": {
+      "Value": {
+        "Ref": "storiesTable4D95AF8A"
+      }
+    }
+  }
+}

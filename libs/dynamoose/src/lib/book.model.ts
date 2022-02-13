@@ -9,7 +9,7 @@ export class BookDocument extends Document implements Book {
   coverImageUrl!: string;
 }
 
-export const BookTableName = 'books';
+export const BookTableName = process.env.DYNAMO_TABLE_books;
 
 export const BookSchema = new Schema({
   title: {
@@ -17,7 +17,7 @@ export const BookSchema = new Schema({
     required: true,
   },
   slug: {
-    type: Number,
+    type: String,
     required: true,
     hashKey: true,
   },
@@ -27,11 +27,11 @@ export const BookSchema = new Schema({
   },
   coverImageUrl: {
     type: String,
-    required: true,
+    required: false,
   },
 });
 
-export const BookModel = model<BookDocument>(BookTableName, BookSchema, {
-  create: true,
-  update: true,
+export const makeBookModel = () => model<BookDocument>(BookTableName, BookSchema, {
+  create: false,
+  update: false,
 });

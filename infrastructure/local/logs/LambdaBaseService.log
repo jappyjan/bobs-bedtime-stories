@@ -1,0 +1,681 @@
+[2022-02-12T21:50:46.311Z] Starting build process
+[2022-02-12T21:50:46.669Z]  >  NX   Running target build for 1 project(s):
+[2022-02-12T21:50:46.670Z]     - backend-api
+[2022-02-12T21:50:46.670Z]    
+[2022-02-12T21:50:46.670Z]    With flags:
+[2022-02-12T21:50:46.670Z]      --watch=true
+[2022-02-12T21:50:46.670Z]  
+[2022-02-12T21:50:46.678Z] > nx run backend-api:build --watch
+[2022-02-12T21:50:47.548Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-12T21:50:47.548Z] webpack compiled [1m[32msuccessfully[39m[22m (58e9b4c021218c38)
+[2022-02-12T21:50:47.645Z] Issues checking in progress...
+[2022-02-12T21:50:50.456Z] No issues found.
+[2022-02-12T21:51:41.689Z] stopping nx build process
+[2022-02-12T21:55:46.384Z] Starting build process
+[2022-02-12T21:55:46.732Z]  >  NX   Running target build for 1 project(s):
+[2022-02-12T21:55:46.732Z]     - backend-api
+[2022-02-12T21:55:46.732Z]    
+[2022-02-12T21:55:46.732Z]    With flags:
+[2022-02-12T21:55:46.732Z]      --watch=true
+[2022-02-12T21:55:46.732Z]  
+[2022-02-12T21:55:46.739Z] > nx run backend-api:build --watch
+[2022-02-12T21:55:47.594Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-12T21:55:47.594Z] webpack compiled [1m[32msuccessfully[39m[22m (40e10a2d1b72c4c3)
+[2022-02-12T21:55:47.691Z] Issues checking in progress...
+[2022-02-12T21:55:50.528Z] No issues found.
+[2022-02-12T21:56:15.869Z] stopping nx build process
+[2022-02-12T21:57:42.273Z] Starting build process
+[2022-02-12T21:57:42.642Z]  >  NX   Running target build for 1 project(s):
+[2022-02-12T21:57:42.643Z]     - backend-api
+[2022-02-12T21:57:42.643Z]    
+[2022-02-12T21:57:42.643Z]    With flags:
+[2022-02-12T21:57:42.643Z]      --watch=true
+[2022-02-12T21:57:42.643Z]  
+[2022-02-12T21:57:42.651Z] > nx run backend-api:build --watch
+[2022-02-12T21:57:43.563Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-12T21:57:43.563Z] webpack compiled [1m[32msuccessfully[39m[22m (40e10a2d1b72c4c3)
+[2022-02-12T21:57:43.660Z] Issues checking in progress...
+[2022-02-12T21:57:46.530Z] No issues found.
+[2022-02-12T21:59:05.161Z] stopping nx build process
+[2022-02-12T22:02:39.246Z] Starting build process
+[2022-02-12T22:02:39.654Z]  >  NX   Running target build for 1 project(s):
+[2022-02-12T22:02:39.654Z]     - backend-api
+[2022-02-12T22:02:39.655Z]    
+[2022-02-12T22:02:39.655Z]    With flags:
+[2022-02-12T22:02:39.655Z]      --watch=true
+[2022-02-12T22:02:39.655Z]  
+[2022-02-12T22:02:39.663Z] > nx run backend-api:build --watch
+[2022-02-12T22:02:40.642Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-12T22:02:40.642Z] webpack compiled [1m[32msuccessfully[39m[22m (e4027c2b587bce2a)
+[2022-02-12T22:02:40.738Z] Issues checking in progress...
+[2022-02-12T22:02:43.706Z] No issues found.
+[2022-02-12T22:03:12.370Z] stopping nx build process
+[2022-02-12T22:05:25.627Z] Starting build process
+[2022-02-12T22:05:25.980Z]  >  NX   Running target build for 1 project(s):
+[2022-02-12T22:05:25.980Z]     - backend-api
+[2022-02-12T22:05:25.980Z]    
+[2022-02-12T22:05:25.980Z]    With flags:
+[2022-02-12T22:05:25.980Z]      --watch=true
+[2022-02-12T22:05:25.980Z]  
+[2022-02-12T22:05:25.988Z] > nx run backend-api:build --watch
+[2022-02-12T22:05:26.890Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-12T22:05:26.890Z] webpack compiled [1m[32msuccessfully[39m[22m (e4027c2b587bce2a)
+[2022-02-12T22:05:26.988Z] Issues checking in progress...
+[2022-02-12T22:05:29.815Z] No issues found.
+[2022-02-12T22:06:20.818Z] stopping nx build process
+[2022-02-12T22:07:19.857Z] Starting build process
+[2022-02-12T22:07:20.199Z]  >  NX   Running target build for 1 project(s):
+[2022-02-12T22:07:20.199Z]     - backend-api
+[2022-02-12T22:07:20.199Z]    
+[2022-02-12T22:07:20.200Z]    With flags:
+[2022-02-12T22:07:20.200Z]      --watch=true
+[2022-02-12T22:07:20.200Z]  
+[2022-02-12T22:07:20.207Z] > nx run backend-api:build --watch
+[2022-02-12T22:07:21.031Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-12T22:07:21.031Z] webpack compiled [1m[32msuccessfully[39m[22m (e4027c2b587bce2a)
+[2022-02-12T22:07:21.128Z] Issues checking in progress...
+[2022-02-12T22:07:23.777Z] No issues found.
+[2022-02-12T22:08:04.805Z] stopping nx build process
+[2022-02-12T22:09:02.663Z] Starting build process
+[2022-02-12T22:09:03.051Z]  >  NX   Running target build for 1 project(s):
+[2022-02-12T22:09:03.051Z]     - backend-api
+[2022-02-12T22:09:03.051Z]    
+[2022-02-12T22:09:03.051Z]    With flags:
+[2022-02-12T22:09:03.051Z]      --watch=true
+[2022-02-12T22:09:03.052Z]  
+[2022-02-12T22:09:03.059Z] > nx run backend-api:build --watch
+[2022-02-12T22:09:03.925Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-12T22:09:03.925Z] webpack compiled [1m[32msuccessfully[39m[22m (e4027c2b587bce2a)
+[2022-02-12T22:09:04.021Z] Issues checking in progress...
+[2022-02-12T22:09:06.818Z] No issues found.
+[2022-02-12T22:09:24.316Z] stopping nx build process
+[2022-02-12T22:11:07.092Z] Starting build process
+[2022-02-12T22:11:07.480Z]  >  NX   Running target build for 1 project(s):
+[2022-02-12T22:11:07.480Z]     - backend-api
+[2022-02-12T22:11:07.480Z]    
+[2022-02-12T22:11:07.480Z]    With flags:
+[2022-02-12T22:11:07.480Z]      --watch=true
+[2022-02-12T22:11:07.480Z]  
+[2022-02-12T22:11:07.488Z] > nx run backend-api:build --watch
+[2022-02-12T22:11:08.428Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-12T22:11:08.428Z] webpack compiled [1m[32msuccessfully[39m[22m (4ed0233b6a6420bb)
+[2022-02-12T22:11:08.524Z] Issues checking in progress...
+[2022-02-12T22:11:11.430Z] No issues found.
+[2022-02-12T22:11:38.109Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-12T22:11:38.109Z] webpack compiled [1m[32msuccessfully[39m[22m (2f5dde2d200d3181)
+[2022-02-12T22:11:38.189Z] No issues found.
+[2022-02-12T22:11:44.509Z] stopping nx build process
+[2022-02-12T22:13:58.109Z] Starting build process
+[2022-02-12T22:13:58.507Z]  >  NX   Running target build for 1 project(s):
+[2022-02-12T22:13:58.507Z]     - backend-api
+[2022-02-12T22:13:58.508Z]    
+[2022-02-12T22:13:58.508Z]    With flags:
+[2022-02-12T22:13:58.508Z]      --watch=true
+[2022-02-12T22:13:58.508Z]  
+[2022-02-12T22:13:58.516Z] > nx run backend-api:build --watch
+[2022-02-12T22:13:59.491Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-12T22:13:59.491Z] webpack compiled [1m[32msuccessfully[39m[22m (c534c01bca04f9a9)
+[2022-02-12T22:13:59.587Z] Issues checking in progress...
+[2022-02-12T22:14:02.438Z] No issues found.
+[2022-02-12T22:14:44.742Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-12T22:14:44.743Z] webpack compiled [1m[32msuccessfully[39m[22m (f7157b807ccf781f)
+[2022-02-12T22:14:44.839Z] No issues found.
+[2022-02-12T22:15:01.393Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 12.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-12T22:15:01.393Z] [1m[31mERROR[39m[22m in [1m./apps/backend/api/src/utils/setup-api-basics.ts[39m[22m
+[2022-02-12T22:15:01.393Z] [1mModule build [1m[31mfailed[39m[22m[1m (from ./node_modules/ts-loader/index.js):
+[2022-02-12T22:15:01.393Z] [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open '/Users/jappy/code/bobs-bedtime-stories/apps/backend/api/src/utils/setup-api-basics.ts'[39m[22m
+[2022-02-12T22:15:01.393Z] webpack compiled with [1m[31m1 error[39m[22m (781609b98bc6d225)
+[2022-02-12T22:15:01.491Z] Issues checking in progress...
+[2022-02-12T22:15:01.510Z] ERROR in apps/backend/api/src/handlers/books.get.ts:2:30
+[2022-02-12T22:15:01.510Z] TS2307: Cannot find module '../utils/setup-api-basics' or its corresponding type declarations.
+[2022-02-12T22:15:01.510Z]     1 | import {BookModel} from '@bobs-bedtime-stories/dynamoose';
+[2022-02-12T22:15:01.510Z]   > 2 | import {setupApiBasics} from '../utils/setup-api-basics';
+[2022-02-12T22:15:01.510Z]       |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-12T22:15:01.510Z]     3 | import type {APIGatewayProxyEvent} from "aws-lambda";
+[2022-02-12T22:15:01.510Z]     4 |
+[2022-02-12T22:15:01.511Z]     5 | export const getBooks = async (event: APIGatewayProxyEvent) => {
+[2022-02-12T22:15:01.511Z] ERROR in apps/backend/api/src/handlers/stories.get.ts:2:30
+[2022-02-12T22:15:01.511Z] TS2307: Cannot find module '../utils/setup-api-basics' or its corresponding type declarations.
+[2022-02-12T22:15:01.511Z]     1 | import {StoryModel} from '@bobs-bedtime-stories/dynamoose';
+[2022-02-12T22:15:01.511Z]   > 2 | import {setupApiBasics} from '../utils/setup-api-basics';
+[2022-02-12T22:15:01.511Z]       |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-12T22:15:01.512Z]     3 | import type {APIGatewayProxyEvent} from "aws-lambda";
+[2022-02-12T22:15:01.512Z]     4 |
+[2022-02-12T22:15:01.512Z]     5 | export const getStoriesOfBook = async (event: APIGatewayProxyEvent) => {
+[2022-02-12T22:15:01.512Z] ERROR in apps/backend/api/src/handlers/verify.passcode.ts:1:32
+[2022-02-12T22:15:01.512Z] TS2307: Cannot find module '../utils/setup-api-basics' or its corresponding type declarations.
+[2022-02-12T22:15:01.512Z]   > 1 | import { setupApiBasics } from '../utils/setup-api-basics';
+[2022-02-12T22:15:01.512Z]       |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-12T22:15:01.512Z]     2 | import type {APIGatewayProxyEvent} from "aws-lambda";
+[2022-02-12T22:15:01.512Z]     3 |
+[2022-02-12T22:15:01.512Z]     4 | export const verifyPasscode = async (event: APIGatewayProxyEvent) => {
+[2022-02-12T22:15:01.691Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 12.9 KiB [1m[33m[entry][39m[22m
+[2022-02-12T22:15:01.691Z] [1m[31mERROR[39m[22m in [1m./apps/backend/api/src/utils/setup-api-basics.ts[39m[22m
+[2022-02-12T22:15:01.692Z] [1mModule build [1m[31mfailed[39m[22m[1m (from ./node_modules/ts-loader/index.js):
+[2022-02-12T22:15:01.692Z] [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open '/Users/jappy/code/bobs-bedtime-stories/apps/backend/api/src/utils/setup-api-basics.ts'[39m[22m
+[2022-02-12T22:15:01.692Z] webpack compiled with [1m[31m1 error[39m[22m (781609b98bc6d225)
+[2022-02-12T22:15:01.703Z] ERROR in apps/backend/api/src/handlers/books.get.ts:2:30
+[2022-02-12T22:15:01.703Z] TS2307: Cannot find module '../utils/setup-api-basics' or its corresponding type declarations.
+[2022-02-12T22:15:01.703Z]     1 | import {BookModel} from '@bobs-bedtime-stories/dynamoose';
+[2022-02-12T22:15:01.703Z]   > 2 | import {setupApiBasics} from '../utils/setup-api-basics';
+[2022-02-12T22:15:01.703Z]       |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-12T22:15:01.703Z]     3 | import type {APIGatewayProxyEvent} from "aws-lambda";
+[2022-02-12T22:15:01.704Z]     4 |
+[2022-02-12T22:15:01.704Z]     5 | export const getBooks = async (event: APIGatewayProxyEvent) => {
+[2022-02-12T22:15:01.704Z] ERROR in apps/backend/api/src/handlers/stories.get.ts:2:30
+[2022-02-12T22:15:01.704Z] TS2307: Cannot find module '../utils/setup-api-basics' or its corresponding type declarations.
+[2022-02-12T22:15:01.704Z]     1 | import {StoryModel} from '@bobs-bedtime-stories/dynamoose';
+[2022-02-12T22:15:01.704Z]   > 2 | import {setupApiBasics} from '../utils/setup-api-basics';
+[2022-02-12T22:15:01.704Z]       |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-12T22:15:01.704Z]     3 | import type {APIGatewayProxyEvent} from "aws-lambda";
+[2022-02-12T22:15:01.704Z]     4 |
+[2022-02-12T22:15:01.704Z]     5 | export const getStoriesOfBook = async (event: APIGatewayProxyEvent) => {
+[2022-02-12T22:15:01.705Z] ERROR in apps/backend/api/src/handlers/verify.passcode.ts:1:32
+[2022-02-12T22:15:01.705Z] TS2307: Cannot find module '../utils/setup-api-basics' or its corresponding type declarations.
+[2022-02-12T22:15:01.705Z]   > 1 | import { setupApiBasics } from '../utils/setup-api-basics';
+[2022-02-12T22:15:01.705Z]       |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-12T22:15:01.705Z]     2 | import type {APIGatewayProxyEvent} from "aws-lambda";
+[2022-02-12T22:15:01.705Z]     3 |
+[2022-02-12T22:15:01.705Z]     4 | export const verifyPasscode = async (event: APIGatewayProxyEvent) => {
+[2022-02-12T22:15:03.611Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 12.9 KiB [1m[33m[entry][39m[22m
+[2022-02-12T22:15:03.611Z] [1m[31mERROR[39m[22m in [1m./apps/backend/api/src/utils/setup-api-basics.ts[39m[22m
+[2022-02-12T22:15:03.611Z] [1mModule build [1m[31mfailed[39m[22m[1m (from ./node_modules/ts-loader/index.js):
+[2022-02-12T22:15:03.611Z] [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open '/Users/jappy/code/bobs-bedtime-stories/apps/backend/api/src/utils/setup-api-basics.ts'[39m[22m
+[2022-02-12T22:15:03.611Z] webpack compiled with [1m[31m1 error[39m[22m (781609b98bc6d225)
+[2022-02-12T22:15:03.628Z] ERROR in apps/backend/api/src/handlers/books.get.ts:2:30
+[2022-02-12T22:15:03.629Z] TS2307: Cannot find module '../utils/setup-api-basics' or its corresponding type declarations.
+[2022-02-12T22:15:03.629Z]     1 | import {BookModel} from '@bobs-bedtime-stories/dynamoose';
+[2022-02-12T22:15:03.629Z]   > 2 | import {setupApiBasics} from '../utils/setup-api-basics';
+[2022-02-12T22:15:03.629Z]       |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-12T22:15:03.629Z]     3 | import type {APIGatewayProxyEvent} from "aws-lambda";
+[2022-02-12T22:15:03.629Z]     4 |
+[2022-02-12T22:15:03.629Z]     5 | export const getBooks = async (event: APIGatewayProxyEvent) => {
+[2022-02-12T22:15:03.629Z] ERROR in apps/backend/api/src/handlers/stories.get.ts:2:30
+[2022-02-12T22:15:03.630Z] TS2307: Cannot find module '../utils/setup-api-basics' or its corresponding type declarations.
+[2022-02-12T22:15:03.630Z]     1 | import {StoryModel} from '@bobs-bedtime-stories/dynamoose';
+[2022-02-12T22:15:03.630Z]   > 2 | import {setupApiBasics} from '../utils/setup-api-basics';
+[2022-02-12T22:15:03.630Z]       |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-12T22:15:03.630Z]     3 | import type {APIGatewayProxyEvent} from "aws-lambda";
+[2022-02-12T22:15:03.630Z]     4 |
+[2022-02-12T22:15:03.630Z]     5 | export const getStoriesOfBook = async (event: APIGatewayProxyEvent) => {
+[2022-02-12T22:15:03.630Z] ERROR in apps/backend/api/src/handlers/verify.passcode.ts:1:32
+[2022-02-12T22:15:03.630Z] TS2307: Cannot find module '../utils/setup-api-basics' or its corresponding type declarations.
+[2022-02-12T22:15:03.630Z]   > 1 | import { setupApiBasics } from '../utils/setup-api-basics';
+[2022-02-12T22:15:03.630Z]       |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-12T22:15:03.631Z]     2 | import type {APIGatewayProxyEvent} from "aws-lambda";
+[2022-02-12T22:15:03.631Z]     3 |
+[2022-02-12T22:15:03.631Z]     4 | export const verifyPasscode = async (event: APIGatewayProxyEvent) => {
+[2022-02-12T22:16:17.625Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 12.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-12T22:16:17.625Z] [1m[31mERROR[39m[22m in [1m./apps/backend/api/src/handlers/books.get.ts[39m[22m [1m[32m6:27-63[39m[22m
+[2022-02-12T22:16:17.625Z] [1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../utils/setup-api-basics' in '/Users/jappy/code/bobs-bedtime-stories/apps/backend/api/src/handlers'[39m[22m
+[2022-02-12T22:16:17.625Z] [1m[31mERROR[39m[22m in [1m./apps/backend/api/src/handlers/stories.get.ts[39m[22m [1m[32m6:27-63[39m[22m
+[2022-02-12T22:16:17.626Z] [1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../utils/setup-api-basics' in '/Users/jappy/code/bobs-bedtime-stories/apps/backend/api/src/handlers'[39m[22m
+[2022-02-12T22:16:17.626Z] [1m[31mERROR[39m[22m in [1m./apps/backend/api/src/utils/setup-api-basics.ts[39m[22m
+[2022-02-12T22:16:17.626Z] [1mModule build [1m[31mfailed[39m[22m[1m (from ./node_modules/ts-loader/index.js):
+[2022-02-12T22:16:17.626Z] [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open '/Users/jappy/code/bobs-bedtime-stories/apps/backend/api/src/utils/setup-api-basics.ts'[39m[22m
+[2022-02-12T22:16:17.627Z] webpack compiled with [1m[31m3 errors[39m[22m (4edf509e2631fd2e)
+[2022-02-12T22:16:17.704Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 12.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-12T22:16:17.704Z] [1m[31mERROR[39m[22m in [1m./apps/backend/api/src/handlers/books.get.ts[39m[22m [1m[32m6:27-63[39m[22m
+[2022-02-12T22:16:17.704Z] [1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../utils/setup-api-basics' in '/Users/jappy/code/bobs-bedtime-stories/apps/backend/api/src/handlers'[39m[22m
+[2022-02-12T22:16:17.704Z] [1m[31mERROR[39m[22m in [1m./apps/backend/api/src/handlers/stories.get.ts[39m[22m [1m[32m6:27-63[39m[22m
+[2022-02-12T22:16:17.704Z] [1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../utils/setup-api-basics' in '/Users/jappy/code/bobs-bedtime-stories/apps/backend/api/src/handlers'[39m[22m
+[2022-02-12T22:16:17.704Z] [1m[31mERROR[39m[22m in [1m./apps/backend/api/src/handlers/verify.passcode.ts[39m[22m [1m[32m5:27-63[39m[22m
+[2022-02-12T22:16:17.704Z] [1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../utils/setup-api-basics' in '/Users/jappy/code/bobs-bedtime-stories/apps/backend/api/src/handlers'[39m[22m
+[2022-02-12T22:16:17.704Z] webpack compiled with [1m[31m3 errors[39m[22m (a741e66fad2d22c3)
+[2022-02-12T22:16:17.725Z] ERROR in apps/backend/api/src/handlers/books.get.ts:2:30
+[2022-02-12T22:16:17.725Z] TS2307: Cannot find module '../utils/setup-api-basics' or its corresponding type declarations.
+[2022-02-12T22:16:17.725Z]     1 | import {BookModel} from '@bobs-bedtime-stories/dynamoose';
+[2022-02-12T22:16:17.725Z]   > 2 | import {wrapApiHandler} from '../utils/setup-api-basics';
+[2022-02-12T22:16:17.725Z]       |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-12T22:16:17.726Z]     3 | import type {APIGatewayProxyEvent} from "aws-lambda";
+[2022-02-12T22:16:17.726Z]     4 |
+[2022-02-12T22:16:17.726Z]     5 | export const getBooks = async (event: APIGatewayProxyEvent) => {
+[2022-02-12T22:16:17.726Z] ERROR in apps/backend/api/src/handlers/stories.get.ts:2:30
+[2022-02-12T22:16:17.726Z] TS2307: Cannot find module '../utils/setup-api-basics' or its corresponding type declarations.
+[2022-02-12T22:16:17.726Z]     1 | import {StoryModel} from '@bobs-bedtime-stories/dynamoose';
+[2022-02-12T22:16:17.726Z]   > 2 | import {wrapApiHandler} from '../utils/setup-api-basics';
+[2022-02-12T22:16:17.726Z]       |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-12T22:16:17.726Z]     3 | import type {APIGatewayProxyEvent} from "aws-lambda";
+[2022-02-12T22:16:17.726Z]     4 |
+[2022-02-12T22:16:17.726Z]     5 | export const getStoriesOfBook = async (event: APIGatewayProxyEvent) => {
+[2022-02-12T22:16:17.726Z] ERROR in apps/backend/api/src/handlers/verify.passcode.ts:1:32
+[2022-02-12T22:16:17.727Z] TS2307: Cannot find module '../utils/setup-api-basics' or its corresponding type declarations.
+[2022-02-12T22:16:17.727Z]   > 1 | import { wrapApiHandler } from '../utils/setup-api-basics';
+[2022-02-12T22:16:17.727Z]       |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-12T22:16:17.727Z]     2 | import type {APIGatewayProxyEvent} from "aws-lambda";
+[2022-02-12T22:16:17.727Z]     3 |
+[2022-02-12T22:16:17.727Z]     4 | export const verifyPasscode = async (event: APIGatewayProxyEvent) => {
+[2022-02-12T22:17:17.865Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-12T22:17:17.866Z] webpack compiled [1m[32msuccessfully[39m[22m (9909a7d32420cf02)
+[2022-02-12T22:17:17.941Z] No issues found.
+[2022-02-12T22:17:22.675Z] stopping nx build process
+[2022-02-12T22:17:32.171Z] Starting build process
+[2022-02-12T22:17:32.540Z]  >  NX   Running target build for 1 project(s):
+[2022-02-12T22:17:32.540Z]     - backend-api
+[2022-02-12T22:17:32.540Z]    
+[2022-02-12T22:17:32.540Z]    With flags:
+[2022-02-12T22:17:32.540Z]      --watch=true
+[2022-02-12T22:17:32.540Z]  
+[2022-02-12T22:17:32.547Z] > nx run backend-api:build --watch
+[2022-02-12T22:17:33.420Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-12T22:17:33.421Z] webpack compiled [1m[32msuccessfully[39m[22m (534f7282ecb77cbb)
+[2022-02-12T22:17:33.517Z] Issues checking in progress...
+[2022-02-12T22:17:36.231Z] No issues found.
+[2022-02-13T10:49:13.624Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m
+[2022-02-13T10:49:13.624Z] webpack compiled [1m[32msuccessfully[39m[22m (534f7282ecb77cbb)
+[2022-02-13T10:49:13.723Z] Issues checking in progress...
+[2022-02-13T10:49:13.737Z] No issues found.
+[2022-02-13T10:51:11.302Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m
+[2022-02-13T10:51:11.303Z] webpack compiled [1m[32msuccessfully[39m[22m (534f7282ecb77cbb)
+[2022-02-13T10:51:11.399Z] Issues checking in progress...
+[2022-02-13T10:51:11.439Z] ERROR in apps/backend/api/src/handlers/books.post.ts:4:18
+[2022-02-13T10:51:11.440Z] TS2307: Cannot find module 'slug' or its corresponding type declarations.
+[2022-02-13T10:51:11.440Z]     2 | import {wrapApiHandler} from '../utils/wrap-api-handler';
+[2022-02-13T10:51:11.440Z]     3 | import {Book} from "@bobs-bedtime-stories/shared";
+[2022-02-13T10:51:11.440Z]   > 4 | import slug from 'slug';
+[2022-02-13T10:51:11.440Z]       |                  ^^^^^^
+[2022-02-13T10:51:11.440Z]     5 |
+[2022-02-13T10:51:11.440Z]     6 | export const postBook = wrapApiHandler(async (event) => {
+[2022-02-13T10:51:11.440Z]     7 |   const body = JSON.parse(event.body ?? '{}');
+[2022-02-13T10:51:11.441Z] ERROR in apps/backend/api/src/handlers/books.post.ts:9:18
+[2022-02-13T10:51:11.441Z] TS2769: No overload matches this call.
+[2022-02-13T10:51:11.441Z]   Overload 1 of 6, '(this: Document, callback: CallbackType<Document, AWSError>): void', gave the following error.
+[2022-02-13T10:51:11.441Z]     Argument of type 'Book' is not assignable to parameter of type 'CallbackType<Document, AWSError>'.
+[2022-02-13T10:51:11.441Z]       Type 'Book' provides no match for the signature '(error?: AWSError, response?: Document): void'.
+[2022-02-13T10:51:11.441Z]   Overload 2 of 6, '(this: Document, settings: DocumentSaveSettings & { return: "request"; }): Promise<PutItemInput>', gave the following error.
+[2022-02-13T10:51:11.441Z]     Argument of type 'Book' is not assignable to parameter of type 'DocumentSaveSettings & { return: "request"; }'.
+[2022-02-13T10:51:11.441Z]       Property 'return' is missing in type 'Book' but required in type '{ return: "request"; }'.
+[2022-02-13T10:51:11.441Z]   Overload 3 of 6, '(this: Document, settings: DocumentSaveSettings & { return: "document"; }): Promise<Document>', gave the following error.
+[2022-02-13T10:51:11.442Z]     Argument of type 'Book' is not assignable to parameter of type 'DocumentSaveSettings & { return: "document"; }'.
+[2022-02-13T10:51:11.442Z]       Property 'return' is missing in type 'Book' but required in type '{ return: "document"; }'.
+[2022-02-13T10:51:11.442Z]      7 |   const body = JSON.parse(event.body ?? '{}');
+[2022-02-13T10:51:11.442Z]      8 |
+[2022-02-13T10:51:11.442Z]   >  9 |   BookModel.save({
+[2022-02-13T10:51:11.442Z]        |                  ^
+[2022-02-13T10:51:11.442Z]   > 10 |     title: body.title,
+[2022-02-13T10:51:11.443Z]        | ^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-13T10:51:11.443Z]   > 11 |     description: body.description,
+[2022-02-13T10:51:11.443Z]        | ^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-13T10:51:11.443Z]   > 12 |     slug:
+[2022-02-13T10:51:11.443Z]        | ^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-13T10:51:11.443Z]   > 13 |   } as Book)
+[2022-02-13T10:51:11.443Z]        | ^^^^^^^^^^^^
+[2022-02-13T10:51:11.443Z]     14 | });
+[2022-02-13T10:51:11.443Z]     15 |
+[2022-02-13T10:51:33.884Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m
+[2022-02-13T10:51:33.884Z] webpack compiled [1m[32msuccessfully[39m[22m (534f7282ecb77cbb)
+[2022-02-13T10:51:33.955Z] ERROR in apps/backend/api/src/handlers/books.post.ts:4:18
+[2022-02-13T10:51:33.955Z] TS2307: Cannot find module 'slug' or its corresponding type declarations.
+[2022-02-13T10:51:33.956Z]     2 | import {wrapApiHandler} from '../utils/wrap-api-handler';
+[2022-02-13T10:51:33.956Z]     3 | import {Book} from "@bobs-bedtime-stories/shared";
+[2022-02-13T10:51:33.956Z]   > 4 | import slug from 'slug';
+[2022-02-13T10:51:33.956Z]       |                  ^^^^^^
+[2022-02-13T10:51:33.956Z]     5 |
+[2022-02-13T10:51:33.956Z]     6 | export const postBook = wrapApiHandler(async (event) => {
+[2022-02-13T10:51:33.956Z]     7 |   const body = JSON.parse(event.body ?? '{}');
+[2022-02-13T10:51:33.956Z] ERROR in apps/backend/api/src/handlers/books.post.ts:9:18
+[2022-02-13T10:51:33.956Z] TS2769: No overload matches this call.
+[2022-02-13T10:51:33.957Z]   Overload 1 of 6, '(this: Document, callback: CallbackType<Document, AWSError>): void', gave the following error.
+[2022-02-13T10:51:33.957Z]     Argument of type 'Book' is not assignable to parameter of type 'CallbackType<Document, AWSError>'.
+[2022-02-13T10:51:33.957Z]       Type 'Book' provides no match for the signature '(error?: AWSError, response?: Document): void'.
+[2022-02-13T10:51:33.957Z]   Overload 2 of 6, '(this: Document, settings: DocumentSaveSettings & { return: "request"; }): Promise<PutItemInput>', gave the following error.
+[2022-02-13T10:51:33.957Z]     Argument of type 'Book' is not assignable to parameter of type 'DocumentSaveSettings & { return: "request"; }'.
+[2022-02-13T10:51:33.957Z]       Property 'return' is missing in type 'Book' but required in type '{ return: "request"; }'.
+[2022-02-13T10:51:33.957Z]   Overload 3 of 6, '(this: Document, settings: DocumentSaveSettings & { return: "document"; }): Promise<Document>', gave the following error.
+[2022-02-13T10:51:33.957Z]     Argument of type 'Book' is not assignable to parameter of type 'DocumentSaveSettings & { return: "document"; }'.
+[2022-02-13T10:51:33.957Z]       Property 'return' is missing in type 'Book' but required in type '{ return: "document"; }'.
+[2022-02-13T10:51:33.957Z]      7 |   const body = JSON.parse(event.body ?? '{}');
+[2022-02-13T10:51:33.957Z]      8 |
+[2022-02-13T10:51:33.957Z]   >  9 |   BookModel.save({
+[2022-02-13T10:51:33.957Z]        |                  ^
+[2022-02-13T10:51:33.957Z]   > 10 |     title: body.title,
+[2022-02-13T10:51:33.957Z]        | ^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-13T10:51:33.958Z]   > 11 |     description: body.description,
+[2022-02-13T10:51:33.958Z]        | ^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-13T10:51:33.958Z]   > 12 |     slug: slug(body.title),
+[2022-02-13T10:51:33.958Z]        | ^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-13T10:51:33.958Z]   > 13 |   } as Book)
+[2022-02-13T10:51:33.958Z]        | ^^^^^^^^^^^^
+[2022-02-13T10:51:33.958Z]     14 | });
+[2022-02-13T10:51:33.958Z]     15 |
+[2022-02-13T10:58:19.359Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m
+[2022-02-13T10:58:19.360Z] webpack compiled [1m[32msuccessfully[39m[22m (534f7282ecb77cbb)
+[2022-02-13T10:58:19.398Z] ERROR in apps/backend/api/src/handlers/books.post.ts:4:18
+[2022-02-13T10:58:19.398Z] TS2307: Cannot find module 'slug' or its corresponding type declarations.
+[2022-02-13T10:58:19.398Z]     2 | import {wrapApiHandler} from '../utils/wrap-api-handler';
+[2022-02-13T10:58:19.399Z]     3 | import {Book} from "@bobs-bedtime-stories/shared";
+[2022-02-13T10:58:19.399Z]   > 4 | import slug from 'slug';
+[2022-02-13T10:58:19.399Z]       |                  ^^^^^^
+[2022-02-13T10:58:19.399Z]     5 |
+[2022-02-13T10:58:19.399Z]     6 | export const postBook = wrapApiHandler(async (event) => {
+[2022-02-13T10:58:19.399Z]     7 |   const body = JSON.parse(event.body ?? '{}');
+[2022-02-13T10:58:19.399Z] ERROR in apps/backend/api/src/handlers/books.post.ts:9:18
+[2022-02-13T10:58:19.399Z] TS2769: No overload matches this call.
+[2022-02-13T10:58:19.399Z]   Overload 1 of 6, '(this: Document, settings: DocumentSaveSettings & { return: "request"; }, callback: CallbackType<PutItemInput, AWSError>): void', gave the following error.
+[2022-02-13T10:58:19.399Z]     Argument of type 'Book' is not assignable to parameter of type 'DocumentSaveSettings & { return: "request"; }'.
+[2022-02-13T10:58:19.400Z]       Property 'return' is missing in type 'Book' but required in type '{ return: "request"; }'.
+[2022-02-13T10:58:19.400Z]   Overload 2 of 6, '(this: Document, settings: DocumentSaveSettings & { return: "document"; }, callback: CallbackType<Document, AWSError>): void', gave the following error.
+[2022-02-13T10:58:19.400Z]     Argument of type 'Book' is not assignable to parameter of type 'DocumentSaveSettings & { return: "document"; }'.
+[2022-02-13T10:58:19.400Z]       Property 'return' is missing in type 'Book' but required in type '{ return: "document"; }'.
+[2022-02-13T10:58:19.400Z]      7 |   const body = JSON.parse(event.body ?? '{}');
+[2022-02-13T10:58:19.400Z]      8 |
+[2022-02-13T10:58:19.400Z]   >  9 |   BookModel.save({
+[2022-02-13T10:58:19.400Z]        |                  ^
+[2022-02-13T10:58:19.400Z]   > 10 |     title: body.title,
+[2022-02-13T10:58:19.400Z]        | ^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-13T10:58:19.400Z]   > 11 |     description: body.description,
+[2022-02-13T10:58:19.400Z]        | ^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-13T10:58:19.400Z]   > 12 |     slug: slug(body.title),
+[2022-02-13T10:58:19.400Z]        | ^^^^^^^^^^^^^^^^^^^^^^
+[2022-02-13T10:58:19.401Z]   > 13 |   } as Book, {
+[2022-02-13T10:58:19.401Z]        | ^^^^^^^^^^^^
+[2022-02-13T10:58:19.401Z]     14 |
+[2022-02-13T10:58:19.401Z]     15 |   })
+[2022-02-13T10:58:19.401Z]     16 | });
+[2022-02-13T10:59:23.288Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m
+[2022-02-13T10:59:23.289Z] webpack compiled [1m[32msuccessfully[39m[22m (534f7282ecb77cbb)
+[2022-02-13T10:59:23.391Z] ERROR in apps/backend/api/src/handlers/books.post.ts:4:18
+[2022-02-13T10:59:23.391Z] TS2307: Cannot find module 'slug' or its corresponding type declarations.
+[2022-02-13T10:59:23.391Z]     2 | import {wrapApiHandler} from '../utils/wrap-api-handler';
+[2022-02-13T10:59:23.391Z]     3 | import {Book} from "@bobs-bedtime-stories/shared";
+[2022-02-13T10:59:23.392Z]   > 4 | import slug from 'slug';
+[2022-02-13T10:59:23.392Z]       |                  ^^^^^^
+[2022-02-13T10:59:23.392Z]     5 |
+[2022-02-13T10:59:23.392Z]     6 | export const postBook = wrapApiHandler(async (event) => {
+[2022-02-13T10:59:23.393Z]     7 |   const body = JSON.parse(event.body ?? '{}');
+[2022-02-13T10:59:55.107Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m
+[2022-02-13T10:59:55.107Z] webpack compiled [1m[32msuccessfully[39m[22m (534f7282ecb77cbb)
+[2022-02-13T10:59:55.205Z] Issues checking in progress...
+[2022-02-13T10:59:55.258Z] ERROR in apps/backend/api/src/handlers/books.post.ts:4:18
+[2022-02-13T10:59:55.258Z] TS2307: Cannot find module 'slug' or its corresponding type declarations.
+[2022-02-13T10:59:55.259Z]     2 | import {wrapApiHandler} from '../utils/wrap-api-handler';
+[2022-02-13T10:59:55.259Z]     3 | import {Book} from "@bobs-bedtime-stories/shared";
+[2022-02-13T10:59:55.259Z]   > 4 | import slug from 'slug';
+[2022-02-13T10:59:55.259Z]       |                  ^^^^^^
+[2022-02-13T10:59:55.259Z]     5 | import {Condition} from "dynamoose/dist/Condition";
+[2022-02-13T10:59:55.259Z]     6 |
+[2022-02-13T10:59:55.259Z]     7 | export const postBook = wrapApiHandler(async (event) => {
+[2022-02-13T11:01:24.990Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m
+[2022-02-13T11:01:24.990Z] webpack compiled [1m[32msuccessfully[39m[22m (534f7282ecb77cbb)
+[2022-02-13T11:01:25.081Z] ERROR in apps/backend/api/src/handlers/books.post.ts:4:18
+[2022-02-13T11:01:25.082Z] TS2307: Cannot find module 'slug' or its corresponding type declarations.
+[2022-02-13T11:01:25.082Z]     2 | import {wrapApiHandler} from '../utils/wrap-api-handler';
+[2022-02-13T11:01:25.082Z]     3 | import {Book} from "@bobs-bedtime-stories/shared";
+[2022-02-13T11:01:25.082Z]   > 4 | import slug from 'slug';
+[2022-02-13T11:01:25.083Z]       |                  ^^^^^^
+[2022-02-13T11:01:25.083Z]     5 | import {Condition} from "dynamoose/dist/Condition";
+[2022-02-13T11:01:25.084Z]     6 |
+[2022-02-13T11:01:25.084Z]     7 | export const postBook = wrapApiHandler(async (event) => {
+[2022-02-13T11:03:10.943Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m
+[2022-02-13T11:03:10.944Z] webpack compiled [1m[32msuccessfully[39m[22m (534f7282ecb77cbb)
+[2022-02-13T11:03:11.014Z] ERROR in apps/backend/api/src/handlers/books.post.ts:4:22
+[2022-02-13T11:03:11.014Z] TS2307: Cannot find module 'slug' or its corresponding type declarations.
+[2022-02-13T11:03:11.014Z]     2 | import {wrapApiHandler} from '../utils/wrap-api-handler';
+[2022-02-13T11:03:11.014Z]     3 | import {Book} from "@bobs-bedtime-stories/shared";
+[2022-02-13T11:03:11.015Z]   > 4 | import makeSlug from 'slug';
+[2022-02-13T11:03:11.015Z]       |                      ^^^^^^
+[2022-02-13T11:03:11.015Z]     5 | import {Condition} from "dynamoose/dist/Condition";
+[2022-02-13T11:03:11.015Z]     6 |
+[2022-02-13T11:03:11.015Z]     7 | export const postBook = wrapApiHandler(async (event) => {
+[2022-02-13T11:03:28.814Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 35.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T11:03:28.815Z] webpack compiled [1m[32msuccessfully[39m[22m (6585ba7a72775c86)
+[2022-02-13T11:03:28.827Z] ERROR in apps/backend/api/src/handlers/books.post.ts:4:22
+[2022-02-13T11:03:28.828Z] TS2307: Cannot find module 'slug' or its corresponding type declarations.
+[2022-02-13T11:03:28.828Z]     2 | import {wrapApiHandler} from '../utils/wrap-api-handler';
+[2022-02-13T11:03:28.828Z]     3 | import {Book} from "@bobs-bedtime-stories/shared";
+[2022-02-13T11:03:28.828Z]   > 4 | import makeSlug from 'slug';
+[2022-02-13T11:03:28.828Z]       |                      ^^^^^^
+[2022-02-13T11:03:28.828Z]     5 | import {Condition} from "dynamoose/dist/Condition";
+[2022-02-13T11:03:28.828Z]     6 |
+[2022-02-13T11:03:28.829Z]     7 | export const postBook = wrapApiHandler(async (event) => {
+[2022-02-13T11:03:57.904Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 35.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T11:03:57.904Z] webpack compiled [1m[32msuccessfully[39m[22m (e684e2082475f699)
+[2022-02-13T11:03:57.917Z] ERROR in apps/backend/api/src/handlers/books.post.ts:4:22
+[2022-02-13T11:03:57.918Z] TS2307: Cannot find module 'slug' or its corresponding type declarations.
+[2022-02-13T11:03:57.918Z]     2 | import {wrapApiHandler} from '../utils/wrap-api-handler';
+[2022-02-13T11:03:57.918Z]     3 | import {Book} from "@bobs-bedtime-stories/shared";
+[2022-02-13T11:03:57.918Z]   > 4 | import makeSlug from 'slug';
+[2022-02-13T11:03:57.918Z]       |                      ^^^^^^
+[2022-02-13T11:03:57.918Z]     5 | import {Condition} from "dynamoose/dist/Condition";
+[2022-02-13T11:03:57.918Z]     6 |
+[2022-02-13T11:03:57.918Z]     7 | export const postBook = wrapApiHandler(async (event) => {
+[2022-02-13T11:03:58.556Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 35.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T11:03:58.556Z] webpack compiled [1m[32msuccessfully[39m[22m (4a2a97f7b50cd499)
+[2022-02-13T11:03:58.578Z] ERROR in apps/backend/api/src/handlers/books.post.ts:4:22
+[2022-02-13T11:03:58.578Z] TS2307: Cannot find module 'slug' or its corresponding type declarations.
+[2022-02-13T11:03:58.579Z]     2 | import {wrapApiHandler} from '../utils/wrap-api-handler';
+[2022-02-13T11:03:58.579Z]     3 | import {Book} from "@bobs-bedtime-stories/shared";
+[2022-02-13T11:03:58.579Z]   > 4 | import makeSlug from 'slug';
+[2022-02-13T11:03:58.579Z]       |                      ^^^^^^
+[2022-02-13T11:03:58.579Z]     5 | import {Condition} from "dynamoose/dist/Condition";
+[2022-02-13T11:03:58.579Z]     6 |
+[2022-02-13T11:03:58.579Z]     7 | export const postBook = wrapApiHandler(async (event) => {
+[2022-02-13T11:04:01.051Z] stopping nx build process
+[2022-02-13T11:04:13.704Z] Starting build process
+[2022-02-13T11:04:14.296Z]  >  NX   Running target build for 1 project(s):
+[2022-02-13T11:04:14.296Z]     - backend-api
+[2022-02-13T11:04:14.296Z]    
+[2022-02-13T11:04:14.296Z]    With flags:
+[2022-02-13T11:04:14.296Z]      --watch=true
+[2022-02-13T11:04:14.296Z]  
+[2022-02-13T11:04:14.303Z] > nx run backend-api:build --watch
+[2022-02-13T11:04:15.203Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 17 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T11:04:15.203Z] webpack compiled [1m[32msuccessfully[39m[22m (ae2d99d22144b469)
+[2022-02-13T11:04:15.301Z] Issues checking in progress...
+[2022-02-13T11:04:18.082Z] No issues found.
+[2022-02-13T11:04:56.128Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T11:04:56.128Z] webpack compiled [1m[32msuccessfully[39m[22m (cc61ccd854cd9b92)
+[2022-02-13T11:04:56.208Z] No issues found.
+[2022-02-13T11:05:12.940Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T11:05:12.941Z] webpack compiled [1m[32msuccessfully[39m[22m (bb4b8afb5430e201)
+[2022-02-13T11:05:13.040Z] No issues found.
+[2022-02-13T12:26:31.286Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.9 KiB [1m[33m[entry][39m[22m
+[2022-02-13T12:26:31.287Z] webpack compiled [1m[32msuccessfully[39m[22m (bb4b8afb5430e201)
+[2022-02-13T12:26:31.386Z] Issues checking in progress...
+[2022-02-13T12:26:31.454Z] No issues found.
+[2022-02-13T12:28:30.364Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.9 KiB [1m[33m[entry][39m[22m
+[2022-02-13T12:28:30.364Z] webpack compiled [1m[32msuccessfully[39m[22m (bb4b8afb5430e201)
+[2022-02-13T12:28:30.435Z] ERROR in apps/backend/api/src/handlers/stories.post.ts:9:6
+[2022-02-13T12:28:30.435Z] TS2554: Expected 1 arguments, but got 0.
+[2022-02-13T12:28:30.435Z]      7 |   const storyWithHighestEpisodeNumber = await StoryModel.query()
+[2022-02-13T12:28:30.436Z]      8 |     .attribute('bookSlug').eq(bookSlug)
+[2022-02-13T12:28:30.436Z]   >  9 |     .sort()
+[2022-02-13T12:28:30.436Z]        |      ^^^^^^
+[2022-02-13T12:28:30.436Z]     10 |
+[2022-02-13T12:28:30.436Z]     11 |   return await StoryModel.query()
+[2022-02-13T12:28:30.436Z]     12 |     .attribute('bookSlug')
+[2022-02-13T12:29:06.508Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.9 KiB [1m[33m[entry][39m[22m
+[2022-02-13T12:29:06.508Z] webpack compiled [1m[32msuccessfully[39m[22m (bb4b8afb5430e201)
+[2022-02-13T12:29:06.597Z] No issues found.
+[2022-02-13T12:33:12.366Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T12:33:12.366Z] webpack compiled [1m[32msuccessfully[39m[22m (df346bc0e1614ac4)
+[2022-02-13T12:33:12.464Z] Issues checking in progress...
+[2022-02-13T12:33:12.477Z] ERROR in apps/backend/api/src/handlers/stories.post.ts:19:63
+[2022-02-13T12:33:12.478Z] TS2304: Cannot find name 'nanoid'.
+[2022-02-13T12:33:12.478Z]     17 |   }
+[2022-02-13T12:33:12.478Z]     18 |
+[2022-02-13T12:33:12.478Z]   > 19 |   const s3Key = `books/${bookSlug}/stories/${episode}/audio/${nanoid(
+[2022-02-13T12:33:12.478Z]        |                                                               ^^^^^^
+[2022-02-13T12:33:12.478Z]     20 |     5
+[2022-02-13T12:33:12.479Z]     21 |   )}`;
+[2022-02-13T12:33:12.479Z]     22 |
+[2022-02-13T12:33:12.479Z] ERROR in apps/backend/api/src/handlers/stories.post.ts:23:28
+[2022-02-13T12:33:12.479Z] TS2532: Object is possibly 'undefined'.
+[2022-02-13T12:33:12.479Z]     21 |   )}`;
+[2022-02-13T12:33:12.479Z]     22 |
+[2022-02-13T12:33:12.479Z]   > 23 |   const preSignedUrlData = this.s3.createPreSignedPost({
+[2022-02-13T12:33:12.479Z]        |                            ^^^^
+[2022-02-13T12:33:12.479Z]     24 |     Bucket: environment.cdnBucket,
+[2022-02-13T12:33:12.479Z]     25 |     Expires: 20,
+[2022-02-13T12:33:12.479Z]     26 |     Fields: {
+[2022-02-13T12:33:12.479Z] ERROR in apps/backend/api/src/handlers/stories.post.ts:24:25
+[2022-02-13T12:33:12.479Z] TS2339: Property 'cdnBucket' does not exist on type '{ production: boolean; localDevelopment: boolean; passCodeSecretId: string; }'.
+[2022-02-13T12:33:12.479Z]     22 |
+[2022-02-13T12:33:12.479Z]     23 |   const preSignedUrlData = this.s3.createPreSignedPost({
+[2022-02-13T12:33:12.480Z]   > 24 |     Bucket: environment.cdnBucket,
+[2022-02-13T12:33:12.480Z]        |                         ^^^^^^^^^
+[2022-02-13T12:33:12.480Z]     25 |     Expires: 20,
+[2022-02-13T12:33:12.480Z]     26 |     Fields: {
+[2022-02-13T12:33:12.480Z]     27 |       key: s3Key,
+[2022-02-13T12:33:12.480Z] ERROR in libs/dynamoose/src/lib/story.model.ts:5:14
+[2022-02-13T12:33:12.480Z] TS2420: Class 'StoryDocument' incorrectly implements interface 'Story'.
+[2022-02-13T12:33:12.480Z]   Property 'audioLength' is missing in type 'StoryDocument' but required in type 'Story'.
+[2022-02-13T12:33:12.480Z]     3 | import {Document} from "dynamoose/dist/Document";
+[2022-02-13T12:33:12.480Z]     4 |
+[2022-02-13T12:33:12.480Z]   > 5 | export class StoryDocument extends Document implements Story {
+[2022-02-13T12:33:12.480Z]       |              ^^^^^^^^^^^^^
+[2022-02-13T12:33:12.480Z]     6 |   bookSlug!: string;
+[2022-02-13T12:33:12.481Z]     7 |   audioUrl?: string;
+[2022-02-13T12:33:12.481Z]     8 |   date!: string;
+[2022-02-13T12:35:23.918Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 17 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T12:35:23.918Z] webpack compiled [1m[32msuccessfully[39m[22m (f8f789b94cdb99b1)
+[2022-02-13T12:35:24.017Z] Issues checking in progress...
+[2022-02-13T12:35:24.054Z] ERROR in libs/dynamoose/src/lib/story.model.ts:5:14
+[2022-02-13T12:35:24.055Z] TS2420: Class 'StoryDocument' incorrectly implements interface 'Story'.
+[2022-02-13T12:35:24.055Z]   Property 'audioLength' is missing in type 'StoryDocument' but required in type 'Story'.
+[2022-02-13T12:35:24.055Z]     3 | import {Document} from "dynamoose/dist/Document";
+[2022-02-13T12:35:24.055Z]     4 |
+[2022-02-13T12:35:24.055Z]   > 5 | export class StoryDocument extends Document implements Story {
+[2022-02-13T12:35:24.055Z]       |              ^^^^^^^^^^^^^
+[2022-02-13T12:35:24.055Z]     6 |   bookSlug!: string;
+[2022-02-13T12:35:24.055Z]     7 |   audioUrl?: string;
+[2022-02-13T12:35:24.055Z]     8 |   date!: string;
+[2022-02-13T12:35:47.233Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 20 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T12:35:47.234Z] webpack compiled [1m[32msuccessfully[39m[22m (05ee60f046b6d9ee)
+[2022-02-13T12:35:47.244Z] ERROR in libs/dynamoose/src/lib/story.model.ts:5:14
+[2022-02-13T12:35:47.244Z] TS2420: Class 'StoryDocument' incorrectly implements interface 'Story'.
+[2022-02-13T12:35:47.244Z]   Property 'audioLength' is missing in type 'StoryDocument' but required in type 'Story'.
+[2022-02-13T12:35:47.244Z]     3 | import {Document} from "dynamoose/dist/Document";
+[2022-02-13T12:35:47.244Z]     4 |
+[2022-02-13T12:35:47.244Z]   > 5 | export class StoryDocument extends Document implements Story {
+[2022-02-13T12:35:47.245Z]       |              ^^^^^^^^^^^^^
+[2022-02-13T12:35:47.245Z]     6 |   bookSlug!: string;
+[2022-02-13T12:35:47.245Z]     7 |   audioUrl?: string;
+[2022-02-13T12:35:47.245Z]     8 |   date!: string;
+[2022-02-13T12:35:58.080Z] stopping nx build process
+[2022-02-13T12:36:10.325Z] Starting build process
+[2022-02-13T12:36:10.971Z]  >  NX   Running target build for 1 project(s):
+[2022-02-13T12:36:10.971Z]     - backend-api
+[2022-02-13T12:36:10.971Z]    
+[2022-02-13T12:36:10.971Z]    With flags:
+[2022-02-13T12:36:10.972Z]      --watch=true
+[2022-02-13T12:36:10.972Z]  
+[2022-02-13T12:36:10.978Z] > nx run backend-api:build --watch
+[2022-02-13T12:36:11.968Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 20 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T12:36:11.968Z] webpack compiled [1m[32msuccessfully[39m[22m (9eb4dabb9230d4e3)
+[2022-02-13T12:36:12.065Z] Issues checking in progress...
+[2022-02-13T12:36:14.923Z] No issues found.
+[2022-02-13T12:43:29.685Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 20 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T12:43:29.685Z] webpack compiled [1m[32msuccessfully[39m[22m (6eedc25d71658b2d)
+[2022-02-13T12:43:29.757Z] No issues found.
+[2022-02-13T12:44:03.372Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 20 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T12:44:03.373Z] webpack compiled [1m[32msuccessfully[39m[22m (06d4a743da5840ab)
+[2022-02-13T12:44:03.469Z] ERROR in libs/dynamoose/src/lib/story.model.ts:8:3
+[2022-02-13T12:44:03.469Z] TS2416: Property 'date' in type 'StoryDocument' is not assignable to the same property in base type 'Story'.
+[2022-02-13T12:44:03.469Z]   Type 'Date' is not assignable to type 'string'.
+[2022-02-13T12:44:03.469Z]      6 |   bookSlug!: string;
+[2022-02-13T12:44:03.469Z]      7 |   audioUrl?: string;
+[2022-02-13T12:44:03.469Z]   >  8 |   date!: Date;
+[2022-02-13T12:44:03.470Z]        |   ^^^^
+[2022-02-13T12:44:03.470Z]      9 |   description?: string;
+[2022-02-13T12:44:03.470Z]     10 |   episode!: number;
+[2022-02-13T12:44:03.470Z]     11 |   externalLinks?: string[];
+[2022-02-13T12:45:32.351Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 20 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T12:45:32.351Z] webpack compiled [1m[32msuccessfully[39m[22m (8511d9cebac46770)
+[2022-02-13T12:45:32.420Z] ERROR in libs/dynamoose/src/lib/story.model.ts:8:3
+[2022-02-13T12:45:32.420Z] TS2416: Property 'date' in type 'StoryDocument' is not assignable to the same property in base type 'Story'.
+[2022-02-13T12:45:32.420Z]   Type 'Date' is not assignable to type 'string'.
+[2022-02-13T12:45:32.420Z]      6 |   bookSlug!: string;
+[2022-02-13T12:45:32.420Z]      7 |   audioS3Key!: string;
+[2022-02-13T12:45:32.420Z]   >  8 |   date!: Date;
+[2022-02-13T12:45:32.420Z]        |   ^^^^
+[2022-02-13T12:45:32.421Z]      9 |   description?: string;
+[2022-02-13T12:45:32.421Z]     10 |   episode!: number;
+[2022-02-13T12:45:32.421Z]     11 |   externalLinks?: string[];
+[2022-02-13T12:47:32.021Z] stopping nx build process
+[2022-02-13T12:47:44.378Z] Starting build process
+[2022-02-13T12:47:44.725Z]  >  NX   Running target build for 1 project(s):
+[2022-02-13T12:47:44.725Z]     - backend-api
+[2022-02-13T12:47:44.725Z]    
+[2022-02-13T12:47:44.725Z]    With flags:
+[2022-02-13T12:47:44.726Z]      --watch=true
+[2022-02-13T12:47:44.726Z]  
+[2022-02-13T12:47:44.734Z] > nx run backend-api:build --watch
+[2022-02-13T12:47:45.932Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 20 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T12:47:45.933Z] webpack compiled [1m[32msuccessfully[39m[22m (ffb16ddf47e0c5da)
+[2022-02-13T12:47:46.008Z] Issues checking in progress...
+[2022-02-13T12:47:48.787Z] No issues found.
+[2022-02-13T12:49:50.147Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 20 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T12:49:50.148Z] webpack compiled [1m[32msuccessfully[39m[22m (4c1ea151029a910f)
+[2022-02-13T12:49:50.241Z] Issues checking in progress...
+[2022-02-13T12:49:50.265Z] No issues found.
+[2022-02-13T12:49:52.815Z] stopping nx build process
+[2022-02-13T12:50:14.910Z] Starting build process
+[2022-02-13T12:50:15.253Z]  >  NX   Running target build for 1 project(s):
+[2022-02-13T12:50:15.254Z]     - backend-api
+[2022-02-13T12:50:15.255Z]    
+[2022-02-13T12:50:15.255Z]    With flags:
+[2022-02-13T12:50:15.255Z]      --watch=true
+[2022-02-13T12:50:15.255Z]  
+[2022-02-13T12:50:15.262Z] > nx run backend-api:build --watch
+[2022-02-13T12:50:16.121Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 20 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T12:50:16.122Z] webpack compiled [1m[32msuccessfully[39m[22m (1177f25925f5b5b7)
+[2022-02-13T12:50:16.218Z] Issues checking in progress...
+[2022-02-13T12:50:19.115Z] No issues found.
+[2022-02-13T12:52:15.204Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 20.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T12:52:15.204Z] webpack compiled [1m[32msuccessfully[39m[22m (b456bd03136000f7)
+[2022-02-13T12:52:15.276Z] No issues found.
+[2022-02-13T17:28:12.492Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 20.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T17:28:12.493Z] webpack compiled [1m[32msuccessfully[39m[22m (16e229171c77c834)
+[2022-02-13T17:28:12.589Z] Issues checking in progress...
+[2022-02-13T17:28:12.618Z] No issues found.
+[2022-02-13T17:33:26.763Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 20.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T17:33:26.763Z] webpack compiled [1m[32msuccessfully[39m[22m (6855f73baed958ba)
+[2022-02-13T17:33:26.842Z] ERROR in apps/backend/api/src/handlers/books.get.ts:1:9
+[2022-02-13T17:33:26.843Z] TS2305: Module '"@bobs-bedtime-stories/dynamoose"' has no exported member 'BookModel'.
+[2022-02-13T17:33:26.843Z]   > 1 | import {BookModel} from '@bobs-bedtime-stories/dynamoose';
+[2022-02-13T17:33:26.844Z]       |         ^^^^^^^^^
+[2022-02-13T17:33:26.844Z]     2 | import {wrapApiHandler} from '../utils/wrap-api-handler';
+[2022-02-13T17:33:26.844Z]     3 |
+[2022-02-13T17:33:26.844Z]     4 | export const getBooks = wrapApiHandler(async () => {
+[2022-02-13T17:33:26.844Z] ERROR in apps/backend/api/src/handlers/books.post.ts:1:9
+[2022-02-13T17:33:26.844Z] TS2305: Module '"@bobs-bedtime-stories/dynamoose"' has no exported member 'BookModel'.
+[2022-02-13T17:33:26.844Z]   > 1 | import {BookModel} from '@bobs-bedtime-stories/dynamoose';
+[2022-02-13T17:33:26.844Z]       |         ^^^^^^^^^
+[2022-02-13T17:33:26.844Z]     2 | import {wrapApiHandler} from '../utils/wrap-api-handler';
+[2022-02-13T17:33:26.845Z]     3 | import {Book} from "@bobs-bedtime-stories/shared";
+[2022-02-13T17:33:26.845Z]     4 | import * as makeSlug from 'slug';
+[2022-02-13T17:33:26.845Z] ERROR in apps/backend/api/src/handlers/stories.get.ts:1:9
+[2022-02-13T17:33:26.845Z] TS2305: Module '"@bobs-bedtime-stories/dynamoose"' has no exported member 'StoryModel'.
+[2022-02-13T17:33:26.845Z]   > 1 | import {StoryModel} from '@bobs-bedtime-stories/dynamoose';
+[2022-02-13T17:33:26.845Z]       |         ^^^^^^^^^^
+[2022-02-13T17:33:26.845Z]     2 | import {wrapApiHandler} from '../utils/wrap-api-handler';
+[2022-02-13T17:33:26.845Z]     3 |
+[2022-02-13T17:33:26.845Z]     4 | export const getStoriesOfBook = wrapApiHandler(async (event) => {
+[2022-02-13T17:33:26.845Z] ERROR in apps/backend/api/src/handlers/stories.post.ts:1:9
+[2022-02-13T17:33:26.846Z] TS2305: Module '"@bobs-bedtime-stories/dynamoose"' has no exported member 'StoryModel'.
+[2022-02-13T17:33:26.846Z]   > 1 | import {StoryModel} from '@bobs-bedtime-stories/dynamoose';
+[2022-02-13T17:33:26.846Z]       |         ^^^^^^^^^^
+[2022-02-13T17:33:26.846Z]     2 | import {wrapApiHandler} from '../utils/wrap-api-handler';
+[2022-02-13T17:33:26.846Z]     3 | import {environment} from "../environments/environment";
+[2022-02-13T17:33:26.846Z]     4 | import {nanoid} from "nanoid";
+[2022-02-13T17:34:04.732Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 20.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T17:34:04.732Z] webpack compiled [1m[32msuccessfully[39m[22m (0cb4d4cca17de5be)
+[2022-02-13T17:34:04.791Z] ERROR in apps/backend/api/src/handlers/books.post.ts:1:9
+[2022-02-13T17:34:04.791Z] TS2305: Module '"@bobs-bedtime-stories/dynamoose"' has no exported member 'BookModel'.
+[2022-02-13T17:34:04.791Z]   > 1 | import {BookModel} from '@bobs-bedtime-stories/dynamoose';
+[2022-02-13T17:34:04.792Z]       |         ^^^^^^^^^
+[2022-02-13T17:34:04.792Z]     2 | import {wrapApiHandler} from '../utils/wrap-api-handler';
+[2022-02-13T17:34:04.792Z]     3 | import {Book} from "@bobs-bedtime-stories/shared";
+[2022-02-13T17:34:04.792Z]     4 | import * as makeSlug from 'slug';
+[2022-02-13T17:34:04.792Z] ERROR in apps/backend/api/src/handlers/stories.get.ts:1:9
+[2022-02-13T17:34:04.792Z] TS2305: Module '"@bobs-bedtime-stories/dynamoose"' has no exported member 'StoryModel'.
+[2022-02-13T17:34:04.792Z]   > 1 | import {StoryModel} from '@bobs-bedtime-stories/dynamoose';
+[2022-02-13T17:34:04.792Z]       |         ^^^^^^^^^^
+[2022-02-13T17:34:04.792Z]     2 | import {wrapApiHandler} from '../utils/wrap-api-handler';
+[2022-02-13T17:34:04.793Z]     3 |
+[2022-02-13T17:34:04.793Z]     4 | export const getStoriesOfBook = wrapApiHandler(async (event) => {
+[2022-02-13T17:34:26.770Z] chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 20.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+[2022-02-13T17:34:26.771Z] webpack compiled [1m[32msuccessfully[39m[22m (5e5320176acb26b7)
+[2022-02-13T17:34:26.818Z] No issues found.
+[2022-02-13T18:00:46.875Z] stopping nx build process

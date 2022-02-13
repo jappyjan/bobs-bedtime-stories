@@ -2,6 +2,8 @@
   "version": 2,
   "projects": {
     "backend-api": "apps/backend/api",
+    "backend-api-rest": "libs/backend/api/rest",
+    "backend-utils": "libs/backend/utils",
     "dynamoose": "libs/dynamoose",
     "frontend-web": "apps/frontend/web",
     "frontend-web-e2e": "apps/frontend/web-e2e",

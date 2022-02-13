@@ -1,12 +1,9 @@
-import {config} from 'dotenv';
-
-config();
-
 const IS_PRODUCTION = process.env.IS_PRODUCTION === 'true';
-const IS_OFFLINE = process.env.IS_OFFLINE === 'true';
+const IS_LOCAL = process.env.LOCAL_DEVELOPMENT_ENVIRONMENT === 'true';
 
 export const environment = {
   production: IS_PRODUCTION,
-  offline: IS_OFFLINE,
-  passCode: process.env.PASS_CODE as string,
+  localDevelopment: IS_LOCAL,
+  passCodeSecretId: process.env.SECRET_PASS_CODE_ARN,
+  cdnBucket: process.env.S3_BUCKET_CDN,
 };

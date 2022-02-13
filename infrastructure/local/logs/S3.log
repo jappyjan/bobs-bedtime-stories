@@ -1,0 +1,301 @@
+[2022-02-12T21:50:37.407Z] Starting containers...
+[2022-02-12T21:50:37.408Z] Executing: docker pull quay.io/minio/minio with options: undefined
+[2022-02-12T21:50:37.506Z] Using default tag: latest
+[2022-02-12T21:50:37.807Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T21:50:37.860Z] Command docker pull quay.io/minio/minio exited with code 1
+[2022-02-12T21:50:37.861Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T21:50:37.861Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-12T21:50:37.861Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T21:50:38.091Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T21:50:38.109Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 stopped successfully
+[2022-02-12T21:50:38.109Z] Executing: docker container rm local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T21:50:38.426Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T21:50:38.453Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 removed successfully
+[2022-02-12T21:50:38.454Z] Starting container quay.io/minio/minio (docker run -p 9000:9000 -p 9001:9001 -e MINIO_ROOT_USER=fakeMyKeyId -e MINIO_ROOT_PASSWORD=fakeMySecretKey --name local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 quay.io/minio/minio server /data)
+[2022-02-12T21:50:40.478Z] All Containers started successfully
+[2022-02-12T21:50:45.965Z] Creating bucket localstack-cdn...
+[2022-02-12T21:50:45.970Z] Setting environment variable S3_BUCKET_CDN to localstack-cdn
+[2022-02-12T21:50:45.971Z] Created bucket localstack-cdn
+[2022-02-12T21:51:41.683Z] Stopping containers...
+[2022-02-12T21:51:41.684Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-12T21:51:41.684Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T21:55:38.112Z] Starting containers...
+[2022-02-12T21:55:38.113Z] Executing: docker pull quay.io/minio/minio with options: undefined
+[2022-02-12T21:55:38.208Z] Using default tag: latest
+[2022-02-12T21:55:38.448Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T21:55:38.508Z] Command docker pull quay.io/minio/minio exited with code 1
+[2022-02-12T21:55:38.508Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T21:55:38.528Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-12T21:55:38.528Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T21:55:38.645Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T21:55:38.679Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 stopped successfully
+[2022-02-12T21:55:38.696Z] Executing: docker container rm local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T21:55:38.922Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T21:55:38.970Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 removed successfully
+[2022-02-12T21:55:38.970Z] Starting container quay.io/minio/minio (docker run -p 9000:9000 -p 9001:9001 -e MINIO_ROOT_USER=fakeMyKeyId -e MINIO_ROOT_PASSWORD=fakeMySecretKey --name local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 quay.io/minio/minio server /data)
+[2022-02-12T21:55:42.035Z] All Containers started successfully
+[2022-02-12T21:55:45.952Z] Creating bucket localstack-cdn...
+[2022-02-12T21:55:45.958Z] Setting environment variable S3_BUCKET_CDN to localstack-cdn
+[2022-02-12T21:55:45.958Z] Created bucket localstack-cdn
+[2022-02-12T21:56:15.866Z] Stopping containers...
+[2022-02-12T21:56:15.866Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-12T21:56:15.866Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T21:57:31.814Z] Starting containers...
+[2022-02-12T21:57:31.815Z] Executing: docker pull quay.io/minio/minio with options: undefined
+[2022-02-12T21:57:31.913Z] Using default tag: latest
+[2022-02-12T21:57:32.195Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T21:57:32.249Z] Command docker pull quay.io/minio/minio exited with code 1
+[2022-02-12T21:57:32.249Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T21:57:32.250Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-12T21:57:32.250Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T21:57:32.376Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T21:57:32.429Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 stopped successfully
+[2022-02-12T21:57:32.453Z] Executing: docker container rm local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T21:57:32.648Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T21:57:32.701Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 removed successfully
+[2022-02-12T21:57:32.704Z] Starting container quay.io/minio/minio (docker run -p 9000:9000 -p 9001:9001 -e MINIO_ROOT_USER=fakeMyKeyId -e MINIO_ROOT_PASSWORD=fakeMySecretKey --name local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 quay.io/minio/minio server /data)
+[2022-02-12T21:57:35.764Z] All Containers started successfully
+[2022-02-12T21:57:41.792Z] Creating bucket localstack-cdn...
+[2022-02-12T21:57:41.798Z] Setting environment variable S3_BUCKET_CDN to localstack-cdn
+[2022-02-12T21:57:41.798Z] Created bucket localstack-cdn
+[2022-02-12T21:59:05.154Z] Stopping containers...
+[2022-02-12T21:59:05.154Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-12T21:59:05.154Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:02:30.624Z] Starting containers...
+[2022-02-12T22:02:30.625Z] Executing: docker pull quay.io/minio/minio with options: undefined
+[2022-02-12T22:02:30.719Z] Using default tag: latest
+[2022-02-12T22:02:31.014Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T22:02:31.068Z] Command docker pull quay.io/minio/minio exited with code 1
+[2022-02-12T22:02:31.068Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T22:02:31.069Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-12T22:02:31.069Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:02:31.185Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T22:02:31.216Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 stopped successfully
+[2022-02-12T22:02:31.249Z] Executing: docker container rm local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:02:31.548Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T22:02:31.566Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 removed successfully
+[2022-02-12T22:02:31.567Z] Starting container quay.io/minio/minio (docker run -p 9000:9000 -p 9001:9001 -e MINIO_ROOT_USER=fakeMyKeyId -e MINIO_ROOT_PASSWORD=fakeMySecretKey --name local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 quay.io/minio/minio server /data)
+[2022-02-12T22:02:34.592Z] All Containers started successfully
+[2022-02-12T22:02:38.762Z] Creating bucket localstack-cdn...
+[2022-02-12T22:02:38.771Z] Setting environment variable S3_BUCKET_CDN to localstack-cdn
+[2022-02-12T22:02:38.771Z] Created bucket localstack-cdn
+[2022-02-12T22:03:12.366Z] Stopping containers...
+[2022-02-12T22:03:12.367Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-12T22:03:12.367Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:05:16.603Z] Starting containers...
+[2022-02-12T22:05:16.604Z] Executing: docker pull quay.io/minio/minio with options: undefined
+[2022-02-12T22:05:16.701Z] Using default tag: latest
+[2022-02-12T22:05:16.973Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T22:05:17.029Z] Command docker pull quay.io/minio/minio exited with code 1
+[2022-02-12T22:05:17.043Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T22:05:17.044Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-12T22:05:17.045Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:05:17.169Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T22:05:17.230Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 stopped successfully
+[2022-02-12T22:05:17.230Z] Executing: docker container rm local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:05:17.418Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T22:05:17.471Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 removed successfully
+[2022-02-12T22:05:17.475Z] Starting container quay.io/minio/minio (docker run -p 9000:9000 -p 9001:9001 -e MINIO_ROOT_USER=fakeMyKeyId -e MINIO_ROOT_PASSWORD=fakeMySecretKey --name local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 quay.io/minio/minio server /data)
+[2022-02-12T22:05:20.569Z] All Containers started successfully
+[2022-02-12T22:05:25.202Z] Creating bucket localstack-cdn...
+[2022-02-12T22:05:25.208Z] Setting environment variable S3_BUCKET_CDN to localstack-cdn
+[2022-02-12T22:05:25.209Z] Created bucket localstack-cdn
+[2022-02-12T22:06:20.813Z] Stopping containers...
+[2022-02-12T22:06:20.814Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-12T22:06:20.814Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:07:11.453Z] Starting containers...
+[2022-02-12T22:07:11.454Z] Executing: docker pull quay.io/minio/minio with options: undefined
+[2022-02-12T22:07:11.551Z] Using default tag: latest
+[2022-02-12T22:07:11.789Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T22:07:11.862Z] Command docker pull quay.io/minio/minio exited with code 1
+[2022-02-12T22:07:11.880Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T22:07:11.881Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-12T22:07:11.881Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:07:11.995Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T22:07:12.012Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 stopped successfully
+[2022-02-12T22:07:12.030Z] Executing: docker container rm local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:07:12.245Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T22:07:12.298Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 removed successfully
+[2022-02-12T22:07:12.299Z] Starting container quay.io/minio/minio (docker run -p 9000:9000 -p 9001:9001 -e MINIO_ROOT_USER=fakeMyKeyId -e MINIO_ROOT_PASSWORD=fakeMySecretKey --name local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 quay.io/minio/minio server /data)
+[2022-02-12T22:07:15.381Z] All Containers started successfully
+[2022-02-12T22:07:19.580Z] Creating bucket localstack-cdn...
+[2022-02-12T22:07:19.586Z] Setting environment variable S3_BUCKET_CDN to localstack-cdn
+[2022-02-12T22:07:19.586Z] Created bucket localstack-cdn
+[2022-02-12T22:08:04.800Z] Stopping containers...
+[2022-02-12T22:08:04.800Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-12T22:08:04.800Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:08:55.006Z] Starting containers...
+[2022-02-12T22:08:55.007Z] Executing: docker pull quay.io/minio/minio with options: undefined
+[2022-02-12T22:08:55.102Z] Using default tag: latest
+[2022-02-12T22:08:55.355Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T22:08:55.416Z] Command docker pull quay.io/minio/minio exited with code 1
+[2022-02-12T22:08:55.434Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T22:08:55.435Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-12T22:08:55.436Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:08:55.552Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T22:08:55.568Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 stopped successfully
+[2022-02-12T22:08:55.568Z] Executing: docker container rm local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:08:55.765Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T22:08:55.819Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 removed successfully
+[2022-02-12T22:08:55.821Z] Starting container quay.io/minio/minio (docker run -p 9000:9000 -p 9001:9001 -e MINIO_ROOT_USER=fakeMyKeyId -e MINIO_ROOT_PASSWORD=fakeMySecretKey --name local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 quay.io/minio/minio server /data)
+[2022-02-12T22:08:58.880Z] All Containers started successfully
+[2022-02-12T22:09:02.076Z] Creating bucket localstack-cdn...
+[2022-02-12T22:09:02.080Z] Setting environment variable S3_BUCKET_CDN to localstack-cdn
+[2022-02-12T22:09:02.081Z] Created bucket localstack-cdn
+[2022-02-12T22:09:24.309Z] Stopping containers...
+[2022-02-12T22:09:24.310Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-12T22:09:24.310Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:10:58.163Z] Starting containers...
+[2022-02-12T22:10:58.164Z] Executing: docker pull quay.io/minio/minio with options: undefined
+[2022-02-12T22:10:58.270Z] Using default tag: latest
+[2022-02-12T22:10:58.542Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T22:10:58.599Z] Command docker pull quay.io/minio/minio exited with code 1
+[2022-02-12T22:10:58.617Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T22:10:58.619Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-12T22:10:58.619Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:10:58.733Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T22:10:58.749Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 stopped successfully
+[2022-02-12T22:10:58.749Z] Executing: docker container rm local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:10:58.974Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T22:10:59.027Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 removed successfully
+[2022-02-12T22:10:59.040Z] Starting container quay.io/minio/minio (docker run -p 9000:9000 -p 9001:9001 -e MINIO_ROOT_USER=fakeMyKeyId -e MINIO_ROOT_PASSWORD=fakeMySecretKey --name local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 quay.io/minio/minio server /data)
+[2022-02-12T22:11:02.104Z] All Containers started successfully
+[2022-02-12T22:11:06.450Z] Creating bucket localstack-cdn...
+[2022-02-12T22:11:06.457Z] Setting environment variable S3_BUCKET_CDN to localstack-cdn
+[2022-02-12T22:11:06.457Z] Created bucket localstack-cdn
+[2022-02-12T22:11:44.506Z] Stopping containers...
+[2022-02-12T22:11:44.506Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-12T22:11:44.506Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:13:48.968Z] Starting containers...
+[2022-02-12T22:13:48.969Z] Executing: docker pull quay.io/minio/minio with options: undefined
+[2022-02-12T22:13:49.067Z] Using default tag: latest
+[2022-02-12T22:13:49.358Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T22:13:49.412Z] Command docker pull quay.io/minio/minio exited with code 1
+[2022-02-12T22:13:49.428Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T22:13:49.431Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-12T22:13:49.449Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:13:49.568Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T22:13:49.584Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 stopped successfully
+[2022-02-12T22:13:49.584Z] Executing: docker container rm local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:13:49.881Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T22:13:49.909Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 removed successfully
+[2022-02-12T22:13:49.909Z] Starting container quay.io/minio/minio (docker run -p 9000:9000 -p 9001:9001 -e MINIO_ROOT_USER=fakeMyKeyId -e MINIO_ROOT_PASSWORD=fakeMySecretKey --name local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 quay.io/minio/minio server /data)
+[2022-02-12T22:13:52.979Z] All Containers started successfully
+[2022-02-12T22:13:57.410Z] Creating bucket localstack-cdn...
+[2022-02-12T22:13:57.417Z] Setting environment variable S3_BUCKET_CDN to localstack-cdn
+[2022-02-12T22:13:57.417Z] Created bucket localstack-cdn
+[2022-02-12T22:17:22.670Z] Stopping containers...
+[2022-02-12T22:17:22.670Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-12T22:17:22.670Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:17:24.698Z] Starting containers...
+[2022-02-12T22:17:24.699Z] Executing: docker pull quay.io/minio/minio with options: undefined
+[2022-02-12T22:17:24.806Z] Using default tag: latest
+[2022-02-12T22:17:25.091Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T22:17:25.145Z] Command docker pull quay.io/minio/minio exited with code 1
+[2022-02-12T22:17:25.145Z] Error response from daemon: Get "https://quay.io/v2/": Service Unavailable
+[2022-02-12T22:17:25.146Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-12T22:17:25.146Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:17:25.257Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T22:17:25.274Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 stopped successfully
+[2022-02-12T22:17:25.274Z] Executing: docker container rm local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-12T22:17:25.541Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-12T22:17:25.594Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 removed successfully
+[2022-02-12T22:17:25.594Z] Starting container quay.io/minio/minio (docker run -p 9000:9000 -p 9001:9001 -e MINIO_ROOT_USER=fakeMyKeyId -e MINIO_ROOT_PASSWORD=fakeMySecretKey --name local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 quay.io/minio/minio server /data)
+[2022-02-12T22:17:28.620Z] All Containers started successfully
+[2022-02-12T22:17:31.769Z] Creating bucket localstack-cdn...
+[2022-02-12T22:17:31.773Z] Setting environment variable S3_BUCKET_CDN to localstack-cdn
+[2022-02-12T22:17:31.773Z] Created bucket localstack-cdn
+[2022-02-13T11:04:01.046Z] Stopping containers...
+[2022-02-13T11:04:01.047Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-13T11:04:01.047Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-13T11:04:02.503Z] Starting containers...
+[2022-02-13T11:04:02.520Z] Executing: docker pull quay.io/minio/minio with options: undefined
+[2022-02-13T11:04:02.641Z] Using default tag: latest
+[2022-02-13T11:04:04.408Z] latest: Pulling from minio/minio
+[2022-02-13T11:04:04.580Z] Digest: sha256:cf6a92b055d713776d0cefbc355cbe24412ab65e7541f646501163743f36c7e2
+[2022-02-13T11:04:04.599Z] Status: Image is up to date for quay.io/minio/minio:latest
+[2022-02-13T11:04:04.706Z] quay.io/minio/minio:latest
+[2022-02-13T11:04:04.792Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-13T11:04:04.792Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-13T11:04:04.934Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-13T11:04:04.951Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 stopped successfully
+[2022-02-13T11:04:04.951Z] Executing: docker container rm local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-13T11:04:05.147Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-13T11:04:05.163Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 removed successfully
+[2022-02-13T11:04:05.180Z] Starting container quay.io/minio/minio (docker run -p 9000:9000 -p 9001:9001 -e MINIO_ROOT_USER=fakeMyKeyId -e MINIO_ROOT_PASSWORD=fakeMySecretKey --name local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 quay.io/minio/minio server /data)
+[2022-02-13T11:04:08.243Z] All Containers started successfully
+[2022-02-13T11:04:13.039Z] Creating bucket localstack-cdn...
+[2022-02-13T11:04:13.045Z] Setting environment variable S3_BUCKET_CDN to localstack-cdn
+[2022-02-13T11:04:13.045Z] Created bucket localstack-cdn
+[2022-02-13T12:35:58.074Z] Stopping containers...
+[2022-02-13T12:35:58.074Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-13T12:35:58.074Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-13T12:36:00.213Z] Starting containers...
+[2022-02-13T12:36:00.214Z] Executing: docker pull quay.io/minio/minio with options: undefined
+[2022-02-13T12:36:00.307Z] Using default tag: latest
+[2022-02-13T12:36:02.623Z] latest: Pulling from minio/minio
+[2022-02-13T12:36:02.884Z] Digest: sha256:cf6a92b055d713776d0cefbc355cbe24412ab65e7541f646501163743f36c7e2
+[2022-02-13T12:36:02.884Z] Status: Image is up to date for quay.io/minio/minio:latest
+[2022-02-13T12:36:02.925Z] quay.io/minio/minio:latest
+[2022-02-13T12:36:02.939Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-13T12:36:02.939Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-13T12:36:03.048Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-13T12:36:03.062Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 stopped successfully
+[2022-02-13T12:36:03.063Z] Executing: docker container rm local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-13T12:36:03.314Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-13T12:36:03.333Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 removed successfully
+[2022-02-13T12:36:03.350Z] Starting container quay.io/minio/minio (docker run -p 9000:9000 -p 9001:9001 -e MINIO_ROOT_USER=fakeMyKeyId -e MINIO_ROOT_PASSWORD=fakeMySecretKey --name local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 quay.io/minio/minio server /data)
+[2022-02-13T12:36:07.407Z] All Containers started successfully
+[2022-02-13T12:36:09.532Z] Creating bucket localstack-cdn...
+[2022-02-13T12:36:09.537Z] Setting environment variable S3_BUCKET_CDN to localstack-cdn
+[2022-02-13T12:36:09.537Z] Created bucket localstack-cdn
+[2022-02-13T12:47:32.017Z] Stopping containers...
+[2022-02-13T12:47:32.018Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-13T12:47:32.018Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-13T12:47:33.900Z] Starting containers...
+[2022-02-13T12:47:33.900Z] Executing: docker pull quay.io/minio/minio with options: undefined
+[2022-02-13T12:47:34.019Z] Using default tag: latest
+[2022-02-13T12:47:36.533Z] latest: Pulling from minio/minio
+[2022-02-13T12:47:36.873Z] Digest: sha256:cf6a92b055d713776d0cefbc355cbe24412ab65e7541f646501163743f36c7e2
+[2022-02-13T12:47:36.900Z] Status: Image is up to date for quay.io/minio/minio:latest
+[2022-02-13T12:47:36.988Z] quay.io/minio/minio:latest
+[2022-02-13T12:47:37.051Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-13T12:47:37.052Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-13T12:47:37.179Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-13T12:47:37.195Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 stopped successfully
+[2022-02-13T12:47:37.195Z] Executing: docker container rm local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-13T12:47:37.390Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-13T12:47:37.443Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 removed successfully
+[2022-02-13T12:47:37.456Z] Starting container quay.io/minio/minio (docker run -p 9000:9000 -p 9001:9001 -e MINIO_ROOT_USER=fakeMyKeyId -e MINIO_ROOT_PASSWORD=fakeMySecretKey --name local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 quay.io/minio/minio server /data)
+[2022-02-13T12:47:41.516Z] All Containers started successfully
+[2022-02-13T12:47:43.644Z] Creating bucket localstack-cdn...
+[2022-02-13T12:47:43.649Z] Setting environment variable S3_BUCKET_CDN to localstack-cdn
+[2022-02-13T12:47:43.649Z] Created bucket localstack-cdn
+[2022-02-13T12:49:52.812Z] Stopping containers...
+[2022-02-13T12:49:52.812Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-13T12:49:52.812Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-13T12:49:54.285Z] Starting containers...
+[2022-02-13T12:49:54.303Z] Executing: docker pull quay.io/minio/minio with options: undefined
+[2022-02-13T12:49:54.436Z] Using default tag: latest
+[2022-02-13T12:50:04.777Z] Starting containers...
+[2022-02-13T12:50:04.777Z] Executing: docker pull quay.io/minio/minio with options: undefined
+[2022-02-13T12:50:04.874Z] Using default tag: latest
+[2022-02-13T12:50:06.860Z] latest: Pulling from minio/minio
+[2022-02-13T12:50:07.195Z] Digest: sha256:cf6a92b055d713776d0cefbc355cbe24412ab65e7541f646501163743f36c7e2
+[2022-02-13T12:50:07.195Z] Status: Image is up to date for quay.io/minio/minio:latest
+[2022-02-13T12:50:07.235Z] quay.io/minio/minio:latest
+[2022-02-13T12:50:07.299Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-13T12:50:07.300Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-13T12:50:07.426Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-13T12:50:07.443Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 stopped successfully
+[2022-02-13T12:50:07.443Z] Executing: docker container rm local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined
+[2022-02-13T12:50:07.676Z] local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31
+[2022-02-13T12:50:07.709Z] Container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 removed successfully
+[2022-02-13T12:50:07.727Z] Starting container quay.io/minio/minio (docker run -p 9000:9000 -p 9001:9001 -e MINIO_ROOT_USER=fakeMyKeyId -e MINIO_ROOT_PASSWORD=fakeMySecretKey --name local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 quay.io/minio/minio server /data)
+[2022-02-13T12:50:10.759Z] All Containers started successfully
+[2022-02-13T12:50:14.265Z] Creating bucket localstack-cdn...
+[2022-02-13T12:50:14.271Z] Setting environment variable S3_BUCKET_CDN to localstack-cdn
+[2022-02-13T12:50:14.271Z] Created bucket localstack-cdn
+[2022-02-13T18:00:46.870Z] Stopping containers...
+[2022-02-13T18:00:46.870Z] Stopping container local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31...
+[2022-02-13T18:00:46.870Z] Executing: docker container stop local-stack-a196488114dd4acc8c12065d274a651e1098f8366b1d42906df93264db910e31 with options: undefined

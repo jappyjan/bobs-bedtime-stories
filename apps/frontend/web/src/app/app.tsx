@@ -20,6 +20,8 @@ const StyledMainContent = styled.div`
   grid-row: 1;
   overflow: auto;
   padding: .75rem;
+  display: grid;
+  grid-template-rows: auto;
 `
 
 export function App() {
@@ -31,16 +33,14 @@ export function App() {
 
   return (
     <StyledApp>
-      <StyledApp>
+      <AuthWall>
         <Navigation style={{gridRow: 2}}/>
         <StyledMainContent>
-          <AuthWall>
-            <Route path='/' exact component={Stories}/>
-            <Route path='/record' exact component={Recorder}/>
-            <Player/>
-          </AuthWall>
+          <Route path='/' exact component={Stories}/>
+          <Route path='/record' exact component={Recorder}/>
+          <Player/>
         </StyledMainContent>
-      </StyledApp>
+      </AuthWall>
     </StyledApp>
   );
 }

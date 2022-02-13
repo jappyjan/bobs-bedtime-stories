@@ -4,17 +4,16 @@ import {Document} from "dynamoose/dist/Document";
 
 export class StoryDocument extends Document implements Story {
   bookSlug!: string;
-  audioLength!: number;
-  audioUrl!: string;
-  date!: string;
-  description!: string;
+  audioS3Key!: string;
+  date!: Date;
+  description?: string;
   episode!: number;
-  externalLinks!: string[];
-  imageUrls!: string[];
-  videoUrls!: string[];
+  externalLinks?: string[];
+  imageUrls?: string[];
+  videoUrls?: string[];
 }
 
-export const StoryTableName = 'stories';
+export const StoryTableName = process.env.DYNAMO_TABLE_stories;
 
 export const StorySchema = new Schema({
   bookSlug: {
@@ -27,11 +26,7 @@ export const StorySchema = new Schema({
     required: true,
     rangeKey: true,
   },
-  audioLength: {
-    type: Number,
-    required: true,
-  },
-  audioUrl: {
+  audioS3Key: {
     type: String,
     required: true,
   },
@@ -41,20 +36,23 @@ export const StorySchema = new Schema({
   },
   description: {
     type: String,
-    required: true,
+    required: false,
   },
   externalLinks: {
     type: [String],
+    required: false,
   },
   imageUrls: {
     type: [String],
+    required: false,
   },
   videoUrls: {
     type: [String],
+    required: false,
   },
 });
 
-export const StoryModel = model<StoryDocument>(StoryTableName, StorySchema, {
-  create: true,
-  update: true,
+export const makeStoryModel = () => model<StoryDocument>(StoryTableName, StorySchema, {
+  create: false,
+  update: false,
 });

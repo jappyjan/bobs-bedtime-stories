@@ -1,0 +1,54 @@
+{
+  "dynamoDB": {
+    "tables": [
+      {
+        "identifier": "books",
+        "partitionKey": {
+          "name": "slug",
+          "type": "STRING"
+        }
+      },
+      {
+        "identifier": "stories",
+        "partitionKey": {
+          "name": "bookSlug",
+          "type": "STRING"
+        },
+        "sortKey": {
+          "name": "episode",
+          "type": "NUMBER"
+        }
+      }
+    ]
+  },
+  "secrets": {
+    "byArn": {
+      "PASS_CODE": "arn:aws:secretsmanager:eu-central-1:372838162452:secret:pass-code-M2OavD"
+    },
+    "generated": []
+  },
+  "s3": {
+    "buckets": [
+      {
+        "identifier": "CDN",
+        "websiteIndexDocument": "index.html",
+        "websiteErrorDocument": "error.html",
+        "publicReadAccess": true,
+        "cors": [
+          {
+            "allowedMethods": ["GET", "PUT", "HEAD", "POST"],
+            "allowedOrigins": ["*"],
+            "allowedHeaders": ["*"]
+          }
+        ]
+      }
+    ]
+  },
+  "cdn": [
+    {
+      "identifier": "Main",
+      "subdomain": "cdn",
+      "bucketIdentifier": "CDN"
+    }
+  ]
+}

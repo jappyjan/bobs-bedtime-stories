@@ -1,14 +1,14 @@
-import {BookModel} from '@bobs-bedtime-stories/dynamoose';
-import {bobify} from "../utils/bobified-handler";
+import {makeBookModel} from '@bobs-bedtime-stories/dynamoose';
+import {wrapApiHandler} from '../utils/wrap-api-handler';
 
-export const handler = bobify(async () => {
-  const scanAction = BookModel.scan();
+export const getBooks = wrapApiHandler(async () => {
+  console.log('get books');
+  const scanAction = makeBookModel().scan();
+  console.log('add "all" option')
   scanAction.all();
 
+  console.log('execute');
   const books = await scanAction.exec();
-
-  return {
-    statusCode: 200,
-    body: JSON.stringify(books),
-  };
+  console.log('done', books);
+  return books;
 });

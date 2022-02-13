@@ -1,16 +1,12 @@
 import {SlDetails} from "@shoelace-style/shoelace/dist/react";
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import {PlayButton} from "./components/play-button";
 import {useStories} from "../../../state/stories.state";
 
 export function Stories() {
-  const {fetchBooks, books} = useStories();
+  const {books} = useStories();
   const [currentlyOpenBook, setCurrentlyOpenBook] = useState('');
   const [currentlyOpenStory, setCurrentlyOpenStory] = useState('');
-
-  useEffect(() => {
-    fetchBooks();
-  }, [fetchBooks]);
 
   return (
     <div>
@@ -18,7 +14,7 @@ export function Stories() {
         <SlDetails key={book.slug}
                    open={currentlyOpenBook === book.slug}
                    onSlShow={() => setCurrentlyOpenBook(book.slug)}
-                   summary={book.slug}
+                   summary={book.title}
         >
           {
             book.stories.map(story => (

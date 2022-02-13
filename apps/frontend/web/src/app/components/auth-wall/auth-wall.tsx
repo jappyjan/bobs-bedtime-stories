@@ -1,6 +1,7 @@
 import {SlButton, SlDialog, SlInput} from "@shoelace-style/shoelace/dist/react";
 import {ReactNode, useCallback, useEffect, useRef, useState} from "react";
 import {callApi} from "../../../utils/api";
+import {useStories} from "../../../state/stories.state";
 
 interface Props {
   children: ReactNode;
@@ -10,6 +11,7 @@ export function AuthWall(props: Props) {
   const [passCode, setPassCode] = useState(localStorage.getItem("pass-code") || "");
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const input = useRef<null | HTMLInputElement>(null);
+  const {fetchBooks} = useStories();
 
   const handleInitialFocus = useCallback((event) => {
     event.preventDefault();
@@ -33,6 +35,13 @@ export function AuthWall(props: Props) {
   useEffect(() => {
     verifyLogin(true);
   }, [verifyLogin])
+
+  useEffect(() => {
+    if (!isAuthenticated) {
+      return;
+    }
+    fetchBooks();
+  }, [isAuthenticated, fetchBooks]);
 
   const handleInputChange = useCallback((event: Event) => {
     const target = event.target as HTMLInputElement;

@@ -1,0 +1,357 @@
+[2022-02-12T21:50:37.403Z] Starting containers...
+[2022-02-12T21:50:37.404Z] Executing: docker pull amazon/dynamodb-local with options: undefined
+[2022-02-12T21:50:37.501Z] Using default tag: latest
+[2022-02-12T21:50:37.766Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T21:50:37.826Z] Command docker pull amazon/dynamodb-local exited with code 1
+[2022-02-12T21:50:37.844Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T21:50:37.845Z] Stopping container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4...
+[2022-02-12T21:50:37.846Z] Executing: docker container stop local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T21:50:39.108Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T21:50:39.162Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 stopped successfully
+[2022-02-12T21:50:39.178Z] Executing: docker container rm local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T21:50:39.476Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T21:50:39.531Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 removed successfully
+[2022-02-12T21:50:39.532Z] Starting container amazon/dynamodb-local (docker run -p 8000:8000 -v /Users/jappy/code/bobs-bedtime-stories/infrastructure/local/storage/dynamoDB:/home/dynamodblocal/data --name local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 amazon/dynamodb-local -jar DynamoDBLocal.jar -sharedDb -dbPath /home/dynamodblocal/data/)
+[2022-02-12T21:50:44.876Z] All Containers started successfully
+[2022-02-12T21:50:45.948Z] Create or update table books...
+[2022-02-12T21:50:45.949Z] Setting environment variable DYNAMO_TABLE_books to books
+[2022-02-12T21:50:45.951Z] Create or update table stories...
+[2022-02-12T21:50:45.951Z] Setting environment variable DYNAMO_TABLE_stories to stories
+[2022-02-12T21:50:45.981Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T21:50:45.982Z] Create table stories...
+[2022-02-12T21:50:45.983Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T21:50:45.984Z] Create table books...
+[2022-02-12T21:50:46.082Z] Created table stories
+[2022-02-12T21:50:46.082Z] Created table books
+[2022-02-12T21:55:38.108Z] Starting containers...
+[2022-02-12T21:55:38.109Z] Executing: docker pull amazon/dynamodb-local with options: undefined
+[2022-02-12T21:55:38.205Z] Using default tag: latest
+[2022-02-12T21:55:38.535Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T21:55:38.550Z] Command docker pull amazon/dynamodb-local exited with code 1
+[2022-02-12T21:55:38.550Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T21:55:38.551Z] Stopping container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4...
+[2022-02-12T21:55:38.551Z] Executing: docker container stop local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T21:55:40.137Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T21:55:40.161Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 stopped successfully
+[2022-02-12T21:55:40.161Z] Executing: docker container rm local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T21:55:40.492Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T21:55:40.547Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 removed successfully
+[2022-02-12T21:55:40.549Z] Starting container amazon/dynamodb-local (docker run -p 8000:8000 -v /Users/jappy/code/bobs-bedtime-stories/infrastructure/local/storage/dynamoDB:/home/dynamodblocal/data --name local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 amazon/dynamodb-local -jar DynamoDBLocal.jar -sharedDb -dbPath /home/dynamodblocal/data/)
+[2022-02-12T21:55:44.862Z] All Containers started successfully
+[2022-02-12T21:55:45.931Z] Create or update table books...
+[2022-02-12T21:55:45.931Z] Setting environment variable DYNAMO_TABLE_books to books
+[2022-02-12T21:55:45.933Z] Create or update table stories...
+[2022-02-12T21:55:45.933Z] Setting environment variable DYNAMO_TABLE_stories to stories
+[2022-02-12T21:55:45.967Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T21:55:45.967Z] Create table books...
+[2022-02-12T21:55:45.970Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T21:55:45.970Z] Create table stories...
+[2022-02-12T21:55:46.067Z] Created table books
+[2022-02-12T21:55:46.067Z] Created table stories
+[2022-02-12T21:57:31.810Z] Starting containers...
+[2022-02-12T21:57:31.811Z] Executing: docker pull amazon/dynamodb-local with options: undefined
+[2022-02-12T21:57:31.906Z] Using default tag: latest
+[2022-02-12T21:57:32.155Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T21:57:32.214Z] Command docker pull amazon/dynamodb-local exited with code 1
+[2022-02-12T21:57:32.233Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T21:57:32.235Z] Stopping container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4...
+[2022-02-12T21:57:32.235Z] Executing: docker container stop local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T21:57:33.740Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T21:57:33.768Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 stopped successfully
+[2022-02-12T21:57:33.768Z] Executing: docker container rm local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T21:57:34.102Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T21:57:34.158Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 removed successfully
+[2022-02-12T21:57:34.158Z] Starting container amazon/dynamodb-local (docker run -p 8000:8000 -v /Users/jappy/code/bobs-bedtime-stories/infrastructure/local/storage/dynamoDB:/home/dynamodblocal/data --name local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 amazon/dynamodb-local -jar DynamoDBLocal.jar -sharedDb -dbPath /home/dynamodblocal/data/)
+[2022-02-12T21:57:40.700Z] All Containers started successfully
+[2022-02-12T21:57:41.768Z] Create or update table books...
+[2022-02-12T21:57:41.768Z] Setting environment variable DYNAMO_TABLE_books to books
+[2022-02-12T21:57:41.770Z] Create or update table stories...
+[2022-02-12T21:57:41.770Z] Setting environment variable DYNAMO_TABLE_stories to stories
+[2022-02-12T21:57:41.809Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T21:57:41.810Z] Create table books...
+[2022-02-12T21:57:41.812Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T21:57:41.813Z] Create table stories...
+[2022-02-12T21:57:41.898Z] Created table stories
+[2022-02-12T21:57:41.898Z] Created table books
+[2022-02-12T22:02:30.620Z] Starting containers...
+[2022-02-12T22:02:30.621Z] Executing: docker pull amazon/dynamodb-local with options: undefined
+[2022-02-12T22:02:30.713Z] Using default tag: latest
+[2022-02-12T22:02:31.062Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T22:02:31.080Z] Command docker pull amazon/dynamodb-local exited with code 1
+[2022-02-12T22:02:31.080Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T22:02:31.081Z] Stopping container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4...
+[2022-02-12T22:02:31.081Z] Executing: docker container stop local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T22:02:32.661Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T22:02:32.714Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 stopped successfully
+[2022-02-12T22:02:32.726Z] Executing: docker container rm local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T22:02:33.078Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T22:02:33.133Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 removed successfully
+[2022-02-12T22:02:33.138Z] Starting container amazon/dynamodb-local (docker run -p 8000:8000 -v /Users/jappy/code/bobs-bedtime-stories/infrastructure/local/storage/dynamoDB:/home/dynamodblocal/data --name local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 amazon/dynamodb-local -jar DynamoDBLocal.jar -sharedDb -dbPath /home/dynamodblocal/data/)
+[2022-02-12T22:02:37.550Z] All Containers started successfully
+[2022-02-12T22:02:38.751Z] Create or update table books...
+[2022-02-12T22:02:38.751Z] Setting environment variable DYNAMO_TABLE_books to books
+[2022-02-12T22:02:38.752Z] Create or update table stories...
+[2022-02-12T22:02:38.752Z] Setting environment variable DYNAMO_TABLE_stories to stories
+[2022-02-12T22:02:38.777Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T22:02:38.778Z] Create table books...
+[2022-02-12T22:02:38.779Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T22:02:38.779Z] Create table stories...
+[2022-02-12T22:02:38.861Z] Created table books
+[2022-02-12T22:02:38.861Z] Created table stories
+[2022-02-12T22:05:16.598Z] Starting containers...
+[2022-02-12T22:05:16.600Z] Executing: docker pull amazon/dynamodb-local with options: undefined
+[2022-02-12T22:05:16.697Z] Using default tag: latest
+[2022-02-12T22:05:17.003Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T22:05:17.056Z] Command docker pull amazon/dynamodb-local exited with code 1
+[2022-02-12T22:05:17.056Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T22:05:17.057Z] Stopping container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4...
+[2022-02-12T22:05:17.057Z] Executing: docker container stop local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T22:05:18.524Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T22:05:18.562Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 stopped successfully
+[2022-02-12T22:05:18.563Z] Executing: docker container rm local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T22:05:18.913Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T22:05:18.972Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 removed successfully
+[2022-02-12T22:05:18.973Z] Starting container amazon/dynamodb-local (docker run -p 8000:8000 -v /Users/jappy/code/bobs-bedtime-stories/infrastructure/local/storage/dynamoDB:/home/dynamodblocal/data --name local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 amazon/dynamodb-local -jar DynamoDBLocal.jar -sharedDb -dbPath /home/dynamodblocal/data/)
+[2022-02-12T22:05:24.112Z] All Containers started successfully
+[2022-02-12T22:05:25.186Z] Create or update table books...
+[2022-02-12T22:05:25.186Z] Setting environment variable DYNAMO_TABLE_books to books
+[2022-02-12T22:05:25.189Z] Create or update table stories...
+[2022-02-12T22:05:25.189Z] Setting environment variable DYNAMO_TABLE_stories to stories
+[2022-02-12T22:05:25.219Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T22:05:25.219Z] Create table books...
+[2022-02-12T22:05:25.221Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T22:05:25.221Z] Create table stories...
+[2022-02-12T22:05:25.302Z] Created table books
+[2022-02-12T22:05:25.302Z] Created table stories
+[2022-02-12T22:07:11.449Z] Starting containers...
+[2022-02-12T22:07:11.450Z] Executing: docker pull amazon/dynamodb-local with options: undefined
+[2022-02-12T22:07:11.551Z] Using default tag: latest
+[2022-02-12T22:07:11.842Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T22:07:11.896Z] Command docker pull amazon/dynamodb-local exited with code 1
+[2022-02-12T22:07:11.896Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T22:07:11.897Z] Stopping container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4...
+[2022-02-12T22:07:11.897Z] Executing: docker container stop local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T22:07:13.172Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T22:07:13.229Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 stopped successfully
+[2022-02-12T22:07:13.229Z] Executing: docker container rm local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T22:07:13.495Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T22:07:13.551Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 removed successfully
+[2022-02-12T22:07:13.554Z] Starting container amazon/dynamodb-local (docker run -p 8000:8000 -v /Users/jappy/code/bobs-bedtime-stories/infrastructure/local/storage/dynamoDB:/home/dynamodblocal/data --name local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 amazon/dynamodb-local -jar DynamoDBLocal.jar -sharedDb -dbPath /home/dynamodblocal/data/)
+[2022-02-12T22:07:16.845Z] All Containers started successfully
+[2022-02-12T22:07:19.569Z] Create or update table books...
+[2022-02-12T22:07:19.569Z] Setting environment variable DYNAMO_TABLE_books to books
+[2022-02-12T22:07:19.570Z] Create or update table stories...
+[2022-02-12T22:07:19.570Z] Setting environment variable DYNAMO_TABLE_stories to stories
+[2022-02-12T22:07:19.592Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T22:07:19.593Z] Create table stories...
+[2022-02-12T22:07:19.595Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T22:07:19.595Z] Create table books...
+[2022-02-12T22:07:19.674Z] Created table books
+[2022-02-12T22:07:19.674Z] Created table stories
+[2022-02-12T22:08:55.003Z] Starting containers...
+[2022-02-12T22:08:55.003Z] Executing: docker pull amazon/dynamodb-local with options: undefined
+[2022-02-12T22:08:55.102Z] Using default tag: latest
+[2022-02-12T22:08:55.444Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T22:08:55.461Z] Command docker pull amazon/dynamodb-local exited with code 1
+[2022-02-12T22:08:55.462Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T22:08:55.462Z] Stopping container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4...
+[2022-02-12T22:08:55.462Z] Executing: docker container stop local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T22:08:56.802Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T22:08:56.834Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 stopped successfully
+[2022-02-12T22:08:56.835Z] Executing: docker container rm local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T22:08:57.142Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T22:08:57.196Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 removed successfully
+[2022-02-12T22:08:57.197Z] Starting container amazon/dynamodb-local (docker run -p 8000:8000 -v /Users/jappy/code/bobs-bedtime-stories/infrastructure/local/storage/dynamoDB:/home/dynamodblocal/data --name local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 amazon/dynamodb-local -jar DynamoDBLocal.jar -sharedDb -dbPath /home/dynamodblocal/data/)
+[2022-02-12T22:08:59.530Z] All Containers started successfully
+[2022-02-12T22:09:02.060Z] Create or update table books...
+[2022-02-12T22:09:02.060Z] Setting environment variable DYNAMO_TABLE_books to books
+[2022-02-12T22:09:02.061Z] Create or update table stories...
+[2022-02-12T22:09:02.061Z] Setting environment variable DYNAMO_TABLE_stories to stories
+[2022-02-12T22:09:02.082Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T22:09:02.082Z] Create table stories...
+[2022-02-12T22:09:02.084Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T22:09:02.085Z] Create table books...
+[2022-02-12T22:09:02.171Z] Created table stories
+[2022-02-12T22:09:02.171Z] Created table books
+[2022-02-12T22:10:58.159Z] Starting containers...
+[2022-02-12T22:10:58.160Z] Executing: docker pull amazon/dynamodb-local with options: undefined
+[2022-02-12T22:10:58.264Z] Using default tag: latest
+[2022-02-12T22:10:58.623Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T22:10:58.636Z] Command docker pull amazon/dynamodb-local exited with code 1
+[2022-02-12T22:10:58.636Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T22:10:58.637Z] Stopping container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4...
+[2022-02-12T22:10:58.637Z] Executing: docker container stop local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T22:11:00.273Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T22:11:00.290Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 stopped successfully
+[2022-02-12T22:11:00.290Z] Executing: docker container rm local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T22:11:00.661Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T22:11:00.713Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 removed successfully
+[2022-02-12T22:11:00.734Z] Starting container amazon/dynamodb-local (docker run -p 8000:8000 -v /Users/jappy/code/bobs-bedtime-stories/infrastructure/local/storage/dynamoDB:/home/dynamodblocal/data --name local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 amazon/dynamodb-local -jar DynamoDBLocal.jar -sharedDb -dbPath /home/dynamodblocal/data/)
+[2022-02-12T22:11:05.394Z] All Containers started successfully
+[2022-02-12T22:11:06.438Z] Create or update table books...
+[2022-02-12T22:11:06.438Z] Setting environment variable DYNAMO_TABLE_books to books
+[2022-02-12T22:11:06.440Z] Create or update table stories...
+[2022-02-12T22:11:06.440Z] Setting environment variable DYNAMO_TABLE_stories to stories
+[2022-02-12T22:11:06.452Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T22:11:06.452Z] Create table stories...
+[2022-02-12T22:11:06.454Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T22:11:06.455Z] Create table books...
+[2022-02-12T22:11:06.538Z] Created table books
+[2022-02-12T22:11:06.539Z] Created table stories
+[2022-02-12T22:13:48.963Z] Starting containers...
+[2022-02-12T22:13:48.964Z] Executing: docker pull amazon/dynamodb-local with options: undefined
+[2022-02-12T22:13:49.067Z] Using default tag: latest
+[2022-02-12T22:13:49.456Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T22:13:49.475Z] Command docker pull amazon/dynamodb-local exited with code 1
+[2022-02-12T22:13:49.476Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T22:13:49.476Z] Stopping container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4...
+[2022-02-12T22:13:49.476Z] Executing: docker container stop local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T22:13:50.953Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T22:13:50.983Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 stopped successfully
+[2022-02-12T22:13:51.000Z] Executing: docker container rm local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T22:13:51.278Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T22:13:51.331Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 removed successfully
+[2022-02-12T22:13:51.332Z] Starting container amazon/dynamodb-local (docker run -p 8000:8000 -v /Users/jappy/code/bobs-bedtime-stories/infrastructure/local/storage/dynamoDB:/home/dynamodblocal/data --name local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 amazon/dynamodb-local -jar DynamoDBLocal.jar -sharedDb -dbPath /home/dynamodblocal/data/)
+[2022-02-12T22:13:56.317Z] All Containers started successfully
+[2022-02-12T22:13:57.390Z] Create or update table books...
+[2022-02-12T22:13:57.390Z] Setting environment variable DYNAMO_TABLE_books to books
+[2022-02-12T22:13:57.391Z] Create or update table stories...
+[2022-02-12T22:13:57.391Z] Setting environment variable DYNAMO_TABLE_stories to stories
+[2022-02-12T22:13:57.425Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T22:13:57.425Z] Create table stories...
+[2022-02-12T22:13:57.427Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T22:13:57.427Z] Create table books...
+[2022-02-12T22:13:57.509Z] Created table stories
+[2022-02-12T22:13:57.510Z] Created table books
+[2022-02-12T22:17:24.693Z] Starting containers...
+[2022-02-12T22:17:24.695Z] Executing: docker pull amazon/dynamodb-local with options: undefined
+[2022-02-12T22:17:24.788Z] Using default tag: latest
+[2022-02-12T22:17:25.137Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T22:17:25.155Z] Command docker pull amazon/dynamodb-local exited with code 1
+[2022-02-12T22:17:25.156Z] Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
+[2022-02-12T22:17:25.156Z] Stopping container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4...
+[2022-02-12T22:17:25.156Z] Executing: docker container stop local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T22:17:25.268Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T22:17:25.283Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 stopped successfully
+[2022-02-12T22:17:25.283Z] Executing: docker container rm local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-12T22:17:25.580Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-12T22:17:25.600Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 removed successfully
+[2022-02-12T22:17:25.600Z] Starting container amazon/dynamodb-local (docker run -p 8000:8000 -v /Users/jappy/code/bobs-bedtime-stories/infrastructure/local/storage/dynamoDB:/home/dynamodblocal/data --name local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 amazon/dynamodb-local -jar DynamoDBLocal.jar -sharedDb -dbPath /home/dynamodblocal/data/)
+[2022-02-12T22:17:29.386Z] All Containers started successfully
+[2022-02-12T22:17:31.759Z] Create or update table books...
+[2022-02-12T22:17:31.759Z] Setting environment variable DYNAMO_TABLE_books to books
+[2022-02-12T22:17:31.760Z] Create or update table stories...
+[2022-02-12T22:17:31.760Z] Setting environment variable DYNAMO_TABLE_stories to stories
+[2022-02-12T22:17:31.780Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T22:17:31.781Z] Create table books...
+[2022-02-12T22:17:31.782Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-12T22:17:31.782Z] Create table stories...
+[2022-02-12T22:17:31.861Z] Created table books
+[2022-02-12T22:17:31.861Z] Created table stories
+[2022-02-13T11:04:02.487Z] Starting containers...
+[2022-02-13T11:04:02.500Z] Executing: docker pull amazon/dynamodb-local with options: undefined
+[2022-02-13T11:04:02.621Z] Using default tag: latest
+[2022-02-13T11:04:04.541Z] latest: Pulling from amazon/dynamodb-local
+[2022-02-13T11:04:04.879Z] Digest: sha256:07e740ad576acdcfdc48676f9a153a93a8e35436ea36942d4c14939caeca8851
+[2022-02-13T11:04:04.880Z] Status: Image is up to date for amazon/dynamodb-local:latest
+[2022-02-13T11:04:04.919Z] docker.io/amazon/dynamodb-local:latest
+[2022-02-13T11:04:04.936Z] Stopping container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4...
+[2022-02-13T11:04:04.936Z] Executing: docker container stop local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-13T11:04:05.056Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-13T11:04:05.088Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 stopped successfully
+[2022-02-13T11:04:05.105Z] Executing: docker container rm local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-13T11:04:05.356Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-13T11:04:05.379Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 removed successfully
+[2022-02-13T11:04:05.396Z] Starting container amazon/dynamodb-local (docker run -p 8000:8000 -v /Users/jappy/code/bobs-bedtime-stories/infrastructure/local/storage/dynamoDB:/home/dynamodblocal/data --name local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 amazon/dynamodb-local -jar DynamoDBLocal.jar -sharedDb -dbPath /home/dynamodblocal/data/)
+[2022-02-13T11:04:11.945Z] All Containers started successfully
+[2022-02-13T11:04:13.014Z] Create or update table books...
+[2022-02-13T11:04:13.015Z] Setting environment variable DYNAMO_TABLE_books to books
+[2022-02-13T11:04:13.016Z] Create or update table stories...
+[2022-02-13T11:04:13.016Z] Setting environment variable DYNAMO_TABLE_stories to stories
+[2022-02-13T11:04:13.058Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-13T11:04:13.058Z] Create table books...
+[2022-02-13T11:04:13.061Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-13T11:04:13.061Z] Create table stories...
+[2022-02-13T11:04:13.145Z] Created table stories
+[2022-02-13T11:04:13.145Z] Created table books
+[2022-02-13T12:36:00.209Z] Starting containers...
+[2022-02-13T12:36:00.210Z] Executing: docker pull amazon/dynamodb-local with options: undefined
+[2022-02-13T12:36:00.304Z] Using default tag: latest
+[2022-02-13T12:36:02.356Z] latest: Pulling from amazon/dynamodb-local
+[2022-02-13T12:36:02.512Z] Digest: sha256:07e740ad576acdcfdc48676f9a153a93a8e35436ea36942d4c14939caeca8851
+[2022-02-13T12:36:02.529Z] Status: Image is up to date for amazon/dynamodb-local:latest
+[2022-02-13T12:36:02.662Z] docker.io/amazon/dynamodb-local:latest
+[2022-02-13T12:36:02.736Z] Stopping container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4...
+[2022-02-13T12:36:02.736Z] Executing: docker container stop local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-13T12:36:02.937Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-13T12:36:02.954Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 stopped successfully
+[2022-02-13T12:36:02.954Z] Executing: docker container rm local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-13T12:36:03.145Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-13T12:36:03.177Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 removed successfully
+[2022-02-13T12:36:03.194Z] Starting container amazon/dynamodb-local (docker run -p 8000:8000 -v /Users/jappy/code/bobs-bedtime-stories/infrastructure/local/storage/dynamoDB:/home/dynamodblocal/data --name local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 amazon/dynamodb-local -jar DynamoDBLocal.jar -sharedDb -dbPath /home/dynamodblocal/data/)
+[2022-02-13T12:36:05.839Z] All Containers started successfully
+[2022-02-13T12:36:09.521Z] Create or update table books...
+[2022-02-13T12:36:09.521Z] Setting environment variable DYNAMO_TABLE_books to books
+[2022-02-13T12:36:09.522Z] Create or update table stories...
+[2022-02-13T12:36:09.522Z] Setting environment variable DYNAMO_TABLE_stories to stories
+[2022-02-13T12:36:09.544Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-13T12:36:09.544Z] Create table stories...
+[2022-02-13T12:36:09.547Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-13T12:36:09.547Z] Create table books...
+[2022-02-13T12:36:09.630Z] Created table books
+[2022-02-13T12:36:09.631Z] Created table stories
+[2022-02-13T12:47:33.893Z] Starting containers...
+[2022-02-13T12:47:33.895Z] Executing: docker pull amazon/dynamodb-local with options: undefined
+[2022-02-13T12:47:34.003Z] Using default tag: latest
+[2022-02-13T12:47:36.567Z] latest: Pulling from amazon/dynamodb-local
+[2022-02-13T12:47:37.033Z] Digest: sha256:07e740ad576acdcfdc48676f9a153a93a8e35436ea36942d4c14939caeca8851
+[2022-02-13T12:47:37.033Z] Status: Image is up to date for amazon/dynamodb-local:latest
+[2022-02-13T12:47:37.073Z] docker.io/amazon/dynamodb-local:latest
+[2022-02-13T12:47:37.088Z] Stopping container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4...
+[2022-02-13T12:47:37.088Z] Executing: docker container stop local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-13T12:47:37.194Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-13T12:47:37.211Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 stopped successfully
+[2022-02-13T12:47:37.212Z] Executing: docker container rm local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-13T12:47:37.478Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-13T12:47:37.503Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 removed successfully
+[2022-02-13T12:47:37.521Z] Starting container amazon/dynamodb-local (docker run -p 8000:8000 -v /Users/jappy/code/bobs-bedtime-stories/infrastructure/local/storage/dynamoDB:/home/dynamodblocal/data --name local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 amazon/dynamodb-local -jar DynamoDBLocal.jar -sharedDb -dbPath /home/dynamodblocal/data/)
+[2022-02-13T12:47:42.604Z] All Containers started successfully
+[2022-02-13T12:47:43.633Z] Create or update table books...
+[2022-02-13T12:47:43.633Z] Setting environment variable DYNAMO_TABLE_books to books
+[2022-02-13T12:47:43.635Z] Create or update table stories...
+[2022-02-13T12:47:43.635Z] Setting environment variable DYNAMO_TABLE_stories to stories
+[2022-02-13T12:47:43.656Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-13T12:47:43.656Z] Create table books...
+[2022-02-13T12:47:43.657Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-13T12:47:43.658Z] Create table stories...
+[2022-02-13T12:47:43.738Z] Created table books
+[2022-02-13T12:47:43.739Z] Created table stories
+[2022-02-13T12:49:54.262Z] Starting containers...
+[2022-02-13T12:49:54.281Z] Executing: docker pull amazon/dynamodb-local with options: undefined
+[2022-02-13T12:49:54.408Z] Using default tag: latest
+[2022-02-13T12:50:04.773Z] Starting containers...
+[2022-02-13T12:50:04.774Z] Executing: docker pull amazon/dynamodb-local with options: undefined
+[2022-02-13T12:50:04.870Z] Using default tag: latest
+[2022-02-13T12:50:06.983Z] latest: Pulling from amazon/dynamodb-local
+[2022-02-13T12:50:07.320Z] Digest: sha256:07e740ad576acdcfdc48676f9a153a93a8e35436ea36942d4c14939caeca8851
+[2022-02-13T12:50:07.320Z] Status: Image is up to date for amazon/dynamodb-local:latest
+[2022-02-13T12:50:07.362Z] docker.io/amazon/dynamodb-local:latest
+[2022-02-13T12:50:07.382Z] Stopping container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4...
+[2022-02-13T12:50:07.382Z] Executing: docker container stop local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-13T12:50:07.492Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-13T12:50:07.524Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 stopped successfully
+[2022-02-13T12:50:07.542Z] Executing: docker container rm local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 with options: undefined
+[2022-02-13T12:50:07.768Z] local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4
+[2022-02-13T12:50:07.803Z] Container local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 removed successfully
+[2022-02-13T12:50:07.803Z] Starting container amazon/dynamodb-local (docker run -p 8000:8000 -v /Users/jappy/code/bobs-bedtime-stories/infrastructure/local/storage/dynamoDB:/home/dynamodblocal/data --name local-stack-f3f1d1c1d348437993bae29018ddb70bd8273a3372157ccb90c9dd1430ecaab4 amazon/dynamodb-local -jar DynamoDBLocal.jar -sharedDb -dbPath /home/dynamodblocal/data/)
+[2022-02-13T12:50:10.964Z] All Containers started successfully
+[2022-02-13T12:50:14.250Z] Create or update table books...
+[2022-02-13T12:50:14.250Z] Setting environment variable DYNAMO_TABLE_books to books
+[2022-02-13T12:50:14.251Z] Create or update table stories...
+[2022-02-13T12:50:14.251Z] Setting environment variable DYNAMO_TABLE_stories to stories
+[2022-02-13T12:50:14.278Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-13T12:50:14.278Z] Create table stories...
+[2022-02-13T12:50:14.281Z] ResourceNotFoundException: Cannot do operations on a non-existent table
+[2022-02-13T12:50:14.281Z] Create table books...
+[2022-02-13T12:50:14.375Z] Created table books
+[2022-02-13T12:50:14.375Z] Created table stories

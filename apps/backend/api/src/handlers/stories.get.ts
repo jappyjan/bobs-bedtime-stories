@@ -1,17 +1,12 @@
-import {StoryModel} from '@bobs-bedtime-stories/dynamoose';
-import {bobify} from "../utils/bobified-handler";
+import {makeStoryModel} from '@bobs-bedtime-stories/dynamoose';
+import {wrapApiHandler} from '../utils/wrap-api-handler';
 
-export const handler = bobify(async (event: any) => {
+export const getStoriesOfBook = wrapApiHandler(async (event) => {
   const bookSlug = event.pathParameters.bookSlug as string;
 
-  const stories = await StoryModel.query()
+  return await makeStoryModel().query()
     .attribute('bookSlug')
     .eq(bookSlug)
     .all()
     .exec();
-
-  return {
-    statusCode: 200,
-    body: JSON.stringify(stories),
-  };
 });
