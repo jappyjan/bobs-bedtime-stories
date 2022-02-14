@@ -5,6 +5,7 @@ import styled from "styled-components";
 import {AddBookButton} from "./components/add-book-button";
 import {AudioRecorder} from "./components/audio-recorder";
 import {useHistory} from "react-router-dom";
+import {FileUpload} from "./components/file-upload";
 
 const RootContainer = styled.div`
   display: grid;
@@ -28,11 +29,12 @@ const StyledAddBookButton = styled(AddBookButton)`
   margin-left: 0.5rem;
 `;
 
-const StyledAudioRecorder = styled(AudioRecorder)`
+const MainContainer = styled.div`
   grid-row: 2;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 `;
 
 const StyledUploadSpinnerContainer = styled.div`
@@ -70,28 +72,41 @@ export function Recorder() {
     setSelectedBookSlug(selection)
   }, [setSelectedBookSlug]);
 
-  return (
-    <RootContainer>
-      {!isCreatingStory && <>
-        <BookSelectorContainer>
-          <BookSelector label="Welches Buch liest du?"
-                        value={selectedBookSlug}
-                        onSlChange={onBookSelectionChange}
-          >
-            {books.map((book) => (
-              <SlMenuItem key={book.slug} value={book.slug}>
-                {book.title}
-              </SlMenuItem>
-            ))}
-          </BookSelector>
-          <StyledAddBookButton onCreate={(createdBook) => setSelectedBookSlug(createdBook.slug)}/>
-        </BookSelectorContainer>
-        {selectedBookSlug && <StyledAudioRecorder onDone={createStory}/>}
-      </>}
-      {isCreatingStory && (
+  if (isCreatingStory) {
+    return (
+      <RootContainer>
         <StyledUploadSpinnerContainer>
           <SlSpinner style={{fontSize: '6rem'} as any}/>
         </StyledUploadSpinnerContainer>
+      </RootContainer>
+    )
+  }
+
+  const bookSelector = (
+    <BookSelectorContainer>
+      <BookSelector label="Welches Buch liest du?"
+                    value={selectedBookSlug}
+                    onSlChange={onBookSelectionChange}
+      >
+        {books.map((book) => (
+          <SlMenuItem key={book.slug} value={book.slug}>
+            {book.title}
+          </SlMenuItem>
+        ))}
+      </BookSelector>
+      <StyledAddBookButton onCreate={(createdBook) => setSelectedBookSlug(createdBook.slug)}/>
+    </BookSelectorContainer>
+  );
+
+  return (
+    <RootContainer>
+      {bookSelector}
+
+      {selectedBookSlug && (
+        <MainContainer>
+          <AudioRecorder onDone={createStory}/>
+          <FileUpload onFileUpload={createStory}/>
+        </MainContainer>
       )}
     </RootContainer>
   )
