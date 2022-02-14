@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>Bob's Bedtime Stories 🛌📖</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <script src="https://cdn.jsdelivr.net/npm/@swoop-password-free/swoop@1.1.3/dist/swoop.js"></script>
+
+    <script>
+      function setTheme(dark) {
+        if (dark) {
+          document.querySelector('html').classList.add('sl-theme-dark');
+        } else {
+          document.querySelector('html').classList.remove('sl-theme-dark');
+        }
+      }
+
+      let wantsDark = false;
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        wantsDark = true;
+      }
+      setTheme(wantsDark);
+
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+        const scheme = event.matches ? "dark" : "light";
+
+        setTheme(scheme === "dark");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  <script src="runtime.02bc8ce1434788f5.esm.js" type="module"></script><script src="polyfills.651f4b19a13ef749.esm.js" type="module"></script><script src="main.426c35bca06ac93e.esm.js" type="module"></script></body>
+</html>

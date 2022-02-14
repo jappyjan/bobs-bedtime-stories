@@ -1,15 +1,15 @@
-import { Route } from '@bobs-bedtime-stories/backend-api-rest';
-import { APIGatewayProxyEvent } from 'aws-lambda';
+import {Route} from '@bobs-bedtime-stories/backend-api-rest';
+import {APIGatewayProxyEventV2} from 'aws-lambda';
 import cors from 'cors';
-import express, { Express, Request, Response } from 'express';
-import { Server } from 'http';
-import { AddressInfo } from 'net';
-import { join } from 'path';
-import { ProjectLambdaConfig } from '../../../utils/infrastructure-config.types';
-import { workspaceRootDir } from '../../../utils/workspace-root-dir';
-import { LambdaBaseService } from './lambda-base.service';
-import { Env } from './utils/env';
-import { ServiceLogger } from './utils/service-logger';
+import express, {Express, Request, Response} from 'express';
+import {Server} from 'http';
+import {AddressInfo} from 'net';
+import {join} from 'path';
+import {ProjectLambdaConfig} from '../../../utils/infrastructure-config.types';
+import {workspaceRootDir} from '../../../utils/workspace-root-dir';
+import {LambdaBaseService} from './lambda-base.service';
+import {Env} from './utils/env';
+import {ServiceLogger} from './utils/service-logger';
 
 interface LambdaApiServiceParams {
   nxProjectName: string;
@@ -25,7 +25,7 @@ export class LambdaApiService extends LambdaBaseService {
   private static readonly services: Map<string, LambdaApiService> = new Map();
 
   constructor(params: LambdaApiServiceParams) {
-    const { nxProjectName, config, env, port } = params;
+    const {nxProjectName, config, env, port} = params;
 
     if (!config.dynamicRestApi) {
       throw new Error('No rest api configuration found');
@@ -134,7 +134,7 @@ export class LambdaApiService extends LambdaBaseService {
           return false;
         }
 
-        return { service, route: matchingRoute };
+        return {service, route: matchingRoute};
       })
       .find(Boolean);
 
@@ -143,7 +143,7 @@ export class LambdaApiService extends LambdaBaseService {
       return;
     }
 
-    const { service, route } = matchingLambda;
+    const {service, route} = matchingLambda;
 
     const event = await LambdaApiService.convertExpressRequestToApiGatewayEvent(
       req,
@@ -167,7 +167,7 @@ export class LambdaApiService extends LambdaBaseService {
   private static async convertExpressRequestToApiGatewayEvent(
     req: Request,
     routeDefinition: Route<unknown>
-  ): Promise<APIGatewayProxyEvent> {
+  ): Promise<APIGatewayProxyEventV2> {
     const mixedValueObjectToSingleValueObject = (
       value: Record<string, unknown> | Record<string, unknown[]>,
       shallBeMultiValue: boolean
@@ -210,29 +210,34 @@ export class LambdaApiService extends LambdaBaseService {
 
     return {
       isBase64Encoded: false,
-      path: req.path,
-      httpMethod: req.method.toUpperCase(),
-      headers: mixedValueObjectToSingleValueObject(
-        req.headers,
-        false
-      ) as APIGatewayProxyEvent['headers'],
-      multiValueHeaders: mixedValueObjectToSingleValueObject(
-        req.headers,
-        true
-      ) as APIGatewayProxyEvent['multiValueHeaders'],
+      rawPath: req.path,
+      headers: {
+        ...mixedValueObjectToSingleValueObject(
+          req.headers,
+          false
+        ),
+        ...mixedValueObjectToSingleValueObject(
+          req.headers,
+          true
+        )
+      } as APIGatewayProxyEventV2['headers'],
       body: rawBody,
       pathParameters,
-      queryStringParameters: mixedValueObjectToSingleValueObject(
-        req.query,
-        false
-      ) as APIGatewayProxyEvent['queryStringParameters'],
-      multiValueQueryStringParameters: mixedValueObjectToSingleValueObject(
-        req.query,
-        true
-      ) as APIGatewayProxyEvent['multiValueQueryStringParameters'],
-      resource: routeDefinition.path,
+      queryStringParameters: {
+        ...mixedValueObjectToSingleValueObject(
+          req.query,
+          false
+        ),
+        ...mixedValueObjectToSingleValueObject(
+          req.query,
+          true
+        )
+      } as APIGatewayProxyEventV2['queryStringParameters'],
+      routeKey: `${req.method.toUpperCase()} ${routeDefinition.path}`,
+      version: '2.0',
+      rawQueryString: req.url.split('?')[1],
       stageVariables: null,
-      requestContext: null as unknown as APIGatewayProxyEvent['requestContext'],
+      requestContext: null as unknown as APIGatewayProxyEventV2['requestContext'],
     };
   }
 

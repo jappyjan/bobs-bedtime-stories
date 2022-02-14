@@ -111,6 +111,37 @@
             },
             {
               "Action": [
+                "s3:GetObject*",
+                "s3:GetBucket*",
+                "s3:List*",
+                "s3:DeleteObject*",
+                "s3:PutObject",
+                "s3:PutObjectLegalHold",
+                "s3:PutObjectRetention",
+                "s3:PutObjectTagging",
+                "s3:PutObjectVersionTagging",
+                "s3:Abort*"
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Ref": "referencetoBackendS3NestedStackS3NestedStackResource0F879E2DOutputsBackendS3CDNBucket72166D65Arn"
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Ref": "referencetoBackendS3NestedStackS3NestedStackResource0F879E2DOutputsBackendS3CDNBucket72166D65Arn"
+                      },
+                      "/*"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "Action": [
                 "secretsmanager:GetSecretValue",
                 "secretsmanager:DescribeSecret"
               ],
@@ -153,7 +184,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "cdk-hnb659fds-assets-372838162452-eu-central-1",
-          "S3Key": "2c175ba33d9552232f79c3e370f1317aa597c437111e90f461e69e24ceb56908.zip"
+          "S3Key": "6289128e24569f9ff38a8e9327ab68e2fe6e04717ab470fd9dc7c0cea0c86c6c.zip"
         },
         "Role": {
           "Fn::GetAtt": [
@@ -201,7 +232,7 @@
       ],
       "Metadata": {
         "aws:cdk:path": "Backend/backend-api-Lambda/backend-api-Function/Resource",
-        "aws:asset:path": "asset.2c175ba33d9552232f79c3e370f1317aa597c437111e90f461e69e24ceb56908",
+        "aws:asset:path": "asset.6289128e24569f9ff38a8e9327ab68e2fe6e04717ab470fd9dc7c0cea0c86c6c",
         "aws:asset:is-bundled": false,
         "aws:asset:property": "Code"
       }
@@ -345,6 +376,9 @@
       "Type": "String"
     },
     "referencetoBackendDynamoNestedStackDynamoNestedStackResource6D09FF52OutputsBackendDynamostoriesTable0251692AArn": {
+      "Type": "String"
+    },
+    "referencetoBackendS3NestedStackS3NestedStackResource0F879E2DOutputsBackendS3CDNBucket72166D65Arn": {
       "Type": "String"
     },
     "referencetoBackendDynamoNestedStackDynamoNestedStackResource6D09FF52OutputsBackendDynamobooksTable7901496ARef": {

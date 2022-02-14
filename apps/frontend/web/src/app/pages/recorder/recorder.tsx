@@ -49,15 +49,14 @@ export function Recorder() {
   const [selectedBookSlug, setSelectedBookSlug] = useState<string>('');
   const [isCreatingStory, setIsCreatingStory] = useState<boolean>(false);
 
-  const createStory = useCallback(async (audioBlob: Blob) => {
+  const createStory = useCallback(async (audioFile: Blob) => {
     try {
-      console.log('isCreatingStory', isCreatingStory);
       setIsCreatingStory(true);
       const story = await addStory({
         bookSlug: selectedBookSlug,
-        audioBlob,
+        audioFile,
       });
-      history.push(`/stories?book=${selectedBookSlug}&episode=${story.episode}`);
+      history.push(`/?book=${selectedBookSlug}&episode=${story.episode}`);
     } catch (e) {
       alert((e as Error).message);
       console.error(e);
@@ -68,7 +67,6 @@ export function Recorder() {
 
   const onBookSelectionChange = useCallback((event: Event) => {
     const selection = (event.target as HTMLInputElement).value;
-    console.log(event, selection);
     setSelectedBookSlug(selection)
   }, [setSelectedBookSlug]);
 

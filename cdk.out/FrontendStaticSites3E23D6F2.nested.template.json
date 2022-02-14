@@ -438,7 +438,7 @@
           "cdk-hnb659fds-assets-372838162452-eu-central-1"
         ],
         "SourceObjectKeys": [
-          "e8cceb0c086b398c36894f3fbd6df0d6b7e4a9c7e2befef3bee6bb602d6c41f1.zip"
+          "2f950b69109541a3341a67cecd4c7de7f83eeed370fbf064fb1e0f6e2a01ee9b.zip"
         ],
         "DestinationBucketName": {
           "Ref": "StaticSiteBucketfrontendwebBA18C615"

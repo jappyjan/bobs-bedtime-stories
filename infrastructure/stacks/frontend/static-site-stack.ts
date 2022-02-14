@@ -76,7 +76,7 @@ export default class StaticSiteStack extends NestedStack {
 
     let buildCommand = buildCommandOverwrite as string;
     if (!buildCommandOverwrite) {
-      buildCommand = `nx build ${projectName}`;
+      buildCommand = `nx build ${projectName} --skip-nx-cache`;
 
       if (buildConfiguration) {
         buildCommand += ` --configuration ${buildConfiguration}`;

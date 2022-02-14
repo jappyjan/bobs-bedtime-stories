@@ -3,11 +3,12 @@ import {
   SlButton,
   SlButtonGroup,
   SlDrawer,
-  SlIcon,
+  SlIcon, SlProgressBar,
   SlRange,
 } from "@shoelace-style/shoelace/dist/react";
 import styled from "styled-components";
 import {useCallback} from "react";
+import {formatSeconds} from "../../../utils/time";
 
 const Header = styled.div`
   display: flex;
@@ -69,14 +70,6 @@ export function Player() {
     player.seekTo(Number(eventValue));
   }, [player]);
 
-  const formatSeconds = useCallback((currentSeconds: number) => {
-    const fullMinutes = Math.floor(currentSeconds / 60);
-    const remainingSeconds = Math.floor(currentSeconds - (fullMinutes * 60));
-    const fullHours = Math.floor(fullMinutes / 60);
-    const remainingMinutes = fullMinutes - (fullHours * 60);
-    return `${fullHours}:${remainingMinutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
-  }, []);
-
   const seekBackward = useCallback(() => {
     let newSeekPosition = player.seekPosition - 10;
     if (newSeekPosition < 0) {
@@ -86,13 +79,10 @@ export function Player() {
   }, [player]);
 
   const seekForward = useCallback(() => {
-    console.log('seek forward');
     let newSeekPosition = player.seekPosition + 10;
-    console.log('newSeekPosition', newSeekPosition);
-    if (newSeekPosition > (player?.audio?.duration ?? 0)) {
-      newSeekPosition = player?.audio?.duration ?? 0;
+    if (newSeekPosition > (player?.audioLength ?? 0)) {
+      newSeekPosition = player?.audioLength ?? 0;
     }
-    console.log('capped newSeekPosition', newSeekPosition);
     player.seekTo(newSeekPosition);
   }, [player]);
 
@@ -110,39 +100,45 @@ export function Player() {
             <NowPlayingEpisodeTitle>Episode {player.nowPlaying.episode}</NowPlayingEpisodeTitle>
           </NowPlayingTitle>
 
-          <PlayerControlButtons>
-            <ActionButton name="-10Sek." onClick={seekBackward}>
-              <SlIcon name="skip-backward"/>
-            </ActionButton>
-            {player.state === 'paused' && (
-              <ActionButton name="play" onClick={() => player.play()}>
-                <SlIcon name="play"/>
+          {!player.isLoading && (
+            <PlayerControlButtons>
+              <ActionButton name="-10Sek." onClick={seekBackward}>
+                <SlIcon name="skip-backward"/>
               </ActionButton>
-            )}
-            {player.state === 'playing' && (
-              <ActionButton name="pause" onClick={() => player.pause()}>
-                <SlIcon name="pause"/>
+              {player.state === 'paused' && (
+                <ActionButton name="play" onClick={() => player.play()}>
+                  <SlIcon name="play"/>
+                </ActionButton>
+              )}
+              {player.state === 'playing' && (
+                <ActionButton name="pause" onClick={() => player.pause()}>
+                  <SlIcon name="pause"/>
+                </ActionButton>
+              )}
+              <ActionButton name="+10Sek." onClick={seekForward}>
+                <SlIcon name="skip-forward"/>
               </ActionButton>
-            )}
-            <ActionButton name="+10Sek." onClick={seekForward}>
-              <SlIcon name="skip-forward"/>
-            </ActionButton>
-          </PlayerControlButtons>
+            </PlayerControlButtons>
+          )}
         </Header>
 
-        <SeekBarContainer>
-          <SeekbarCurrentTime>{formatSeconds(player.seekPosition)}</SeekbarCurrentTime>
-          <SeekBar value={player.seekPosition}
-                   onSlChange={handleSeekbarChange}
-                   max={player?.audio?.duration ?? 0}
-                   min={0}
-                   step={1}
-                   tooltipFormatter={formatSeconds}
-          />
-          <SeekbarRemainingTime>
-            {formatSeconds((player?.audio?.duration ?? 0) - player.seekPosition)}
-          </SeekbarRemainingTime>
-        </SeekBarContainer>
+        {player.isLoading ? (
+          <SlProgressBar indeterminate />
+        ) : (
+          <SeekBarContainer>
+            <SeekbarCurrentTime>{formatSeconds(player.seekPosition)}</SeekbarCurrentTime>
+            <SeekBar value={player.seekPosition}
+                     onSlChange={handleSeekbarChange}
+                     max={player?.audioLength ?? 0}
+                     min={0}
+                     step={1}
+                     tooltipFormatter={formatSeconds}
+            />
+            <SeekbarRemainingTime>
+              {formatSeconds((player?.audioLength ?? 0) - player.seekPosition)}
+            </SeekbarRemainingTime>
+          </SeekBarContainer>
+        )}
       </>)}
     </SlDrawer>
   )

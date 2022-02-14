@@ -1,4 +1,4 @@
 export const environment = {
-  apiEndpoint: 'http://localhost:1996',
-  cdnEndpoint: 'http://localhost:3001',
+  apiEndpoint: process.env["NX_API"] || 'http://localhost:1996',
+  cdnEndpoint: process.env["NX_CDN"] || 'http://localhost:1709/cdn',
 };

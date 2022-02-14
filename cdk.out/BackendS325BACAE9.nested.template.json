@@ -88,6 +88,14 @@
         ]
       }
     },
+    "BackendS3CDNBucket72166D65Arn": {
+      "Value": {
+        "Fn::GetAtt": [
+          "CDNBucketEE4B79C2",
+          "Arn"
+        ]
+      }
+    },
     "BackendS3CDNBucket72166D65Ref": {
       "Value": {
         "Ref": "CDNBucketEE4B79C2"

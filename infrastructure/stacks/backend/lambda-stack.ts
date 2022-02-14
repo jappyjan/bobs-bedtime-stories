@@ -123,7 +123,7 @@ export default class LambdaStack extends NestedStack {
   private async buildProject() {
     const {buildCommandOverwrite, buildConfiguration} = this.config;
 
-    let buildCommand = `nx build ${this.projectName}`;
+    let buildCommand = `nx build ${this.projectName} --skip-nx-cache`;
     if (buildConfiguration) {
       buildCommand += ` --configuration ${buildConfiguration}`;
     }

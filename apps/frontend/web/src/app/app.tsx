@@ -7,12 +7,13 @@ import {Player} from "./components/player/player";
 import {usePlayer} from "../state/player.state";
 import {useEffect} from "react";
 import {AuthWall} from "./components/auth-wall/auth-wall";
+import {AppUpdateBanner} from "./components/service-worker/app-update-banner";
 
 const StyledApp = styled.div`
   min-height: 100vh;
   min-width: 100vw;
   display: grid;
-  grid-template-rows: auto 3rem;
+  grid-template-rows: auto 5rem;
   grid-template-columns: auto;
 `;
 
@@ -29,7 +30,8 @@ export function App() {
 
   useEffect(() => {
     player.init();
-  }, []);
+  }, [player.init]);
+
 
   return (
     <StyledApp>
@@ -39,6 +41,7 @@ export function App() {
           <Route path='/' exact component={Stories}/>
           <Route path='/record' exact component={Recorder}/>
           <Player/>
+          <AppUpdateBanner />
         </StyledMainContent>
       </AuthWall>
     </StyledApp>

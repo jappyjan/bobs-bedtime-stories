@@ -39,6 +39,7 @@
     "@types/react-dom": "17.0.9",
     "@types/react-is": "17.0.2",
     "@types/react-router-dom": "5.3.1",
+    "@types/recordrtc": "^5.6.8",
     "@types/slug": "^5.0.3",
     "@types/styled-components": "5.1.15",
     "@typescript-eslint/eslint-plugin": "~5.10.0",
@@ -62,11 +63,13 @@
     "serverless-bundle": "^5.2.0",
     "serverless-offline": "^8.3.1",
     "ts-jest": "27.0.5",
-    "typescript": "~4.5.2"
+    "typescript": "~4.5.2",
+    "workbox-webpack-plugin": "^6.4.2"
   },
   "dependencies": {
     "@aws-cdk/aws-apigatewayv2-integrations": "^1.144.0",
     "@shoelace-style/shoelace": "^2.0.0-beta.64",
+    "@types/webrtc": "^0.0.31",
     "aws-lambda": "^1.0.7",
     "aws-sdk": "^2.1073.0",
     "core-js": "^3.6.5",
@@ -83,14 +86,20 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-is": "17.0.2",
-    "react-media-recorder": "^1.6.3",
     "react-router-dom": "5.3.0",
+    "recordrtc": "^5.6.2",
     "regenerator-runtime": "0.13.7",
     "serverless-dynamodb-local": "^0.2.40",
     "slug": "^5.2.0",
     "string-to-color": "^2.2.2",
     "styled-components": "5.3.3",
     "tslib": "^2.0.0",
+    "workbox-cacheable-response": "^6.4.2",
+    "workbox-expiration": "^6.4.2",
+    "workbox-precaching": "^6.4.2",
+    "workbox-routing": "^6.4.2",
+    "workbox-strategies": "^6.4.2",
+    "workbox-window": "^6.4.2",
     "zustand": "^3.7.0"
   }
 }

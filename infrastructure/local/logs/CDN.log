@@ -1,57 +1,1129 @@
-[2022-02-12T21:50:45.955Z] Starting CDN Server...
-[2022-02-12T21:50:45.956Z] CDN available at http://localhost:1709
-[2022-02-12T21:51:41.690Z] Stopping CDN server...
-[2022-02-12T21:51:41.690Z] Stopping lambda@edge processes...
-[2022-02-12T21:55:45.937Z] Starting CDN Server...
-[2022-02-12T21:55:45.938Z] CDN available at http://localhost:1709
-[2022-02-12T21:56:15.870Z] Stopping CDN server...
-[2022-02-12T21:56:15.870Z] Stopping lambda@edge processes...
-[2022-02-12T21:57:41.777Z] Starting CDN Server...
-[2022-02-12T21:57:41.778Z] CDN available at http://localhost:1709
-[2022-02-12T21:59:05.161Z] Stopping CDN server...
-[2022-02-12T21:59:05.162Z] Stopping lambda@edge processes...
-[2022-02-12T22:02:38.755Z] Starting CDN Server...
-[2022-02-12T22:02:38.756Z] CDN available at http://localhost:1709
-[2022-02-12T22:03:12.370Z] Stopping CDN server...
-[2022-02-12T22:03:12.371Z] Stopping lambda@edge processes...
-[2022-02-12T22:05:25.193Z] Starting CDN Server...
-[2022-02-12T22:05:25.195Z] CDN available at http://localhost:1709
-[2022-02-12T22:06:20.818Z] Stopping CDN server...
-[2022-02-12T22:06:20.818Z] Stopping lambda@edge processes...
-[2022-02-12T22:07:19.573Z] Starting CDN Server...
-[2022-02-12T22:07:19.574Z] CDN available at http://localhost:1709
-[2022-02-12T22:08:04.806Z] Stopping CDN server...
-[2022-02-12T22:08:04.806Z] Stopping lambda@edge processes...
-[2022-02-12T22:09:02.064Z] Starting CDN Server...
-[2022-02-12T22:09:02.065Z] CDN available at http://localhost:1709
-[2022-02-12T22:09:24.317Z] Stopping CDN server...
-[2022-02-12T22:09:24.317Z] Stopping lambda@edge processes...
-[2022-02-12T22:11:06.443Z] Starting CDN Server...
-[2022-02-12T22:11:06.444Z] CDN available at http://localhost:1709
-[2022-02-12T22:11:44.509Z] Stopping CDN server...
-[2022-02-12T22:11:44.510Z] Stopping lambda@edge processes...
-[2022-02-12T22:13:57.394Z] Starting CDN Server...
-[2022-02-12T22:13:57.395Z] CDN available at http://localhost:1709
-[2022-02-12T22:17:22.695Z] Stopping CDN server...
-[2022-02-12T22:17:22.696Z] Stopping lambda@edge processes...
-[2022-02-12T22:17:31.763Z] Starting CDN Server...
-[2022-02-12T22:17:31.764Z] CDN available at http://localhost:1709
-[2022-02-13T11:04:01.052Z] Stopping CDN server...
-[2022-02-13T11:04:01.053Z] Stopping lambda@edge processes...
-[2022-02-13T11:04:13.020Z] Starting CDN Server...
-[2022-02-13T11:04:13.022Z] CDN available at http://localhost:1709
-[2022-02-13T12:35:58.080Z] Stopping CDN server...
-[2022-02-13T12:35:58.081Z] Stopping lambda@edge processes...
-[2022-02-13T12:36:09.525Z] Starting CDN Server...
-[2022-02-13T12:36:09.526Z] CDN available at http://localhost:1709
-[2022-02-13T12:47:32.022Z] Stopping CDN server...
-[2022-02-13T12:47:32.022Z] Stopping lambda@edge processes...
-[2022-02-13T12:47:43.638Z] Starting CDN Server...
-[2022-02-13T12:47:43.638Z] CDN available at http://localhost:1709
-[2022-02-13T12:49:52.816Z] Stopping CDN server...
-[2022-02-13T12:49:52.816Z] Stopping lambda@edge processes...
-[2022-02-13T12:49:54.705Z] Stopping lambda@edge processes...
-[2022-02-13T12:50:14.255Z] Starting CDN Server...
-[2022-02-13T12:50:14.256Z] CDN available at http://localhost:1709
-[2022-02-13T18:00:46.876Z] Stopping CDN server...
-[2022-02-13T18:00:46.877Z] Stopping lambda@edge processes...
+[2022-02-14T12:30:22.381Z] Adding CDN cdn at path: /cdn
+[2022-02-14T12:30:22.381Z] Starting CDN Server...
+[2022-02-14T12:30:22.382Z] CDN available at http://localhost:1709
+[2022-02-14T12:30:36.650Z] incoming request: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:30:36.651Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:30:36.669Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T12:30:36.669Z] executing edge lambdas...
+[2022-02-14T12:30:36.669Z] all edge lambdas executed successfully
+[2022-02-14T12:30:36.671Z] response sent successfully
+[2022-02-14T12:30:39.102Z] incoming request: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:30:39.103Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:30:39.123Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T12:30:39.124Z] executing edge lambdas...
+[2022-02-14T12:30:39.124Z] all edge lambdas executed successfully
+[2022-02-14T12:30:39.125Z] response sent successfully
+[2022-02-14T12:30:39.694Z] incoming request: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:30:39.694Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:30:39.703Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T12:30:39.703Z] executing edge lambdas...
+[2022-02-14T12:30:39.703Z] all edge lambdas executed successfully
+[2022-02-14T12:30:39.704Z] response sent successfully
+[2022-02-14T12:30:46.227Z] incoming request: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:30:46.229Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:30:46.246Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T12:30:46.246Z] executing edge lambdas...
+[2022-02-14T12:30:46.247Z] all edge lambdas executed successfully
+[2022-02-14T12:30:46.248Z] response sent successfully
+[2022-02-14T12:31:16.182Z] incoming request: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:31:16.182Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:31:16.194Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T12:31:16.195Z] executing edge lambdas...
+[2022-02-14T12:31:16.195Z] all edge lambdas executed successfully
+[2022-02-14T12:31:16.195Z] response sent successfully
+[2022-02-14T12:31:17.670Z] incoming request: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:31:17.670Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:31:17.679Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T12:31:17.680Z] executing edge lambdas...
+[2022-02-14T12:31:17.680Z] all edge lambdas executed successfully
+[2022-02-14T12:31:17.680Z] response sent successfully
+[2022-02-14T12:32:30.348Z] incoming request: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:32:30.349Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:32:30.364Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T12:32:30.364Z] executing edge lambdas...
+[2022-02-14T12:32:30.364Z] all edge lambdas executed successfully
+[2022-02-14T12:32:30.365Z] response sent successfully
+[2022-02-14T12:32:32.789Z] incoming request: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:32:32.790Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:32:32.798Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T12:32:32.798Z] executing edge lambdas...
+[2022-02-14T12:32:32.798Z] all edge lambdas executed successfully
+[2022-02-14T12:32:32.798Z] response sent successfully
+[2022-02-14T12:32:49.576Z] incoming request: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:32:49.576Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:32:49.583Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T12:32:49.584Z] executing edge lambdas...
+[2022-02-14T12:32:49.584Z] all edge lambdas executed successfully
+[2022-02-14T12:32:49.584Z] response sent successfully
+[2022-02-14T12:32:54.838Z] incoming request: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:32:54.838Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:32:54.846Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T12:32:54.846Z] executing edge lambdas...
+[2022-02-14T12:32:54.846Z] all edge lambdas executed successfully
+[2022-02-14T12:32:54.846Z] response sent successfully
+[2022-02-14T12:33:06.117Z] incoming request: /books/mein-buch/stories/1/audio/Q6Jt2
+[2022-02-14T12:33:06.118Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/1/audio/Q6Jt2
+[2022-02-14T12:33:06.146Z] s3 object found, content type is: audio/wav
+[2022-02-14T12:33:06.146Z] executing edge lambdas...
+[2022-02-14T12:33:06.147Z] all edge lambdas executed successfully
+[2022-02-14T12:33:06.147Z] response sent successfully
+[2022-02-14T12:48:32.307Z] incoming request: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:48:32.308Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:48:32.318Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T12:48:32.318Z] executing edge lambdas...
+[2022-02-14T12:48:32.318Z] all edge lambdas executed successfully
+[2022-02-14T12:48:32.319Z] response sent successfully
+[2022-02-14T12:48:36.209Z] incoming request: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:48:36.209Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/1/audio/aRo6B
+[2022-02-14T12:48:36.215Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T12:48:36.216Z] executing edge lambdas...
+[2022-02-14T12:48:36.216Z] all edge lambdas executed successfully
+[2022-02-14T12:48:36.216Z] response sent successfully
+[2022-02-14T12:48:47.567Z] incoming request: /books/mein-buch/stories/1/audio/Q6Jt2
+[2022-02-14T12:48:47.567Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/1/audio/Q6Jt2
+[2022-02-14T12:48:47.590Z] s3 object found, content type is: audio/wav
+[2022-02-14T12:48:47.592Z] executing edge lambdas...
+[2022-02-14T12:48:47.593Z] all edge lambdas executed successfully
+[2022-02-14T12:48:47.594Z] response sent successfully
+[2022-02-14T12:49:15.031Z] incoming request: /books/mein-buch/stories/2/audio/AV1fY
+[2022-02-14T12:49:15.032Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/2/audio/AV1fY
+[2022-02-14T12:49:15.083Z] s3 object found, content type is: audio/wav
+[2022-02-14T12:49:15.084Z] executing edge lambdas...
+[2022-02-14T12:49:15.084Z] all edge lambdas executed successfully
+[2022-02-14T12:49:15.085Z] response sent successfully
+[2022-02-14T12:51:44.052Z] incoming request: /books/mein-buch/stories/2/audio/AV1fY
+[2022-02-14T12:51:44.054Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/2/audio/AV1fY
+[2022-02-14T12:51:44.090Z] s3 object found, content type is: audio/wav
+[2022-02-14T12:51:44.091Z] executing edge lambdas...
+[2022-02-14T12:51:44.091Z] all edge lambdas executed successfully
+[2022-02-14T12:51:44.091Z] response sent successfully
+[2022-02-14T12:53:00.848Z] incoming request: /books/mein-buch/stories/2/audio/AV1fY
+[2022-02-14T12:53:00.848Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/2/audio/AV1fY
+[2022-02-14T12:53:00.877Z] s3 object found, content type is: audio/wav
+[2022-02-14T12:53:00.877Z] executing edge lambdas...
+[2022-02-14T12:53:00.878Z] all edge lambdas executed successfully
+[2022-02-14T12:53:00.878Z] response sent successfully
+[2022-02-14T12:55:31.768Z] incoming request: /books/mein-buch/stories/2/audio/AV1fY
+[2022-02-14T12:55:31.768Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/2/audio/AV1fY
+[2022-02-14T12:55:31.782Z] s3 object found, content type is: audio/wav
+[2022-02-14T12:55:31.782Z] executing edge lambdas...
+[2022-02-14T12:55:31.783Z] all edge lambdas executed successfully
+[2022-02-14T12:55:31.783Z] response sent successfully
+[2022-02-14T12:55:50.631Z] incoming request: /books/mein-buch/stories/1/audio/Q6Jt2
+[2022-02-14T12:55:50.631Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/1/audio/Q6Jt2
+[2022-02-14T12:55:50.664Z] s3 object found, content type is: audio/wav
+[2022-02-14T12:55:50.664Z] executing edge lambdas...
+[2022-02-14T12:55:50.664Z] all edge lambdas executed successfully
+[2022-02-14T12:55:50.665Z] response sent successfully
+[2022-02-14T12:56:46.541Z] incoming request: /books/mein-buch/stories/2/audio/AV1fY
+[2022-02-14T12:56:46.541Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/2/audio/AV1fY
+[2022-02-14T12:56:46.551Z] s3 object found, content type is: audio/wav
+[2022-02-14T12:56:46.552Z] executing edge lambdas...
+[2022-02-14T12:56:46.552Z] all edge lambdas executed successfully
+[2022-02-14T12:56:46.553Z] response sent successfully
+[2022-02-14T12:57:09.668Z] incoming request: /books/mein-buch/stories/1/audio/Q6Jt2
+[2022-02-14T12:57:09.669Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/1/audio/Q6Jt2
+[2022-02-14T12:57:09.691Z] s3 object found, content type is: audio/wav
+[2022-02-14T12:57:09.692Z] executing edge lambdas...
+[2022-02-14T12:57:09.693Z] all edge lambdas executed successfully
+[2022-02-14T12:57:09.694Z] response sent successfully
+[2022-02-14T12:57:30.588Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T12:57:30.589Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T12:57:30.624Z] s3 object found, content type is: audio/wav
+[2022-02-14T12:57:30.625Z] executing edge lambdas...
+[2022-02-14T12:57:30.626Z] all edge lambdas executed successfully
+[2022-02-14T12:57:30.626Z] response sent successfully
+[2022-02-14T12:57:40.406Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T12:57:40.407Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T12:57:40.432Z] s3 object found, content type is: audio/wav
+[2022-02-14T12:57:40.432Z] executing edge lambdas...
+[2022-02-14T12:57:40.432Z] all edge lambdas executed successfully
+[2022-02-14T12:57:40.432Z] response sent successfully
+[2022-02-14T12:58:46.874Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T12:58:46.874Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T12:58:46.900Z] s3 object found, content type is: audio/wav
+[2022-02-14T12:58:46.901Z] executing edge lambdas...
+[2022-02-14T12:58:46.901Z] all edge lambdas executed successfully
+[2022-02-14T12:58:46.901Z] response sent successfully
+[2022-02-14T13:00:10.798Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T13:00:10.798Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T13:00:10.812Z] s3 object found, content type is: audio/wav
+[2022-02-14T13:00:10.812Z] executing edge lambdas...
+[2022-02-14T13:00:10.813Z] all edge lambdas executed successfully
+[2022-02-14T13:00:10.813Z] response sent successfully
+[2022-02-14T13:00:51.616Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T13:00:51.617Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T13:00:51.628Z] s3 object found, content type is: audio/wav
+[2022-02-14T13:00:51.628Z] executing edge lambdas...
+[2022-02-14T13:00:51.628Z] all edge lambdas executed successfully
+[2022-02-14T13:00:51.629Z] response sent successfully
+[2022-02-14T13:01:15.457Z] incoming request: /books/mein-buch/stories/2/audio/AV1fY
+[2022-02-14T13:01:15.458Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/2/audio/AV1fY
+[2022-02-14T13:01:15.475Z] s3 object found, content type is: audio/wav
+[2022-02-14T13:01:15.475Z] executing edge lambdas...
+[2022-02-14T13:01:15.475Z] all edge lambdas executed successfully
+[2022-02-14T13:01:15.476Z] response sent successfully
+[2022-02-14T13:01:45.728Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T13:01:45.729Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T13:01:45.773Z] s3 object found, content type is: audio/wav
+[2022-02-14T13:01:45.773Z] executing edge lambdas...
+[2022-02-14T13:01:45.773Z] all edge lambdas executed successfully
+[2022-02-14T13:01:45.774Z] response sent successfully
+[2022-02-14T13:01:51.373Z] incoming request: /books/mein-buch/stories/1/audio/Q6Jt2
+[2022-02-14T13:01:51.374Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/1/audio/Q6Jt2
+[2022-02-14T13:01:51.397Z] s3 object found, content type is: audio/wav
+[2022-02-14T13:01:51.400Z] executing edge lambdas...
+[2022-02-14T13:01:51.401Z] all edge lambdas executed successfully
+[2022-02-14T13:01:51.402Z] response sent successfully
+[2022-02-14T13:13:13.510Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T13:13:13.511Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T13:13:13.538Z] s3 object found, content type is: audio/wav
+[2022-02-14T13:13:13.538Z] executing edge lambdas...
+[2022-02-14T13:13:13.538Z] all edge lambdas executed successfully
+[2022-02-14T13:13:13.538Z] response sent successfully
+[2022-02-14T13:14:40.688Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T13:14:40.689Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T13:14:40.712Z] s3 object found, content type is: audio/wav
+[2022-02-14T13:14:40.713Z] executing edge lambdas...
+[2022-02-14T13:14:40.713Z] all edge lambdas executed successfully
+[2022-02-14T13:14:40.713Z] response sent successfully
+[2022-02-14T15:25:17.413Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:25:17.414Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:25:17.431Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:25:17.431Z] executing edge lambdas...
+[2022-02-14T15:25:17.431Z] all edge lambdas executed successfully
+[2022-02-14T15:25:17.432Z] response sent successfully
+[2022-02-14T15:35:22.667Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:35:22.668Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:35:22.685Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:35:22.685Z] executing edge lambdas...
+[2022-02-14T15:35:22.686Z] all edge lambdas executed successfully
+[2022-02-14T15:35:22.686Z] response sent successfully
+[2022-02-14T15:37:02.039Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:37:02.039Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:37:02.073Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:37:02.073Z] executing edge lambdas...
+[2022-02-14T15:37:02.073Z] all edge lambdas executed successfully
+[2022-02-14T15:37:02.073Z] response sent successfully
+[2022-02-14T15:37:12.119Z] incoming request: /books/mein-buch/stories/2/audio/AV1fY
+[2022-02-14T15:37:12.120Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/2/audio/AV1fY
+[2022-02-14T15:37:12.169Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:37:12.170Z] executing edge lambdas...
+[2022-02-14T15:37:12.170Z] all edge lambdas executed successfully
+[2022-02-14T15:37:12.171Z] response sent successfully
+[2022-02-14T15:37:17.950Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:37:17.951Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:37:17.975Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:37:17.975Z] executing edge lambdas...
+[2022-02-14T15:37:17.975Z] all edge lambdas executed successfully
+[2022-02-14T15:37:17.976Z] response sent successfully
+[2022-02-14T15:54:14.224Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:14.224Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:14.240Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:14.240Z] executing edge lambdas...
+[2022-02-14T15:54:14.240Z] all edge lambdas executed successfully
+[2022-02-14T15:54:14.240Z] response sent successfully
+[2022-02-14T15:54:14.951Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:14.952Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:14.965Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:14.965Z] executing edge lambdas...
+[2022-02-14T15:54:14.965Z] all edge lambdas executed successfully
+[2022-02-14T15:54:14.966Z] response sent successfully
+[2022-02-14T15:54:15.432Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:15.432Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:15.446Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:15.447Z] executing edge lambdas...
+[2022-02-14T15:54:15.447Z] all edge lambdas executed successfully
+[2022-02-14T15:54:15.449Z] response sent successfully
+[2022-02-14T15:54:15.699Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:15.699Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:15.708Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:15.708Z] executing edge lambdas...
+[2022-02-14T15:54:15.708Z] all edge lambdas executed successfully
+[2022-02-14T15:54:15.709Z] response sent successfully
+[2022-02-14T15:54:16.236Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:16.236Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:16.253Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:16.253Z] executing edge lambdas...
+[2022-02-14T15:54:16.253Z] all edge lambdas executed successfully
+[2022-02-14T15:54:16.253Z] response sent successfully
+[2022-02-14T15:54:16.415Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:16.415Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:16.421Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:16.421Z] executing edge lambdas...
+[2022-02-14T15:54:16.421Z] all edge lambdas executed successfully
+[2022-02-14T15:54:16.422Z] response sent successfully
+[2022-02-14T15:54:17.085Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:17.085Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:17.119Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:17.120Z] executing edge lambdas...
+[2022-02-14T15:54:17.120Z] all edge lambdas executed successfully
+[2022-02-14T15:54:17.120Z] response sent successfully
+[2022-02-14T15:54:17.340Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:17.341Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:17.352Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:17.352Z] executing edge lambdas...
+[2022-02-14T15:54:17.353Z] all edge lambdas executed successfully
+[2022-02-14T15:54:17.353Z] response sent successfully
+[2022-02-14T15:54:17.511Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:17.511Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:17.520Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:17.520Z] executing edge lambdas...
+[2022-02-14T15:54:17.520Z] all edge lambdas executed successfully
+[2022-02-14T15:54:17.521Z] response sent successfully
+[2022-02-14T15:54:17.700Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:17.700Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:17.713Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:17.713Z] executing edge lambdas...
+[2022-02-14T15:54:17.713Z] all edge lambdas executed successfully
+[2022-02-14T15:54:17.713Z] response sent successfully
+[2022-02-14T15:54:17.891Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:17.891Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:17.897Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:17.897Z] executing edge lambdas...
+[2022-02-14T15:54:17.897Z] all edge lambdas executed successfully
+[2022-02-14T15:54:17.897Z] response sent successfully
+[2022-02-14T15:54:18.064Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:18.065Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:18.086Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:18.086Z] executing edge lambdas...
+[2022-02-14T15:54:18.086Z] all edge lambdas executed successfully
+[2022-02-14T15:54:18.087Z] response sent successfully
+[2022-02-14T15:54:19.200Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:19.201Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:19.212Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:19.212Z] executing edge lambdas...
+[2022-02-14T15:54:19.212Z] all edge lambdas executed successfully
+[2022-02-14T15:54:19.212Z] response sent successfully
+[2022-02-14T15:54:20.019Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:20.020Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:20.041Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:20.041Z] executing edge lambdas...
+[2022-02-14T15:54:20.042Z] all edge lambdas executed successfully
+[2022-02-14T15:54:20.042Z] response sent successfully
+[2022-02-14T15:54:20.371Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:20.371Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:20.393Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:20.393Z] executing edge lambdas...
+[2022-02-14T15:54:20.393Z] all edge lambdas executed successfully
+[2022-02-14T15:54:20.393Z] response sent successfully
+[2022-02-14T15:54:22.286Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:22.286Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:22.312Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:22.312Z] executing edge lambdas...
+[2022-02-14T15:54:22.312Z] all edge lambdas executed successfully
+[2022-02-14T15:54:22.312Z] response sent successfully
+[2022-02-14T15:54:23.117Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:23.118Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:23.146Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:23.146Z] executing edge lambdas...
+[2022-02-14T15:54:23.146Z] all edge lambdas executed successfully
+[2022-02-14T15:54:23.146Z] response sent successfully
+[2022-02-14T15:54:24.107Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:24.107Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:24.132Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:24.132Z] executing edge lambdas...
+[2022-02-14T15:54:24.132Z] all edge lambdas executed successfully
+[2022-02-14T15:54:24.133Z] response sent successfully
+[2022-02-14T15:54:25.224Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:25.224Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:25.248Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:25.249Z] executing edge lambdas...
+[2022-02-14T15:54:25.249Z] all edge lambdas executed successfully
+[2022-02-14T15:54:25.249Z] response sent successfully
+[2022-02-14T15:54:25.503Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:25.503Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:25.512Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:25.513Z] executing edge lambdas...
+[2022-02-14T15:54:25.513Z] all edge lambdas executed successfully
+[2022-02-14T15:54:25.513Z] response sent successfully
+[2022-02-14T15:54:25.857Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:25.857Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:25.870Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:25.870Z] executing edge lambdas...
+[2022-02-14T15:54:25.870Z] all edge lambdas executed successfully
+[2022-02-14T15:54:25.870Z] response sent successfully
+[2022-02-14T15:54:26.428Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:26.428Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:26.438Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:26.438Z] executing edge lambdas...
+[2022-02-14T15:54:26.439Z] all edge lambdas executed successfully
+[2022-02-14T15:54:26.439Z] response sent successfully
+[2022-02-14T15:54:26.927Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:26.927Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:26.939Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:26.939Z] executing edge lambdas...
+[2022-02-14T15:54:26.939Z] all edge lambdas executed successfully
+[2022-02-14T15:54:26.939Z] response sent successfully
+[2022-02-14T15:54:27.695Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:27.695Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:27.736Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:27.737Z] executing edge lambdas...
+[2022-02-14T15:54:27.737Z] all edge lambdas executed successfully
+[2022-02-14T15:54:27.737Z] response sent successfully
+[2022-02-14T15:54:28.143Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:28.143Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:28.154Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:28.154Z] executing edge lambdas...
+[2022-02-14T15:54:28.154Z] all edge lambdas executed successfully
+[2022-02-14T15:54:28.154Z] response sent successfully
+[2022-02-14T15:54:28.732Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:28.732Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:28.747Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:28.747Z] executing edge lambdas...
+[2022-02-14T15:54:28.747Z] all edge lambdas executed successfully
+[2022-02-14T15:54:28.748Z] response sent successfully
+[2022-02-14T15:54:28.931Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:28.932Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:28.944Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:28.944Z] executing edge lambdas...
+[2022-02-14T15:54:28.944Z] all edge lambdas executed successfully
+[2022-02-14T15:54:28.945Z] response sent successfully
+[2022-02-14T15:54:30.058Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:30.059Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:30.088Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:30.088Z] executing edge lambdas...
+[2022-02-14T15:54:30.088Z] all edge lambdas executed successfully
+[2022-02-14T15:54:30.089Z] response sent successfully
+[2022-02-14T15:54:30.425Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:30.425Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:30.437Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:30.438Z] executing edge lambdas...
+[2022-02-14T15:54:30.438Z] all edge lambdas executed successfully
+[2022-02-14T15:54:30.438Z] response sent successfully
+[2022-02-14T15:54:30.639Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:30.639Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:30.658Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:30.658Z] executing edge lambdas...
+[2022-02-14T15:54:30.658Z] all edge lambdas executed successfully
+[2022-02-14T15:54:30.658Z] response sent successfully
+[2022-02-14T15:54:32.835Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:32.836Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:32.860Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:32.860Z] executing edge lambdas...
+[2022-02-14T15:54:32.860Z] all edge lambdas executed successfully
+[2022-02-14T15:54:32.861Z] response sent successfully
+[2022-02-14T15:54:33.109Z] incoming request: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:33.109Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/3/audio/f5aun
+[2022-02-14T15:54:33.118Z] s3 object found, content type is: audio/wav
+[2022-02-14T15:54:33.118Z] executing edge lambdas...
+[2022-02-14T15:54:33.118Z] all edge lambdas executed successfully
+[2022-02-14T15:54:33.119Z] response sent successfully
+[2022-02-14T16:06:52.852Z] Stopping CDN server...
+[2022-02-14T16:25:38.680Z] Adding CDN cdn at path: /cdn
+[2022-02-14T16:25:38.680Z] Starting CDN Server...
+[2022-02-14T16:25:38.681Z] CDN available at http://localhost:1709
+[2022-02-14T16:40:45.165Z] incoming request: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:40:45.166Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:40:45.178Z] s3 object found, content type is: audio/webm
+[2022-02-14T16:40:45.178Z] executing edge lambdas...
+[2022-02-14T16:40:45.178Z] all edge lambdas executed successfully
+[2022-02-14T16:40:45.178Z] response sent successfully
+[2022-02-14T16:41:13.180Z] Stopping CDN server...
+[2022-02-14T16:55:16.653Z] Adding CDN cdn at path: /cdn
+[2022-02-14T16:55:16.653Z] Starting CDN Server...
+[2022-02-14T16:55:16.654Z] CDN available at http://localhost:1709
+[2022-02-14T16:56:56.478Z] incoming request: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:56.478Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:56.488Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T16:56:56.489Z] executing edge lambdas...
+[2022-02-14T16:56:56.491Z] all edge lambdas executed successfully
+[2022-02-14T16:56:56.492Z] response sent successfully
+[2022-02-14T16:56:56.739Z] incoming request: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:56.739Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:56.754Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T16:56:56.754Z] executing edge lambdas...
+[2022-02-14T16:56:56.754Z] all edge lambdas executed successfully
+[2022-02-14T16:56:56.755Z] response sent successfully
+[2022-02-14T16:56:57.000Z] incoming request: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:57.001Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:57.011Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T16:56:57.011Z] executing edge lambdas...
+[2022-02-14T16:56:57.011Z] all edge lambdas executed successfully
+[2022-02-14T16:56:57.011Z] response sent successfully
+[2022-02-14T16:56:57.466Z] incoming request: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:57.466Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:57.473Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T16:56:57.473Z] executing edge lambdas...
+[2022-02-14T16:56:57.474Z] all edge lambdas executed successfully
+[2022-02-14T16:56:57.474Z] response sent successfully
+[2022-02-14T16:56:57.750Z] incoming request: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:57.750Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:57.761Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T16:56:57.761Z] executing edge lambdas...
+[2022-02-14T16:56:57.762Z] all edge lambdas executed successfully
+[2022-02-14T16:56:57.762Z] response sent successfully
+[2022-02-14T16:56:57.932Z] incoming request: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:57.933Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:57.942Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T16:56:57.942Z] executing edge lambdas...
+[2022-02-14T16:56:57.942Z] all edge lambdas executed successfully
+[2022-02-14T16:56:57.943Z] response sent successfully
+[2022-02-14T16:56:58.107Z] incoming request: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:58.107Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:58.114Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T16:56:58.114Z] executing edge lambdas...
+[2022-02-14T16:56:58.114Z] all edge lambdas executed successfully
+[2022-02-14T16:56:58.114Z] response sent successfully
+[2022-02-14T16:56:58.273Z] incoming request: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:58.273Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:58.279Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T16:56:58.280Z] executing edge lambdas...
+[2022-02-14T16:56:58.280Z] all edge lambdas executed successfully
+[2022-02-14T16:56:58.280Z] response sent successfully
+[2022-02-14T16:56:58.447Z] incoming request: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:58.447Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:58.453Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T16:56:58.453Z] executing edge lambdas...
+[2022-02-14T16:56:58.453Z] all edge lambdas executed successfully
+[2022-02-14T16:56:58.453Z] response sent successfully
+[2022-02-14T16:56:58.616Z] incoming request: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:58.617Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:58.623Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T16:56:58.623Z] executing edge lambdas...
+[2022-02-14T16:56:58.623Z] all edge lambdas executed successfully
+[2022-02-14T16:56:58.623Z] response sent successfully
+[2022-02-14T16:56:58.785Z] incoming request: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:58.785Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/6/audio/ucLjE
+[2022-02-14T16:56:58.791Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T16:56:58.791Z] executing edge lambdas...
+[2022-02-14T16:56:58.791Z] all edge lambdas executed successfully
+[2022-02-14T16:56:58.792Z] response sent successfully
+[2022-02-14T17:00:04.038Z] incoming request: /books/mein-buch/stories/2/audio/G3gMH
+[2022-02-14T17:00:04.038Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/2/audio/G3gMH
+[2022-02-14T17:00:04.057Z] s3 object found, content type is: audio/webm
+[2022-02-14T17:00:04.057Z] executing edge lambdas...
+[2022-02-14T17:00:04.058Z] all edge lambdas executed successfully
+[2022-02-14T17:00:04.058Z] response sent successfully
+[2022-02-14T17:01:41.269Z] incoming request: /books/mein-buch/stories/2/audio/G3gMH
+[2022-02-14T17:01:41.269Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/2/audio/G3gMH
+[2022-02-14T17:01:41.278Z] s3 object found, content type is: audio/webm
+[2022-02-14T17:01:41.278Z] executing edge lambdas...
+[2022-02-14T17:01:41.278Z] all edge lambdas executed successfully
+[2022-02-14T17:01:41.278Z] response sent successfully
+[2022-02-14T17:01:43.345Z] incoming request: /books/mein-buch/stories/2/audio/G3gMH
+[2022-02-14T17:01:43.346Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/2/audio/G3gMH
+[2022-02-14T17:01:43.353Z] s3 object found, content type is: audio/webm
+[2022-02-14T17:01:43.353Z] executing edge lambdas...
+[2022-02-14T17:01:43.353Z] all edge lambdas executed successfully
+[2022-02-14T17:01:43.353Z] response sent successfully
+[2022-02-14T17:02:33.416Z] Stopping CDN server...
+[2022-02-14T17:03:20.582Z] Adding CDN cdn at path: /cdn
+[2022-02-14T17:03:20.582Z] Starting CDN Server...
+[2022-02-14T17:03:20.583Z] CDN available at http://localhost:1709
+[2022-02-14T17:03:55.907Z] incoming request: /books/mein-buch/stories/2/audio/G3gMH
+[2022-02-14T17:03:55.907Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/2/audio/G3gMH
+[2022-02-14T17:03:55.922Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T17:03:55.922Z] executing edge lambdas...
+[2022-02-14T17:03:55.922Z] all edge lambdas executed successfully
+[2022-02-14T17:03:55.923Z] response sent successfully
+[2022-02-14T17:04:02.821Z] incoming request: /books/mein-buch/stories/2/audio/G3gMH
+[2022-02-14T17:04:02.822Z] processing request for cdn /cdn, s3 key is: /books/mein-buch/stories/2/audio/G3gMH
+[2022-02-14T17:04:02.829Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T17:04:02.829Z] executing edge lambdas...
+[2022-02-14T17:04:02.829Z] all edge lambdas executed successfully
+[2022-02-14T17:04:02.829Z] response sent successfully
+[2022-02-14T17:09:56.998Z] incoming request: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:09:56.998Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:09:57.042Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:09:57.043Z] executing edge lambdas...
+[2022-02-14T17:09:57.043Z] all edge lambdas executed successfully
+[2022-02-14T17:09:57.045Z] response sent successfully
+[2022-02-14T17:11:21.494Z] incoming request: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:11:21.495Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:11:21.512Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:11:21.524Z] executing edge lambdas...
+[2022-02-14T17:11:21.525Z] all edge lambdas executed successfully
+[2022-02-14T17:11:21.526Z] response sent successfully
+[2022-02-14T17:11:31.551Z] incoming request: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:11:31.552Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:11:31.579Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:11:31.580Z] executing edge lambdas...
+[2022-02-14T17:11:31.580Z] all edge lambdas executed successfully
+[2022-02-14T17:11:31.581Z] response sent successfully
+[2022-02-14T17:11:41.666Z] incoming request: /books/meins/stories/4/audio/05d-E
+[2022-02-14T17:11:41.666Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/4/audio/05d-E
+[2022-02-14T17:11:41.688Z] s3 object found, content type is: audio/webm
+[2022-02-14T17:11:41.689Z] executing edge lambdas...
+[2022-02-14T17:11:41.689Z] all edge lambdas executed successfully
+[2022-02-14T17:11:41.691Z] response sent successfully
+[2022-02-14T17:11:44.866Z] incoming request: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:11:44.866Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:11:44.885Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:11:44.886Z] executing edge lambdas...
+[2022-02-14T17:11:44.886Z] all edge lambdas executed successfully
+[2022-02-14T17:11:44.887Z] response sent successfully
+[2022-02-14T17:12:34.277Z] incoming request: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:12:34.278Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:12:34.316Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:12:34.316Z] executing edge lambdas...
+[2022-02-14T17:12:34.316Z] all edge lambdas executed successfully
+[2022-02-14T17:12:34.317Z] response sent successfully
+[2022-02-14T17:12:38.040Z] incoming request: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:12:38.040Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:12:38.080Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:12:38.081Z] executing edge lambdas...
+[2022-02-14T17:12:38.081Z] all edge lambdas executed successfully
+[2022-02-14T17:12:38.081Z] response sent successfully
+[2022-02-14T17:16:01.935Z] incoming request: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:16:01.936Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:16:01.978Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:16:01.980Z] executing edge lambdas...
+[2022-02-14T17:16:01.980Z] all edge lambdas executed successfully
+[2022-02-14T17:16:01.983Z] response sent successfully
+[2022-02-14T17:16:32.602Z] incoming request: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:16:32.602Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:16:32.632Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:16:32.633Z] executing edge lambdas...
+[2022-02-14T17:16:32.633Z] all edge lambdas executed successfully
+[2022-02-14T17:16:32.634Z] response sent successfully
+[2022-02-14T17:17:09.594Z] incoming request: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:17:09.594Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:17:09.620Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:17:09.620Z] executing edge lambdas...
+[2022-02-14T17:17:09.620Z] all edge lambdas executed successfully
+[2022-02-14T17:17:09.621Z] response sent successfully
+[2022-02-14T17:17:09.643Z] incoming request: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:17:09.643Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:17:09.660Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:17:09.660Z] executing edge lambdas...
+[2022-02-14T17:17:09.661Z] all edge lambdas executed successfully
+[2022-02-14T17:17:09.661Z] response sent successfully
+[2022-02-14T17:17:15.523Z] incoming request: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:17:15.537Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:17:15.569Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:17:15.569Z] executing edge lambdas...
+[2022-02-14T17:17:15.569Z] all edge lambdas executed successfully
+[2022-02-14T17:17:15.570Z] response sent successfully
+[2022-02-14T17:17:35.716Z] incoming request: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:17:35.716Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:17:35.775Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:17:35.775Z] executing edge lambdas...
+[2022-02-14T17:17:35.775Z] all edge lambdas executed successfully
+[2022-02-14T17:17:35.776Z] response sent successfully
+[2022-02-14T17:18:34.982Z] incoming request: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:18:34.982Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:18:35.008Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:18:35.008Z] executing edge lambdas...
+[2022-02-14T17:18:35.010Z] all edge lambdas executed successfully
+[2022-02-14T17:18:35.010Z] response sent successfully
+[2022-02-14T17:18:35.095Z] incoming request: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:18:35.095Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:18:35.111Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:18:35.111Z] executing edge lambdas...
+[2022-02-14T17:18:35.111Z] all edge lambdas executed successfully
+[2022-02-14T17:18:35.111Z] response sent successfully
+[2022-02-14T17:19:09.100Z] incoming request: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:19:09.101Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:19:09.139Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:19:09.139Z] executing edge lambdas...
+[2022-02-14T17:19:09.140Z] all edge lambdas executed successfully
+[2022-02-14T17:19:09.140Z] response sent successfully
+[2022-02-14T17:19:41.927Z] incoming request: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:19:41.927Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:19:41.959Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:19:41.959Z] executing edge lambdas...
+[2022-02-14T17:19:41.959Z] all edge lambdas executed successfully
+[2022-02-14T17:19:41.960Z] response sent successfully
+[2022-02-14T17:19:44.296Z] incoming request: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:19:44.297Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:19:44.333Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:19:44.333Z] executing edge lambdas...
+[2022-02-14T17:19:44.333Z] all edge lambdas executed successfully
+[2022-02-14T17:19:44.333Z] response sent successfully
+[2022-02-14T17:20:23.225Z] incoming request: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:20:23.225Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:20:23.252Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:20:23.254Z] executing edge lambdas...
+[2022-02-14T17:20:23.254Z] all edge lambdas executed successfully
+[2022-02-14T17:20:23.254Z] response sent successfully
+[2022-02-14T17:20:27.656Z] incoming request: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:20:27.656Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/6/audio/Lpx-e
+[2022-02-14T17:20:27.700Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:20:27.700Z] executing edge lambdas...
+[2022-02-14T17:20:27.700Z] all edge lambdas executed successfully
+[2022-02-14T17:20:27.700Z] response sent successfully
+[2022-02-14T17:20:43.515Z] incoming request: /books/meins/stories/8/audio/ia0m1
+[2022-02-14T17:20:43.516Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/8/audio/ia0m1
+[2022-02-14T17:20:43.540Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:20:43.541Z] executing edge lambdas...
+[2022-02-14T17:20:43.541Z] all edge lambdas executed successfully
+[2022-02-14T17:20:43.542Z] response sent successfully
+[2022-02-14T17:22:00.970Z] incoming request: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:22:00.970Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/5/audio/4nH_e
+[2022-02-14T17:22:00.981Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:22:00.981Z] executing edge lambdas...
+[2022-02-14T17:22:00.981Z] all edge lambdas executed successfully
+[2022-02-14T17:22:00.981Z] response sent successfully
+[2022-02-14T17:22:01.283Z] incoming request: /books/meins/stories/8/audio/ia0m1
+[2022-02-14T17:22:01.284Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/8/audio/ia0m1
+[2022-02-14T17:22:01.305Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:22:01.305Z] executing edge lambdas...
+[2022-02-14T17:22:01.305Z] all edge lambdas executed successfully
+[2022-02-14T17:22:01.306Z] response sent successfully
+[2022-02-14T17:22:05.941Z] incoming request: /books/meins/stories/8/audio/ia0m1
+[2022-02-14T17:22:05.942Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/8/audio/ia0m1
+[2022-02-14T17:22:05.967Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:22:05.967Z] executing edge lambdas...
+[2022-02-14T17:22:05.967Z] all edge lambdas executed successfully
+[2022-02-14T17:22:05.968Z] response sent successfully
+[2022-02-14T17:50:16.682Z] incoming request: /books/meins/stories/9/audio/jC8J-
+[2022-02-14T17:50:16.683Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/9/audio/jC8J-
+[2022-02-14T17:50:16.719Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:50:16.730Z] executing edge lambdas...
+[2022-02-14T17:50:16.730Z] all edge lambdas executed successfully
+[2022-02-14T17:50:16.732Z] response sent successfully
+[2022-02-14T17:50:29.345Z] incoming request: /books/meins/stories/8/audio/ia0m1
+[2022-02-14T17:50:29.345Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/8/audio/ia0m1
+[2022-02-14T17:50:29.411Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:50:29.411Z] executing edge lambdas...
+[2022-02-14T17:50:29.411Z] all edge lambdas executed successfully
+[2022-02-14T17:50:29.411Z] response sent successfully
+[2022-02-14T17:50:34.557Z] incoming request: /books/meins/stories/9/audio/jC8J-
+[2022-02-14T17:50:34.563Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/9/audio/jC8J-
+[2022-02-14T17:50:34.610Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:50:34.610Z] executing edge lambdas...
+[2022-02-14T17:50:34.610Z] all edge lambdas executed successfully
+[2022-02-14T17:50:34.611Z] response sent successfully
+[2022-02-14T17:51:01.156Z] incoming request: /books/meins/stories/10/audio/CUXbB
+[2022-02-14T17:51:01.157Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/10/audio/CUXbB
+[2022-02-14T17:51:01.208Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:51:01.208Z] executing edge lambdas...
+[2022-02-14T17:51:01.208Z] all edge lambdas executed successfully
+[2022-02-14T17:51:01.208Z] response sent successfully
+[2022-02-14T17:51:40.246Z] incoming request: /books/meins/stories/9/audio/jC8J-
+[2022-02-14T17:51:40.246Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/9/audio/jC8J-
+[2022-02-14T17:51:40.261Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:51:40.261Z] executing edge lambdas...
+[2022-02-14T17:51:40.261Z] all edge lambdas executed successfully
+[2022-02-14T17:51:40.261Z] response sent successfully
+[2022-02-14T17:51:40.650Z] incoming request: /books/meins/stories/10/audio/CUXbB
+[2022-02-14T17:51:40.651Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/10/audio/CUXbB
+[2022-02-14T17:51:40.674Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:51:40.675Z] executing edge lambdas...
+[2022-02-14T17:51:40.675Z] all edge lambdas executed successfully
+[2022-02-14T17:51:40.675Z] response sent successfully
+[2022-02-14T17:51:44.215Z] incoming request: /books/meins/stories/10/audio/CUXbB
+[2022-02-14T17:51:44.215Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/10/audio/CUXbB
+[2022-02-14T17:51:44.262Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:51:44.262Z] executing edge lambdas...
+[2022-02-14T17:51:44.262Z] all edge lambdas executed successfully
+[2022-02-14T17:51:44.262Z] response sent successfully
+[2022-02-14T17:52:04.957Z] incoming request: /books/meins/stories/11/audio/FzLEI
+[2022-02-14T17:52:04.957Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/11/audio/FzLEI
+[2022-02-14T17:52:04.993Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:52:04.993Z] executing edge lambdas...
+[2022-02-14T17:52:04.994Z] all edge lambdas executed successfully
+[2022-02-14T17:52:04.995Z] response sent successfully
+[2022-02-14T17:52:37.333Z] incoming request: /books/meins/stories/9/audio/jC8J-
+[2022-02-14T17:52:37.334Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/9/audio/jC8J-
+[2022-02-14T17:52:37.364Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:52:37.364Z] executing edge lambdas...
+[2022-02-14T17:52:37.364Z] all edge lambdas executed successfully
+[2022-02-14T17:52:37.365Z] response sent successfully
+[2022-02-14T17:52:37.701Z] incoming request: /books/meins/stories/11/audio/FzLEI
+[2022-02-14T17:52:37.701Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/11/audio/FzLEI
+[2022-02-14T17:52:37.748Z] s3 object found, content type is: application/octet-stream
+[2022-02-14T17:52:37.748Z] executing edge lambdas...
+[2022-02-14T17:52:37.748Z] all edge lambdas executed successfully
+[2022-02-14T17:52:37.749Z] response sent successfully
+[2022-02-14T17:53:29.546Z] Stopping CDN server...
+[2022-02-14T17:53:40.140Z] Adding CDN cdn at path: /cdn
+[2022-02-14T17:53:40.140Z] Starting CDN Server...
+[2022-02-14T17:53:40.141Z] CDN available at http://localhost:1709
+[2022-02-14T17:53:49.513Z] incoming request: /books/meins/stories/11/audio/FzLEI
+[2022-02-14T17:53:49.513Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/11/audio/FzLEI
+[2022-02-14T17:53:49.523Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T17:53:49.524Z] executing edge lambdas...
+[2022-02-14T17:53:49.524Z] all edge lambdas executed successfully
+[2022-02-14T17:53:49.525Z] response sent successfully
+[2022-02-14T17:54:48.289Z] incoming request: /books/meins/stories/11/audio/FzLEI
+[2022-02-14T17:54:48.289Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/11/audio/FzLEI
+[2022-02-14T17:54:48.309Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T17:54:48.310Z] executing edge lambdas...
+[2022-02-14T17:54:48.310Z] all edge lambdas executed successfully
+[2022-02-14T17:54:48.312Z] response sent successfully
+[2022-02-14T17:56:04.807Z] incoming request: /books/deins/stories/1/audio/d8ntp
+[2022-02-14T17:56:04.808Z] processing request for cdn /cdn, s3 key is: /books/deins/stories/1/audio/d8ntp
+[2022-02-14T17:56:04.852Z] s3 object found, content type is: audio/webm
+[2022-02-14T17:56:04.852Z] executing edge lambdas...
+[2022-02-14T17:56:04.853Z] all edge lambdas executed successfully
+[2022-02-14T17:56:04.860Z] response sent successfully
+[2022-02-14T17:56:20.579Z] incoming request: /books/deins/stories/1/audio/d8ntp
+[2022-02-14T17:56:20.580Z] processing request for cdn /cdn, s3 key is: /books/deins/stories/1/audio/d8ntp
+[2022-02-14T17:56:20.618Z] s3 object found, content type is: audio/webm
+[2022-02-14T17:56:20.619Z] executing edge lambdas...
+[2022-02-14T17:56:20.620Z] all edge lambdas executed successfully
+[2022-02-14T17:56:20.620Z] response sent successfully
+[2022-02-14T17:56:30.874Z] incoming request: /books/deins/stories/1/audio/d8ntp
+[2022-02-14T17:56:30.874Z] processing request for cdn /cdn, s3 key is: /books/deins/stories/1/audio/d8ntp
+[2022-02-14T17:56:30.907Z] s3 object found, content type is: audio/webm
+[2022-02-14T17:56:30.907Z] executing edge lambdas...
+[2022-02-14T17:56:30.907Z] all edge lambdas executed successfully
+[2022-02-14T17:56:30.908Z] response sent successfully
+[2022-02-14T17:56:31.042Z] incoming request: /books/meins/stories/9/audio/jC8J-
+[2022-02-14T17:56:31.042Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/9/audio/jC8J-
+[2022-02-14T17:56:31.051Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T17:56:31.051Z] executing edge lambdas...
+[2022-02-14T17:56:31.051Z] all edge lambdas executed successfully
+[2022-02-14T17:56:31.051Z] response sent successfully
+[2022-02-14T17:56:53.209Z] incoming request: /books/deins/stories/2/audio/mEgH3
+[2022-02-14T17:56:53.211Z] processing request for cdn /cdn, s3 key is: /books/deins/stories/2/audio/mEgH3
+[2022-02-14T17:56:53.225Z] s3 object found, content type is: audio/webm
+[2022-02-14T17:56:53.236Z] executing edge lambdas...
+[2022-02-14T17:56:53.241Z] all edge lambdas executed successfully
+[2022-02-14T17:56:53.243Z] response sent successfully
+[2022-02-14T17:57:55.877Z] incoming request: /books/deins/stories/2/audio/mEgH3
+[2022-02-14T17:57:55.877Z] processing request for cdn /cdn, s3 key is: /books/deins/stories/2/audio/mEgH3
+[2022-02-14T17:57:55.894Z] s3 object found, content type is: audio/webm
+[2022-02-14T17:57:55.894Z] executing edge lambdas...
+[2022-02-14T17:57:55.894Z] all edge lambdas executed successfully
+[2022-02-14T17:57:55.895Z] response sent successfully
+[2022-02-14T18:00:13.654Z] incoming request: /books/meins/stories/9/audio/jC8J-
+[2022-02-14T18:00:13.654Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/9/audio/jC8J-
+[2022-02-14T18:00:13.659Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:00:13.659Z] executing edge lambdas...
+[2022-02-14T18:00:13.659Z] all edge lambdas executed successfully
+[2022-02-14T18:00:13.660Z] response sent successfully
+[2022-02-14T18:00:14.164Z] incoming request: /books/deins/stories/2/audio/mEgH3
+[2022-02-14T18:00:14.164Z] processing request for cdn /cdn, s3 key is: /books/deins/stories/2/audio/mEgH3
+[2022-02-14T18:00:14.210Z] s3 object found, content type is: audio/webm
+[2022-02-14T18:00:14.225Z] executing edge lambdas...
+[2022-02-14T18:00:14.225Z] all edge lambdas executed successfully
+[2022-02-14T18:00:14.226Z] response sent successfully
+[2022-02-14T18:00:17.056Z] incoming request: /books/deins/stories/2/audio/mEgH3
+[2022-02-14T18:00:17.057Z] processing request for cdn /cdn, s3 key is: /books/deins/stories/2/audio/mEgH3
+[2022-02-14T18:00:17.093Z] s3 object found, content type is: audio/webm
+[2022-02-14T18:00:17.093Z] executing edge lambdas...
+[2022-02-14T18:00:17.094Z] all edge lambdas executed successfully
+[2022-02-14T18:00:17.095Z] response sent successfully
+[2022-02-14T18:00:37.135Z] incoming request: /books/meins/stories/9/audio/jC8J-
+[2022-02-14T18:00:37.136Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/9/audio/jC8J-
+[2022-02-14T18:00:37.144Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:00:37.145Z] executing edge lambdas...
+[2022-02-14T18:00:37.145Z] all edge lambdas executed successfully
+[2022-02-14T18:00:37.145Z] response sent successfully
+[2022-02-14T18:00:42.196Z] incoming request: /books/deins/stories/2/audio/mEgH3
+[2022-02-14T18:00:42.196Z] processing request for cdn /cdn, s3 key is: /books/deins/stories/2/audio/mEgH3
+[2022-02-14T18:00:42.238Z] s3 object found, content type is: audio/webm
+[2022-02-14T18:00:42.238Z] executing edge lambdas...
+[2022-02-14T18:00:42.238Z] all edge lambdas executed successfully
+[2022-02-14T18:00:42.238Z] response sent successfully
+[2022-02-14T18:00:47.542Z] incoming request: /books/deins/stories/2/audio/mEgH3
+[2022-02-14T18:00:47.542Z] processing request for cdn /cdn, s3 key is: /books/deins/stories/2/audio/mEgH3
+[2022-02-14T18:00:47.571Z] s3 object found, content type is: audio/webm
+[2022-02-14T18:00:47.571Z] executing edge lambdas...
+[2022-02-14T18:00:47.571Z] all edge lambdas executed successfully
+[2022-02-14T18:00:47.572Z] response sent successfully
+[2022-02-14T18:03:52.928Z] incoming request: /books/deins/stories/2/audio/mEgH3
+[2022-02-14T18:03:52.929Z] processing request for cdn /cdn, s3 key is: /books/deins/stories/2/audio/mEgH3
+[2022-02-14T18:03:52.966Z] s3 object found, content type is: audio/webm
+[2022-02-14T18:03:52.968Z] executing edge lambdas...
+[2022-02-14T18:03:52.968Z] all edge lambdas executed successfully
+[2022-02-14T18:03:52.969Z] response sent successfully
+[2022-02-14T18:04:19.020Z] incoming request: /books/noch-eins/stories/1/audio/xNP2H.webm
+[2022-02-14T18:04:19.021Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/1/audio/xNP2H.webm
+[2022-02-14T18:04:19.053Z] s3 object found, content type is: audio/webm
+[2022-02-14T18:04:19.053Z] executing edge lambdas...
+[2022-02-14T18:04:19.053Z] all edge lambdas executed successfully
+[2022-02-14T18:04:19.054Z] response sent successfully
+[2022-02-14T18:04:38.841Z] incoming request: /books/noch-eins/stories/1/audio/xNP2H.webm
+[2022-02-14T18:04:38.842Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/1/audio/xNP2H.webm
+[2022-02-14T18:04:38.880Z] s3 object found, content type is: audio/webm
+[2022-02-14T18:04:38.880Z] executing edge lambdas...
+[2022-02-14T18:04:38.881Z] all edge lambdas executed successfully
+[2022-02-14T18:04:38.883Z] response sent successfully
+[2022-02-14T18:05:23.653Z] incoming request: /books/meins/stories/9/audio/jC8J-
+[2022-02-14T18:05:23.653Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/9/audio/jC8J-
+[2022-02-14T18:05:23.664Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:05:23.664Z] executing edge lambdas...
+[2022-02-14T18:05:23.664Z] all edge lambdas executed successfully
+[2022-02-14T18:05:23.665Z] response sent successfully
+[2022-02-14T18:05:23.988Z] incoming request: /books/noch-eins/stories/1/audio/xNP2H.webm
+[2022-02-14T18:05:23.988Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/1/audio/xNP2H.webm
+[2022-02-14T18:05:24.011Z] s3 object found, content type is: audio/webm
+[2022-02-14T18:05:24.012Z] executing edge lambdas...
+[2022-02-14T18:05:24.012Z] all edge lambdas executed successfully
+[2022-02-14T18:05:24.012Z] response sent successfully
+[2022-02-14T18:05:38.324Z] incoming request: /books/noch-eins/stories/1/audio/xNP2H.webm
+[2022-02-14T18:05:38.325Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/1/audio/xNP2H.webm
+[2022-02-14T18:05:38.341Z] s3 object found, content type is: audio/webm
+[2022-02-14T18:05:38.341Z] executing edge lambdas...
+[2022-02-14T18:05:38.342Z] all edge lambdas executed successfully
+[2022-02-14T18:05:38.342Z] response sent successfully
+[2022-02-14T18:05:52.332Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:05:52.333Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:05:52.362Z] s3 object found, content type is: audio/wav
+[2022-02-14T18:05:52.362Z] executing edge lambdas...
+[2022-02-14T18:05:52.363Z] all edge lambdas executed successfully
+[2022-02-14T18:05:52.363Z] response sent successfully
+[2022-02-14T18:06:03.983Z] incoming request: /books/meins/stories/9/audio/jC8J-
+[2022-02-14T18:06:03.983Z] processing request for cdn /cdn, s3 key is: /books/meins/stories/9/audio/jC8J-
+[2022-02-14T18:06:03.994Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:06:03.994Z] executing edge lambdas...
+[2022-02-14T18:06:03.994Z] all edge lambdas executed successfully
+[2022-02-14T18:06:03.995Z] response sent successfully
+[2022-02-14T18:06:09.121Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:06:09.121Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:06:09.146Z] s3 object found, content type is: audio/wav
+[2022-02-14T18:06:09.147Z] executing edge lambdas...
+[2022-02-14T18:06:09.147Z] all edge lambdas executed successfully
+[2022-02-14T18:06:09.148Z] response sent successfully
+[2022-02-14T18:06:14.681Z] Stopping CDN server...
+[2022-02-14T18:25:02.859Z] Adding CDN cdn at path: /cdn
+[2022-02-14T18:25:02.860Z] Starting CDN Server...
+[2022-02-14T18:25:02.860Z] CDN available at http://localhost:1709
+[2022-02-14T18:25:15.529Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:25:15.530Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:25:15.556Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:25:15.557Z] executing edge lambdas...
+[2022-02-14T18:25:15.557Z] all edge lambdas executed successfully
+[2022-02-14T18:25:15.558Z] response sent successfully
+[2022-02-14T18:26:13.187Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:26:13.187Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:26:13.196Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:26:13.196Z] executing edge lambdas...
+[2022-02-14T18:26:13.196Z] all edge lambdas executed successfully
+[2022-02-14T18:26:13.197Z] response sent successfully
+[2022-02-14T18:28:08.290Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:28:08.291Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:28:08.301Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:28:08.301Z] executing edge lambdas...
+[2022-02-14T18:28:08.301Z] all edge lambdas executed successfully
+[2022-02-14T18:28:08.301Z] response sent successfully
+[2022-02-14T18:28:12.223Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:28:12.223Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:28:12.232Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:28:12.233Z] executing edge lambdas...
+[2022-02-14T18:28:12.233Z] all edge lambdas executed successfully
+[2022-02-14T18:28:12.233Z] response sent successfully
+[2022-02-14T18:28:16.521Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:28:16.521Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:28:16.529Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:28:16.529Z] executing edge lambdas...
+[2022-02-14T18:28:16.529Z] all edge lambdas executed successfully
+[2022-02-14T18:28:16.529Z] response sent successfully
+[2022-02-14T18:30:07.066Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:30:07.067Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:30:07.080Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:30:07.080Z] executing edge lambdas...
+[2022-02-14T18:30:07.080Z] all edge lambdas executed successfully
+[2022-02-14T18:30:07.080Z] response sent successfully
+[2022-02-14T18:30:09.514Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:30:09.522Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:30:09.533Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:30:09.533Z] executing edge lambdas...
+[2022-02-14T18:30:09.533Z] all edge lambdas executed successfully
+[2022-02-14T18:30:09.533Z] response sent successfully
+[2022-02-14T18:39:58.267Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:39:58.267Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:39:58.276Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:39:58.276Z] executing edge lambdas...
+[2022-02-14T18:39:58.276Z] all edge lambdas executed successfully
+[2022-02-14T18:39:58.277Z] response sent successfully
+[2022-02-14T18:40:22.487Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:40:22.487Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:40:22.502Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:40:22.502Z] executing edge lambdas...
+[2022-02-14T18:40:22.502Z] all edge lambdas executed successfully
+[2022-02-14T18:40:22.503Z] response sent successfully
+[2022-02-14T18:40:24.033Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:40:24.034Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:40:24.041Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:40:24.041Z] executing edge lambdas...
+[2022-02-14T18:40:24.041Z] all edge lambdas executed successfully
+[2022-02-14T18:40:24.042Z] response sent successfully
+[2022-02-14T18:40:34.163Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:40:34.163Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:40:34.168Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:40:34.169Z] executing edge lambdas...
+[2022-02-14T18:40:34.169Z] all edge lambdas executed successfully
+[2022-02-14T18:40:34.169Z] response sent successfully
+[2022-02-14T18:40:36.369Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:40:36.369Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:40:36.383Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:40:36.385Z] executing edge lambdas...
+[2022-02-14T18:40:36.385Z] all edge lambdas executed successfully
+[2022-02-14T18:40:36.385Z] response sent successfully
+[2022-02-14T18:41:01.302Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:41:01.303Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:41:01.315Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:41:01.315Z] executing edge lambdas...
+[2022-02-14T18:41:01.316Z] all edge lambdas executed successfully
+[2022-02-14T18:41:01.316Z] response sent successfully
+[2022-02-14T18:41:04.227Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:41:04.227Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:41:04.234Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:41:04.235Z] executing edge lambdas...
+[2022-02-14T18:41:04.235Z] all edge lambdas executed successfully
+[2022-02-14T18:41:04.235Z] response sent successfully
+[2022-02-14T18:41:24.293Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:41:24.293Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:41:24.311Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:41:24.311Z] executing edge lambdas...
+[2022-02-14T18:41:24.311Z] all edge lambdas executed successfully
+[2022-02-14T18:41:24.312Z] response sent successfully
+[2022-02-14T18:41:26.146Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:41:26.146Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:41:26.153Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:41:26.153Z] executing edge lambdas...
+[2022-02-14T18:41:26.153Z] all edge lambdas executed successfully
+[2022-02-14T18:41:26.154Z] response sent successfully
+[2022-02-14T18:43:13.647Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:43:13.647Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:43:13.654Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:43:13.655Z] executing edge lambdas...
+[2022-02-14T18:43:13.655Z] all edge lambdas executed successfully
+[2022-02-14T18:43:13.655Z] response sent successfully
+[2022-02-14T18:43:36.923Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:43:36.924Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:43:36.931Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:43:36.932Z] executing edge lambdas...
+[2022-02-14T18:43:36.932Z] all edge lambdas executed successfully
+[2022-02-14T18:43:36.933Z] response sent successfully
+[2022-02-14T18:43:50.913Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:43:50.913Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:43:50.920Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:43:50.920Z] executing edge lambdas...
+[2022-02-14T18:43:50.920Z] all edge lambdas executed successfully
+[2022-02-14T18:43:50.921Z] response sent successfully
+[2022-02-14T18:43:52.233Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:43:52.233Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:43:52.240Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:43:52.240Z] executing edge lambdas...
+[2022-02-14T18:43:52.240Z] all edge lambdas executed successfully
+[2022-02-14T18:43:52.240Z] response sent successfully
+[2022-02-14T18:44:00.222Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:44:00.237Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:44:00.255Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:44:00.264Z] executing edge lambdas...
+[2022-02-14T18:44:00.266Z] all edge lambdas executed successfully
+[2022-02-14T18:44:00.266Z] response sent successfully
+[2022-02-14T18:44:11.040Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:44:11.040Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:44:11.047Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:44:11.047Z] executing edge lambdas...
+[2022-02-14T18:44:11.048Z] all edge lambdas executed successfully
+[2022-02-14T18:44:11.051Z] response sent successfully
+[2022-02-14T18:44:50.868Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:44:50.868Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:44:50.889Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:44:50.890Z] executing edge lambdas...
+[2022-02-14T18:44:50.890Z] all edge lambdas executed successfully
+[2022-02-14T18:44:50.890Z] response sent successfully
+[2022-02-14T18:45:36.284Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:45:36.284Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:45:36.292Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:45:36.292Z] executing edge lambdas...
+[2022-02-14T18:45:36.292Z] all edge lambdas executed successfully
+[2022-02-14T18:45:36.293Z] response sent successfully
+[2022-02-14T18:45:38.197Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:45:38.197Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:45:38.204Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:45:38.205Z] executing edge lambdas...
+[2022-02-14T18:45:38.205Z] all edge lambdas executed successfully
+[2022-02-14T18:45:38.205Z] response sent successfully
+[2022-02-14T18:45:47.465Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:45:47.465Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:45:47.476Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:45:47.476Z] executing edge lambdas...
+[2022-02-14T18:45:47.476Z] all edge lambdas executed successfully
+[2022-02-14T18:45:47.476Z] response sent successfully
+[2022-02-14T18:45:53.387Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:45:53.388Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:45:53.395Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:45:53.395Z] executing edge lambdas...
+[2022-02-14T18:45:53.396Z] all edge lambdas executed successfully
+[2022-02-14T18:45:53.396Z] response sent successfully
+[2022-02-14T18:46:24.485Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:46:24.486Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:46:24.504Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:46:24.504Z] executing edge lambdas...
+[2022-02-14T18:46:24.504Z] all edge lambdas executed successfully
+[2022-02-14T18:46:24.505Z] response sent successfully
+[2022-02-14T18:47:35.424Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:47:35.424Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:47:35.434Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:47:35.434Z] executing edge lambdas...
+[2022-02-14T18:47:35.434Z] all edge lambdas executed successfully
+[2022-02-14T18:47:35.434Z] response sent successfully
+[2022-02-14T18:48:43.570Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:48:43.570Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:48:43.576Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:48:43.577Z] executing edge lambdas...
+[2022-02-14T18:48:43.577Z] all edge lambdas executed successfully
+[2022-02-14T18:48:43.577Z] response sent successfully
+[2022-02-14T18:48:46.017Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:48:46.018Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:48:46.035Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:48:46.036Z] executing edge lambdas...
+[2022-02-14T18:48:46.036Z] all edge lambdas executed successfully
+[2022-02-14T18:48:46.036Z] response sent successfully
+[2022-02-14T18:48:48.209Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:48:48.209Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:48:48.216Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:48:48.216Z] executing edge lambdas...
+[2022-02-14T18:48:48.216Z] all edge lambdas executed successfully
+[2022-02-14T18:48:48.217Z] response sent successfully
+[2022-02-14T18:49:26.112Z] incoming request: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:49:26.113Z] processing request for cdn /cdn, s3 key is: /books/noch-eins/stories/2/audio/hcPco.wav
+[2022-02-14T18:49:26.122Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T18:49:26.122Z] executing edge lambdas...
+[2022-02-14T18:49:26.123Z] all edge lambdas executed successfully
+[2022-02-14T18:49:26.123Z] response sent successfully
+[2022-02-14T19:09:03.181Z] incoming request: /books/heinz/stories/1/audio/TKALC.wav
+[2022-02-14T19:09:03.182Z] processing request for cdn /cdn, s3 key is: /books/heinz/stories/1/audio/TKALC.wav
+[2022-02-14T19:09:03.210Z] s3 object found, content type is: audio/wav
+[2022-02-14T19:09:03.211Z] executing edge lambdas...
+[2022-02-14T19:09:03.211Z] all edge lambdas executed successfully
+[2022-02-14T19:09:03.211Z] response sent successfully
+[2022-02-14T19:09:56.980Z] Stopping CDN server...
+[2022-02-14T20:15:13.350Z] Adding CDN cdn at path: /cdn
+[2022-02-14T20:15:13.350Z] Starting CDN Server...
+[2022-02-14T20:15:13.351Z] CDN available at http://localhost:1709
+[2022-02-14T20:15:16.615Z] incoming request: /books/heinz/stories/1/audio/TKALC.wav
+[2022-02-14T20:15:16.616Z] processing request for cdn /cdn, s3 key is: /books/heinz/stories/1/audio/TKALC.wav
+[2022-02-14T20:15:16.633Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T20:15:16.633Z] executing edge lambdas...
+[2022-02-14T20:15:16.633Z] all edge lambdas executed successfully
+[2022-02-14T20:15:16.634Z] response sent successfully
+[2022-02-14T20:16:39.470Z] incoming request: /books/heinz/stories/1/audio/TKALC.wav
+[2022-02-14T20:16:39.470Z] processing request for cdn /cdn, s3 key is: /books/heinz/stories/1/audio/TKALC.wav
+[2022-02-14T20:16:39.481Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T20:16:39.481Z] executing edge lambdas...
+[2022-02-14T20:16:39.481Z] all edge lambdas executed successfully
+[2022-02-14T20:16:39.481Z] response sent successfully
+[2022-02-14T20:17:11.463Z] incoming request: /books/heinz/stories/1/audio/TKALC.wav
+[2022-02-14T20:17:11.463Z] processing request for cdn /cdn, s3 key is: /books/heinz/stories/1/audio/TKALC.wav
+[2022-02-14T20:17:11.472Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T20:17:11.472Z] executing edge lambdas...
+[2022-02-14T20:17:11.472Z] all edge lambdas executed successfully
+[2022-02-14T20:17:11.472Z] response sent successfully
+[2022-02-14T20:17:57.893Z] incoming request: /books/heinz/stories/1/audio/TKALC.wav
+[2022-02-14T20:17:57.894Z] processing request for cdn /cdn, s3 key is: /books/heinz/stories/1/audio/TKALC.wav
+[2022-02-14T20:17:57.904Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T20:17:57.905Z] executing edge lambdas...
+[2022-02-14T20:17:57.905Z] all edge lambdas executed successfully
+[2022-02-14T20:17:57.905Z] response sent successfully
+[2022-02-14T20:17:59.407Z] incoming request: /books/heinz/stories/1/audio/TKALC.wav
+[2022-02-14T20:17:59.407Z] processing request for cdn /cdn, s3 key is: /books/heinz/stories/1/audio/TKALC.wav
+[2022-02-14T20:17:59.414Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T20:17:59.415Z] executing edge lambdas...
+[2022-02-14T20:17:59.415Z] all edge lambdas executed successfully
+[2022-02-14T20:17:59.415Z] response sent successfully
+[2022-02-14T20:19:13.883Z] incoming request: /books/heinz/stories/1/audio/TKALC.wav
+[2022-02-14T20:19:13.884Z] processing request for cdn /cdn, s3 key is: /books/heinz/stories/1/audio/TKALC.wav
+[2022-02-14T20:19:13.895Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T20:19:13.895Z] executing edge lambdas...
+[2022-02-14T20:19:13.895Z] all edge lambdas executed successfully
+[2022-02-14T20:19:13.896Z] response sent successfully
+[2022-02-14T20:19:21.693Z] incoming request: /books/heinz/stories/1/audio/TKALC.wav
+[2022-02-14T20:19:21.693Z] processing request for cdn /cdn, s3 key is: /books/heinz/stories/1/audio/TKALC.wav
+[2022-02-14T20:19:21.700Z] error while getting object from s3: The specified key does not exist.
+[2022-02-14T20:19:21.700Z] executing edge lambdas...
+[2022-02-14T20:19:21.701Z] all edge lambdas executed successfully
+[2022-02-14T20:19:21.701Z] response sent successfully
+[2022-02-14T20:21:07.338Z] Stopping CDN server...
+[2022-02-14T20:21:17.859Z] Adding CDN cdn at path: /cdn
+[2022-02-14T20:21:17.859Z] Starting CDN Server...
+[2022-02-14T20:21:17.861Z] CDN available at http://localhost:1709

@@ -11,6 +11,11 @@
     "dynamoDb": {
       "readWrite": ["books", "stories"]
     },
-    "memorySize": 512
+    "memorySize": 512,
+    "s3": {
+      "buckets": {
+        "readWrite": ["CDN"]
+      }
+    }
   }
 }

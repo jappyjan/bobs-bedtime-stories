@@ -1,166 +1,86 @@
-[2022-02-12T21:50:37.404Z] Starting container...
-[2022-02-12T21:50:37.404Z] Pulling image amazon/dynamodb-local...
-[2022-02-12T21:50:37.845Z] Failed to pull image amazon/dynamodb-local
-[2022-02-12T21:50:37.845Z] Error: Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
-[2022-02-12T21:50:41.139Z] Initializing DynamoDB Local with the following configuration:
-[2022-02-12T21:50:41.148Z] Port:	8000
-[2022-02-12T21:50:41.149Z] InMemory:	false
-[2022-02-12T21:50:41.149Z] DbPath:	/home/dynamodblocal/data/
-[2022-02-12T21:50:41.150Z] SharedDb:	true
-[2022-02-12T21:50:41.150Z] shouldDelayTransientStatuses:	false
-[2022-02-12T21:50:41.150Z] CorsParams:	*
-[2022-02-12T21:50:44.875Z] container started successfully
-[2022-02-12T21:55:38.108Z] Starting container...
-[2022-02-12T21:55:38.109Z] Pulling image amazon/dynamodb-local...
-[2022-02-12T21:55:38.550Z] Failed to pull image amazon/dynamodb-local
-[2022-02-12T21:55:38.551Z] Error: Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
-[2022-02-12T21:55:42.216Z] Initializing DynamoDB Local with the following configuration:
-[2022-02-12T21:55:42.227Z] Port:	8000
-[2022-02-12T21:55:42.246Z] InMemory:	false
-[2022-02-12T21:55:42.246Z] DbPath:	/home/dynamodblocal/data/
-[2022-02-12T21:55:42.247Z] SharedDb:	true
-[2022-02-12T21:55:42.247Z] shouldDelayTransientStatuses:	false
-[2022-02-12T21:55:42.247Z] CorsParams:	*
-[2022-02-12T21:55:44.862Z] container started successfully
-[2022-02-12T21:57:31.811Z] Starting container...
-[2022-02-12T21:57:31.811Z] Pulling image amazon/dynamodb-local...
-[2022-02-12T21:57:32.234Z] Failed to pull image amazon/dynamodb-local
-[2022-02-12T21:57:32.234Z] Error: Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
-[2022-02-12T21:57:35.878Z] Initializing DynamoDB Local with the following configuration:
-[2022-02-12T21:57:35.882Z] Port:	8000
-[2022-02-12T21:57:35.882Z] InMemory:	false
-[2022-02-12T21:57:35.882Z] DbPath:	/home/dynamodblocal/data/
-[2022-02-12T21:57:35.882Z] SharedDb:	true
-[2022-02-12T21:57:35.882Z] shouldDelayTransientStatuses:	false
-[2022-02-12T21:57:35.883Z] CorsParams:	*
-[2022-02-12T21:57:40.700Z] container started successfully
-[2022-02-12T22:02:30.620Z] Starting container...
-[2022-02-12T22:02:30.621Z] Pulling image amazon/dynamodb-local...
-[2022-02-12T22:02:31.081Z] Failed to pull image amazon/dynamodb-local
-[2022-02-12T22:02:31.081Z] Error: Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
-[2022-02-12T22:02:34.736Z] Initializing DynamoDB Local with the following configuration:
-[2022-02-12T22:02:34.744Z] Port:	8000
-[2022-02-12T22:02:34.745Z] InMemory:	false
-[2022-02-12T22:02:34.745Z] DbPath:	/home/dynamodblocal/data/
-[2022-02-12T22:02:34.745Z] SharedDb:	true
-[2022-02-12T22:02:34.745Z] shouldDelayTransientStatuses:	false
-[2022-02-12T22:02:34.745Z] CorsParams:	*
-[2022-02-12T22:02:37.550Z] container started successfully
-[2022-02-12T22:05:16.599Z] Starting container...
-[2022-02-12T22:05:16.599Z] Pulling image amazon/dynamodb-local...
-[2022-02-12T22:05:17.056Z] Failed to pull image amazon/dynamodb-local
-[2022-02-12T22:05:17.057Z] Error: Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
-[2022-02-12T22:05:20.984Z] Initializing DynamoDB Local with the following configuration:
-[2022-02-12T22:05:20.985Z] Port:	8000
-[2022-02-12T22:05:20.986Z] InMemory:	false
-[2022-02-12T22:05:21.004Z] DbPath:	/home/dynamodblocal/data/
-[2022-02-12T22:05:21.004Z] SharedDb:	true
-[2022-02-12T22:05:21.005Z] shouldDelayTransientStatuses:	false
-[2022-02-12T22:05:21.005Z] CorsParams:	*
-[2022-02-12T22:05:24.112Z] container started successfully
-[2022-02-12T22:07:11.449Z] Starting container...
-[2022-02-12T22:07:11.450Z] Pulling image amazon/dynamodb-local...
-[2022-02-12T22:07:11.897Z] Failed to pull image amazon/dynamodb-local
-[2022-02-12T22:07:11.897Z] Error: Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
-[2022-02-12T22:07:15.702Z] Initializing DynamoDB Local with the following configuration:
-[2022-02-12T22:07:15.734Z] Port:	8000
-[2022-02-12T22:07:15.734Z] InMemory:	false
-[2022-02-12T22:07:15.735Z] DbPath:	/home/dynamodblocal/data/
-[2022-02-12T22:07:15.735Z] SharedDb:	true
-[2022-02-12T22:07:15.735Z] shouldDelayTransientStatuses:	false
-[2022-02-12T22:07:15.771Z] CorsParams:	*
-[2022-02-12T22:07:16.845Z] container started successfully
-[2022-02-12T22:08:55.003Z] Starting container...
-[2022-02-12T22:08:55.003Z] Pulling image amazon/dynamodb-local...
-[2022-02-12T22:08:55.462Z] Failed to pull image amazon/dynamodb-local
-[2022-02-12T22:08:55.462Z] Error: Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
-[2022-02-12T22:08:58.770Z] Initializing DynamoDB Local with the following configuration:
-[2022-02-12T22:08:58.785Z] Port:	8000
-[2022-02-12T22:08:58.785Z] InMemory:	false
-[2022-02-12T22:08:58.786Z] DbPath:	/home/dynamodblocal/data/
-[2022-02-12T22:08:58.786Z] SharedDb:	true
-[2022-02-12T22:08:58.786Z] shouldDelayTransientStatuses:	false
-[2022-02-12T22:08:58.787Z] CorsParams:	*
-[2022-02-12T22:08:59.529Z] container started successfully
-[2022-02-12T22:10:58.160Z] Starting container...
-[2022-02-12T22:10:58.160Z] Pulling image amazon/dynamodb-local...
-[2022-02-12T22:10:58.637Z] Failed to pull image amazon/dynamodb-local
-[2022-02-12T22:10:58.637Z] Error: Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
-[2022-02-12T22:11:02.467Z] Initializing DynamoDB Local with the following configuration:
-[2022-02-12T22:11:02.478Z] Port:	8000
-[2022-02-12T22:11:02.478Z] InMemory:	false
-[2022-02-12T22:11:02.478Z] DbPath:	/home/dynamodblocal/data/
-[2022-02-12T22:11:02.478Z] SharedDb:	true
-[2022-02-12T22:11:02.479Z] shouldDelayTransientStatuses:	false
-[2022-02-12T22:11:02.479Z] CorsParams:	*
-[2022-02-12T22:11:05.394Z] container started successfully
-[2022-02-12T22:13:48.964Z] Starting container...
-[2022-02-12T22:13:48.964Z] Pulling image amazon/dynamodb-local...
-[2022-02-12T22:13:49.476Z] Failed to pull image amazon/dynamodb-local
-[2022-02-12T22:13:49.476Z] Error: Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
-[2022-02-12T22:13:53.414Z] Initializing DynamoDB Local with the following configuration:
-[2022-02-12T22:13:53.414Z] Port:	8000
-[2022-02-12T22:13:53.414Z] InMemory:	false
-[2022-02-12T22:13:53.414Z] DbPath:	/home/dynamodblocal/data/
-[2022-02-12T22:13:53.415Z] SharedDb:	true
-[2022-02-12T22:13:53.415Z] shouldDelayTransientStatuses:	false
-[2022-02-12T22:13:53.415Z] CorsParams:	*
-[2022-02-12T22:13:56.316Z] container started successfully
-[2022-02-12T22:17:24.694Z] Starting container...
-[2022-02-12T22:17:24.694Z] Pulling image amazon/dynamodb-local...
-[2022-02-12T22:17:25.156Z] Failed to pull image amazon/dynamodb-local
-[2022-02-12T22:17:25.156Z] Error: Error response from daemon: Get "https://registry-1.docker.io/v2/": Service Unavailable
-[2022-02-12T22:17:27.804Z] Initializing DynamoDB Local with the following configuration:
-[2022-02-12T22:17:27.809Z] Port:	8000
-[2022-02-12T22:17:27.828Z] InMemory:	false
-[2022-02-12T22:17:27.828Z] DbPath:	/home/dynamodblocal/data/
-[2022-02-12T22:17:27.828Z] SharedDb:	true
-[2022-02-12T22:17:27.828Z] shouldDelayTransientStatuses:	false
-[2022-02-12T22:17:27.829Z] CorsParams:	*
-[2022-02-12T22:17:29.386Z] container started successfully
-[2022-02-13T11:04:02.499Z] Starting container...
-[2022-02-13T11:04:02.499Z] Pulling image amazon/dynamodb-local...
-[2022-02-13T11:04:04.936Z] Image pulled successfully
-[2022-02-13T11:04:07.650Z] Initializing DynamoDB Local with the following configuration:
-[2022-02-13T11:04:07.659Z] Port:	8000
-[2022-02-13T11:04:07.660Z] InMemory:	false
-[2022-02-13T11:04:07.660Z] DbPath:	/home/dynamodblocal/data/
-[2022-02-13T11:04:07.679Z] SharedDb:	true
-[2022-02-13T11:04:07.679Z] shouldDelayTransientStatuses:	false
-[2022-02-13T11:04:07.679Z] CorsParams:	*
-[2022-02-13T11:04:11.944Z] container started successfully
-[2022-02-13T12:36:00.210Z] Starting container...
-[2022-02-13T12:36:00.210Z] Pulling image amazon/dynamodb-local...
-[2022-02-13T12:36:02.721Z] Image pulled successfully
-[2022-02-13T12:36:05.063Z] Initializing DynamoDB Local with the following configuration:
-[2022-02-13T12:36:05.071Z] Port:	8000
-[2022-02-13T12:36:05.072Z] InMemory:	false
-[2022-02-13T12:36:05.072Z] DbPath:	/home/dynamodblocal/data/
-[2022-02-13T12:36:05.073Z] SharedDb:	true
-[2022-02-13T12:36:05.073Z] shouldDelayTransientStatuses:	false
-[2022-02-13T12:36:05.091Z] CorsParams:	*
-[2022-02-13T12:36:05.838Z] container started successfully
-[2022-02-13T12:47:33.894Z] Starting container...
-[2022-02-13T12:47:33.894Z] Pulling image amazon/dynamodb-local...
-[2022-02-13T12:47:37.087Z] Image pulled successfully
-[2022-02-13T12:47:39.771Z] Initializing DynamoDB Local with the following configuration:
-[2022-02-13T12:47:39.782Z] Port:	8000
-[2022-02-13T12:47:39.782Z] InMemory:	false
-[2022-02-13T12:47:39.782Z] DbPath:	/home/dynamodblocal/data/
-[2022-02-13T12:47:39.782Z] SharedDb:	true
-[2022-02-13T12:47:39.782Z] shouldDelayTransientStatuses:	false
-[2022-02-13T12:47:39.782Z] CorsParams:	*
-[2022-02-13T12:47:42.604Z] container started successfully
-[2022-02-13T12:49:54.280Z] Starting container...
-[2022-02-13T12:49:54.281Z] Pulling image amazon/dynamodb-local...
-[2022-02-13T12:50:04.774Z] Starting container...
-[2022-02-13T12:50:04.774Z] Pulling image amazon/dynamodb-local...
-[2022-02-13T12:50:07.382Z] Image pulled successfully
-[2022-02-13T12:50:09.883Z] Initializing DynamoDB Local with the following configuration:
-[2022-02-13T12:50:09.900Z] Port:	8000
-[2022-02-13T12:50:09.900Z] InMemory:	false
-[2022-02-13T12:50:09.900Z] DbPath:	/home/dynamodblocal/data/
-[2022-02-13T12:50:09.901Z] SharedDb:	true
-[2022-02-13T12:50:09.901Z] shouldDelayTransientStatuses:	false
-[2022-02-13T12:50:09.919Z] CorsParams:	*
-[2022-02-13T12:50:10.964Z] container started successfully
+[2022-02-14T12:30:16.506Z] Image pulled successfully
+[2022-02-14T12:30:19.119Z] Initializing DynamoDB Local with the following configuration:
+[2022-02-14T12:30:19.154Z] Port:	8000
+[2022-02-14T12:30:19.155Z] InMemory:	false
+[2022-02-14T12:30:19.155Z] DbPath:	/home/dynamodblocal/data/
+[2022-02-14T12:30:19.155Z] SharedDb:	true
+[2022-02-14T12:30:19.155Z] shouldDelayTransientStatuses:	false
+[2022-02-14T12:30:19.175Z] CorsParams:	*
+[2022-02-14T12:30:21.348Z] container started successfully
+[2022-02-14T16:25:29.628Z] Starting container...
+[2022-02-14T16:25:29.628Z] Pulling image amazon/dynamodb-local...
+[2022-02-14T16:25:32.295Z] Image pulled successfully
+[2022-02-14T16:25:34.908Z] Initializing DynamoDB Local with the following configuration:
+[2022-02-14T16:25:34.921Z] Port:	8000
+[2022-02-14T16:25:34.921Z] InMemory:	false
+[2022-02-14T16:25:34.922Z] DbPath:	/home/dynamodblocal/data/
+[2022-02-14T16:25:34.922Z] SharedDb:	true
+[2022-02-14T16:25:34.922Z] shouldDelayTransientStatuses:	false
+[2022-02-14T16:25:34.922Z] CorsParams:	*
+[2022-02-14T16:25:36.059Z] container started successfully
+[2022-02-14T16:55:07.828Z] Starting container...
+[2022-02-14T16:55:07.829Z] Pulling image amazon/dynamodb-local...
+[2022-02-14T16:55:10.195Z] Image pulled successfully
+[2022-02-14T16:55:12.895Z] Initializing DynamoDB Local with the following configuration:
+[2022-02-14T16:55:12.901Z] Port:	8000
+[2022-02-14T16:55:12.901Z] InMemory:	false
+[2022-02-14T16:55:12.901Z] DbPath:	/home/dynamodblocal/data/
+[2022-02-14T16:55:12.901Z] SharedDb:	true
+[2022-02-14T16:55:12.901Z] shouldDelayTransientStatuses:	false
+[2022-02-14T16:55:12.901Z] CorsParams:	*
+[2022-02-14T16:55:15.340Z] container started successfully
+[2022-02-14T17:03:11.798Z] Starting container...
+[2022-02-14T17:03:11.798Z] Pulling image amazon/dynamodb-local...
+[2022-02-14T17:03:14.162Z] Image pulled successfully
+[2022-02-14T17:03:16.650Z] Initializing DynamoDB Local with the following configuration:
+[2022-02-14T17:03:16.660Z] Port:	8000
+[2022-02-14T17:03:16.660Z] InMemory:	false
+[2022-02-14T17:03:16.660Z] DbPath:	/home/dynamodblocal/data/
+[2022-02-14T17:03:16.661Z] SharedDb:	true
+[2022-02-14T17:03:16.661Z] shouldDelayTransientStatuses:	false
+[2022-02-14T17:03:16.679Z] CorsParams:	*
+[2022-02-14T17:03:18.699Z] container started successfully
+[2022-02-14T17:53:31.024Z] Starting container...
+[2022-02-14T17:53:31.024Z] Pulling image amazon/dynamodb-local...
+[2022-02-14T17:53:33.315Z] Image pulled successfully
+[2022-02-14T17:53:35.884Z] Initializing DynamoDB Local with the following configuration:
+[2022-02-14T17:53:35.903Z] Port:	8000
+[2022-02-14T17:53:35.921Z] InMemory:	false
+[2022-02-14T17:53:35.922Z] DbPath:	/home/dynamodblocal/data/
+[2022-02-14T17:53:35.940Z] SharedDb:	true
+[2022-02-14T17:53:35.959Z] shouldDelayTransientStatuses:	false
+[2022-02-14T17:53:35.959Z] CorsParams:	*
+[2022-02-14T17:53:38.123Z] container started successfully
+[2022-02-14T18:24:53.630Z] Starting container...
+[2022-02-14T18:24:53.630Z] Pulling image amazon/dynamodb-local...
+[2022-02-14T18:24:56.140Z] Image pulled successfully
+[2022-02-14T18:24:58.985Z] Initializing DynamoDB Local with the following configuration:
+[2022-02-14T18:24:58.988Z] Port:	8000
+[2022-02-14T18:24:58.988Z] InMemory:	false
+[2022-02-14T18:24:58.988Z] DbPath:	/home/dynamodblocal/data/
+[2022-02-14T18:24:58.989Z] SharedDb:	true
+[2022-02-14T18:24:58.989Z] shouldDelayTransientStatuses:	false
+[2022-02-14T18:24:58.989Z] CorsParams:	*
+[2022-02-14T18:25:00.054Z] container started successfully
+[2022-02-14T20:15:04.121Z] Starting container...
+[2022-02-14T20:15:04.121Z] Pulling image amazon/dynamodb-local...
+[2022-02-14T20:15:06.493Z] Image pulled successfully
+[2022-02-14T20:15:08.795Z] Initializing DynamoDB Local with the following configuration:
+[2022-02-14T20:15:08.800Z] Port:	8000
+[2022-02-14T20:15:08.800Z] InMemory:	false
+[2022-02-14T20:15:08.800Z] DbPath:	/home/dynamodblocal/data/
+[2022-02-14T20:15:08.801Z] SharedDb:	true
+[2022-02-14T20:15:08.801Z] shouldDelayTransientStatuses:	false
+[2022-02-14T20:15:08.801Z] CorsParams:	*
+[2022-02-14T20:15:10.068Z] container started successfully
+[2022-02-14T20:21:08.617Z] Starting container...
+[2022-02-14T20:21:08.617Z] Pulling image amazon/dynamodb-local...
+[2022-02-14T20:21:11.108Z] Image pulled successfully
+[2022-02-14T20:21:13.758Z] Initializing DynamoDB Local with the following configuration:
+[2022-02-14T20:21:13.771Z] Port:	8000
+[2022-02-14T20:21:13.790Z] InMemory:	false
+[2022-02-14T20:21:13.808Z] DbPath:	/home/dynamodblocal/data/
+[2022-02-14T20:21:13.809Z] SharedDb:	true
+[2022-02-14T20:21:13.809Z] shouldDelayTransientStatuses:	false
+[2022-02-14T20:21:13.809Z] CorsParams:	*
+[2022-02-14T20:21:16.795Z] container started successfully

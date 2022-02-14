@@ -9,6 +9,7 @@ const StyledNavigation = styled.nav`
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 1rem;
 `;
 
 type Props = HTMLAttributes<HTMLElement>;

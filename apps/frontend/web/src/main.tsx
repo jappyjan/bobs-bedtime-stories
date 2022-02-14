@@ -10,6 +10,9 @@ import './main.style.css';
 shoelaceSetBasePath('https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.64/dist/');
 
 import App from './app/app';
+import {useServiceWorker} from "./state/service-worker.state";
+
+useServiceWorker.getState().init();
 
 ReactDOM.render(
   <StrictMode>
