@@ -41,3 +41,8 @@ Thumbs.db
 # Serverless
 .serverless
 .webpack
+
+cdk.out
+#cdk.backend.out.json
+#cdk.frontend.out.json
+#cdk.shared.out.json

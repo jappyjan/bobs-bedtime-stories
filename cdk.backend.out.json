@@ -1,6 +1,0 @@
-{
-  "Backend": {
-    "apiEndpoint": "api.bob-time-stories.de",
-    "MainCDN": "cdn.bob-time-stories.de"
-  }
-}
