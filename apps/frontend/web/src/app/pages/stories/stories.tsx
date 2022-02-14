@@ -58,6 +58,7 @@ export function Stories() {
                    onSlShow={() => setCurrentlyOpenBook(book.slug)}
                    summary={book.title}
         >
+          <p style={{whiteSpace: 'pre-line'}}>{book.description ?? '...leider ohne Beschreibung...'}</p>
           {
             book.stories.map(story => (
               <SlDetails key={`episode-${story.bookSlug}/${story.episode}`}
@@ -65,7 +66,7 @@ export function Stories() {
                          onSlShow={() => setCurrentlyOpenEpisode(story.episode)}
                          summary={`Episode ${story.episode}`}
               >
-                {story.description}
+                <p style={{whiteSpace: 'pre-line'}}>{story.description ?? '...leider ohne Beschreibung...'}</p>
                 <PlayButton book={book} episode={story.episode}/>
               </SlDetails>
             ))
