@@ -1,4 +1,4 @@
-import type {APIGatewayProxyEvent, APIGatewayProxyEventV2, Context} from 'aws-lambda';
+import type {APIGatewayProxyEventV2, Context} from 'aws-lambda';
 import type { Callback } from 'aws-lambda/handler';
 import {
   HttpError,
@@ -70,7 +70,7 @@ export type ApiHttpMethod =
 export interface Route<ReturnType> {
   method: ApiHttpMethod;
   path: string;
-  handler: ApiHandler<APIGatewayProxyEvent, ReturnType>;
+  handler: ApiHandler<APIGatewayProxyEventV2, ReturnType>;
 }
 
 export function wrapHandler<EventType, ReturnType>(
@@ -136,7 +136,7 @@ export class HttpApiRouter {
   private addRoute<ReturnType>(
     method: ApiHttpMethod,
     path: string,
-    handler: ApiHandler<APIGatewayProxyEvent, ReturnType>,
+    handler: ApiHandler<APIGatewayProxyEventV2, ReturnType>,
   ) {
     this.routes.push({
       method,
@@ -150,7 +150,7 @@ export class HttpApiRouter {
       <ReturnType>(method: ApiHttpMethod) =>
       (
         path: string,
-        handler: ApiHandler<APIGatewayProxyEvent, ReturnType>,
+        handler: ApiHandler<APIGatewayProxyEventV2, ReturnType>,
       ) => {
         this.addRoute(method, path, handler);
         return this.addRoutes();
