@@ -1,7 +1,6 @@
 import {
   aws_certificatemanager as certificateManager,
   aws_cloudfront as cloudfront,
-  aws_ec2 as ec2,
   aws_route53 as route53,
   aws_route53_targets as route53Targets, CfnOutput, Duration, Stack, StackProps,
 } from 'aws-cdk-lib';
@@ -14,7 +13,6 @@ import {
 import {
   DefaultStackProps,
   getSharedHostedZone,
-  getSharedVpc,
 } from '../utils/shared';
 import CdnStack, { CDNConfig } from './backend/cdn-stack';
 import DynamoStack from './backend/dynamo-stack';
@@ -34,7 +32,6 @@ export class BackendStack extends Stack {
   private readonly logger: ProjectLogger;
   private readonly props: DefaultStackProps;
   private cloudfrontDistributions: Record<string, cloudfront.Distribution> = {};
-  private readonly vpc: ec2.Vpc;
 
   private constructor(
     scope: Construct,
@@ -47,7 +44,6 @@ export class BackendStack extends Stack {
     this.logger = makeProjectLogger('MAIN');
 
     this.hostedZone = getSharedHostedZone(this, 'HostedZone');
-    this.vpc = getSharedVpc(this, 'VPC');
   }
 
   public static async create(
@@ -132,7 +128,6 @@ export class BackendStack extends Stack {
         logger: cdnLogger,
         config: cdnConfig,
         s3Stack: this.s3Stack,
-        vpc: this.vpc,
         httpApi: this.httpApi,
         hostedZone: this.hostedZone,
       });
@@ -169,7 +164,6 @@ export class BackendStack extends Stack {
         httpApi: this.httpApi,
         projectName,
         s3Buckets: this.s3Stack.buckets,
-        vpc: this.vpc,
       });
     }
   }

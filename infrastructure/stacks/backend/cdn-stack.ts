@@ -23,7 +23,6 @@ interface Props extends DefaultStackProps {
   hostedZone: route53.IHostedZone;
   logger: ProjectLogger;
   s3Stack: S3Stack;
-  vpc: ec2.Vpc;
   httpApi: apiGatewayV2.HttpApi;
 }
 

@@ -1,5 +1,4 @@
 import {
-  aws_ec2 as ec2,
   aws_route53 as route53,
   CfnOutput,
   Stack,
@@ -21,10 +20,7 @@ export default class SharedStack extends Stack {
       zoneName: rootDomain,
     });
 
-    const vpc = new ec2.Vpc(this, 'VPC');
-
     new CfnOutput(this, 'hostedZoneName', {value: hostedZone.zoneName});
     new CfnOutput(this, 'hostedZoneId', {value: hostedZone.hostedZoneId});
-    new CfnOutput(this, 'vpcId', {value: vpc.vpcId});
   }
 }

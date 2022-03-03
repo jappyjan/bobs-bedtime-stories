@@ -1,5 +1,4 @@
 import {
-  aws_ec2 as ec2,
   aws_logs as logs,
   aws_route53 as route53,
   RemovalPolicy
@@ -81,10 +80,6 @@ export function getValueFromStackCdkOutput(stack: 'backend' | 'frontend' | 'shar
   return stackOutput[stackName][key];
 }
 
-function getValueFromSharedStackCdkOutput(key: string) {
-  return getValueFromStackCdkOutput('shared', key);
-}
-
 export function getSharedHostedZone(
   scope: Construct,
   id: string,
@@ -93,13 +88,4 @@ export function getSharedHostedZone(
     zoneName: getSharedProps().defaultStackProps.rootDomain,
     hostedZoneId: 'Z09860133LATIXGX1YUOE',
   }) as route53.HostedZone;
-}
-
-export function getSharedVpc(
-  scope: Construct,
-  id: string,
-): ec2.Vpc {
-  return ec2.Vpc.fromLookup(scope, id, {
-    vpcId: getValueFromSharedStackCdkOutput('vpcId'),
-  }) as ec2.Vpc;
 }

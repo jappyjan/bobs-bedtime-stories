@@ -29,7 +29,6 @@ interface Props extends DefaultStackProps {
   httpApi: apiGatewayV2.HttpApi;
   s3Buckets: Record<string, s3.Bucket>;
   logger: ProjectLogger;
-  vpc: ec2.Vpc;
 }
 
 export default class LambdaStack extends NestedStack {
@@ -45,7 +44,6 @@ export default class LambdaStack extends NestedStack {
   private readonly logger: ProjectLogger;
   private readonly environmentVariables: Record<string, string> = {};
   private readonly resourcesRemovalPolicy: RemovalPolicy;
-  private readonly vpc: ec2.Vpc;
   private role: iam.Role;
 
   private constructor(
@@ -65,7 +63,6 @@ export default class LambdaStack extends NestedStack {
       logger,
       resourcesRemovalPolicy,
       resourcesLogRetention,
-      vpc,
     } = props;
 
     this.logger = logger;
@@ -80,7 +77,6 @@ export default class LambdaStack extends NestedStack {
     this.secrets = secrets;
     this.httpApi = httpApi;
     this.s3Buckets = s3Buckets;
-    this.vpc = vpc;
 
     this.codePath = join(workspaceRootDir, this.config.codePath);
   }
@@ -209,7 +205,6 @@ export default class LambdaStack extends NestedStack {
           : Duration.seconds(30),
         memorySize: this.config.memorySize,
         reservedConcurrentExecutions: this.config.reservedConcurrentExecutions,
-        vpc: this.vpc,
         role: this.role,
       }
     );

@@ -1,5 +1,4 @@
 import {
-  aws_ec2 as ec2,
   aws_route53 as route53,
   Stack,
   StackProps,
@@ -7,7 +6,6 @@ import {
 import {
   DefaultStackProps,
   getSharedHostedZone,
-  getSharedVpc,
 } from '../utils/shared';
 import StaticSiteStack from './frontend/static-site-stack';
 import {Construct} from "constructs";
@@ -19,7 +17,6 @@ interface Props extends DefaultStackProps {
 export default class FrontendStack extends Stack {
   private readonly props: Props & StackProps;
   private readonly hostedZone: route53.HostedZone;
-  private readonly vpc: ec2.Vpc;
 
   private constructor(
     construct: Construct,
@@ -30,7 +27,6 @@ export default class FrontendStack extends Stack {
 
     this.props = props;
 
-    this.vpc = getSharedVpc(this, 'VPC');
     this.hostedZone = getSharedHostedZone(this, 'HostedZone');
   }
 
