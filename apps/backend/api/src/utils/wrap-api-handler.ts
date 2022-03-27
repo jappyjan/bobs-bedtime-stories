@@ -1,8 +1,8 @@
 import {authenticate} from './authenticate';
 import type {ApiHandler} from "@bobs-bedtime-stories/backend-api-rest";
-import type {APIGatewayProxyEvent} from "aws-lambda";
+import {APIGatewayProxyEventV2} from "aws-lambda";
 
-export function wrapApiHandler(handler: ApiHandler<APIGatewayProxyEvent, unknown>): ApiHandler<APIGatewayProxyEvent, unknown> {
+export function wrapApiHandler(handler: ApiHandler<APIGatewayProxyEventV2, unknown>): ApiHandler<APIGatewayProxyEventV2, unknown> {
   return async (event, context) => {
     console.log('authenticating...');
     await authenticate(event);
