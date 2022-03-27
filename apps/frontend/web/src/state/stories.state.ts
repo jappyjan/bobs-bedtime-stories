@@ -2,6 +2,7 @@ import createState from 'zustand';
 import {Book, BookWithStories, Story} from "@bobs-bedtime-stories/shared";
 import {callApi} from "../utils/api";
 import {persist} from "zustand/middleware"
+import {getLocalStorageStoryPlayState} from "./utils";
 
 type AddBookParams = Omit<Book, 'slug' | 'coverImageUrl'>;
 
@@ -14,11 +15,18 @@ export interface StoriesState {
   fetchBooks: () => Promise<void>;
   addBook: (data: AddBookParams) => Promise<BookWithStories>;
   addStory: (data: AddStoryParams) => Promise<Story>;
+  updateEpisode: (updateData: Pick<Story, 'bookSlug' | 'episode'> & Partial<Story>) => void;
 }
 
 async function fetchStoriesOfBook(book: Book): Promise<Story[]> {
   try {
-    return await callApi(`/books/${book.slug}/stories`, 'GET');
+    const stories = await callApi<Story[]>(`/books/${book.slug}/stories`, 'GET');
+    return stories.map((story) => {
+      const playStateOfStory = getLocalStorageStoryPlayState(story);
+      Object.assign(story, playStateOfStory);
+
+      return story;
+    });
   } catch (e) {
     console.error(e);
     return [];
@@ -106,6 +114,32 @@ export const useStories = createState<StoriesState>(
           }
         });
         return story;
+      },
+      updateEpisode: (updateData: Pick<Story, 'bookSlug' | 'episode'> & Partial<Story>) => {
+        set((state) => {
+          return {
+            ...state,
+            books: state.books.map((book) => {
+              if (book.slug !== updateData.bookSlug) {
+                return book;
+              }
+
+              return {
+                ...book,
+                stories: book.stories.map((story) => {
+                  if (story.episode !== updateData.episode) {
+                    return story;
+                  }
+
+                  return {
+                    ...story,
+                    ...updateData,
+                  }
+                }),
+              }
+            }),
+          }
+        });
       }
     }),
     {

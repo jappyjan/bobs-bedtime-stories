@@ -7,4 +7,6 @@ export interface Story {
   imageUrls?: string[];
   videoUrls?: string[];
   externalLinks?: string[];
+  startedListening?: boolean;
+  finishedListening?: boolean;
 }

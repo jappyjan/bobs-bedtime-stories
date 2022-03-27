@@ -2,6 +2,8 @@ import createState from 'zustand';
 import {BookWithStories} from "@bobs-bedtime-stories/shared";
 import {environment} from "../environments/environment";
 import {persist} from "zustand/middleware";
+import {upsertLocalStorageStoryPlayState} from "./utils";
+import {useStories} from "./stories.state";
 
 interface NowPlaying {
   book: BookWithStories;
@@ -75,7 +77,28 @@ export const usePlayer = createState<PlayerState>(
         audio.addEventListener('timeupdate', () => {
           set({
             seekPosition: audio.currentTime,
-          })
+          });
+
+          const nowPlaying = get().nowPlaying;
+          if (!nowPlaying) {
+            return;
+          }
+
+          if (audio.currentTime > (audio.duration - 10)) {
+            upsertLocalStorageStoryPlayState({
+              bookSlug: nowPlaying.book.slug,
+              episode: nowPlaying.episode,
+            }, {
+              finishedListening: true,
+            });
+            useStories.setState((state) => {
+              state.updateEpisode({
+                bookSlug: nowPlaying.book.slug,
+                episode: nowPlaying.episode,
+                finishedListening: true,
+              });
+            });
+          }
         });
 
         audio.addEventListener('ended', () => {
@@ -134,16 +157,36 @@ export const usePlayer = createState<PlayerState>(
             seekPosition: 0,
           } as PlayerState;
 
+          if (changeTo) {
+            upsertLocalStorageStoryPlayState({
+              bookSlug: changeTo.book.slug,
+              episode: changeTo.episode,
+            }, {
+              startedListening: true,
+            });
+            useStories.setState((state) => {
+              state.updateEpisode({
+                bookSlug: changeTo.book.slug,
+                episode: changeTo.episode,
+                startedListening: true,
+              });
+            });
+          }
+
           if (state.audio) {
             const story = changeTo?.book.stories.find(story => story.episode === changeTo.episode);
 
             if (story) {
               newBaseState.isLoading = true;
+              // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
               newBaseState.audio!.src = `${environment.cdnEndpoint}/${story.audioS3Key}`;
+              // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
               newBaseState.audio!.load();
+              // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
               newBaseState.audio!.currentTime = newBaseState.seekPosition;
             }
 
+            // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
             newBaseState.audio!.play();
           }
 
