@@ -18,7 +18,7 @@ export const postANewEpisode = wrapApiHandler(async (event) => {
     episode = storiesSortedByEpisode[0].episode + 1;
   }
 
-  const s3Key = `books/${bookSlug}/stories/${episode}/audio/${nanoid(5)}.wav`;
+  const s3Key = `books/${bookSlug}/stories/${episode}/audio/${nanoid(5)}.webm`;
 
   const s3 = new BobsS3();
   const preSignedUrlData = s3.createPreSignedPost({

@@ -88,7 +88,7 @@ export const useStories = createState<StoriesState>(
           }
         }>(
           `/books/${data.bookSlug}/stories`,
-          'POST'
+          'POST',
         );
 
         const formData = new FormData();
@@ -96,7 +96,7 @@ export const useStories = createState<StoriesState>(
           formData.append(k, v);
         });
         formData.append('file', data.audioFile);
-        formData.append('Content-Type', 'audio/wav');
+        formData.append('Content-Type', data.audioFile.type);
         await fetch(audioUploadUrlData.url, {
           method: 'POST',
           body: formData,

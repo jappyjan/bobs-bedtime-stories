@@ -2,7 +2,7 @@
 
 import {SlIconButton, SlButton} from "@shoelace-style/shoelace/dist/react";
 import styled from "styled-components";
-import {HTMLAttributes, useCallback, useEffect, useMemo, useRef, useState} from "react";
+import {HTMLAttributes, useCallback, useEffect, useMemo, useState} from "react";
 import {RecordRTCPromisesHandler} from "recordrtc";
 import {formatSeconds as formatSecondsRaw} from "../../../../utils/time";
 
@@ -46,15 +46,13 @@ export function AudioRecorder(props: Props & HTMLAttributes<HTMLDivElement>) {
   const [status, setStatus] = useState<RecorderStates>('idle');
   const [recordedDuration, setRecordedDuration] = useState<number>(0);
 
-  const visualizerContainer = useRef<null | HTMLDivElement>(null);
-
   const initRecorder = useCallback(async () => {
     const stream = await navigator.mediaDevices.getUserMedia({video: false, audio: true});
     setRecorder(new RecordRTCPromisesHandler(stream, {
       type: 'audio',
-      mimeType: 'audio/wav',
+      mimeType: 'audio/webm',
     }));
-  }, [setRecorder, visualizerContainer]);
+  }, [setRecorder]);
 
   useEffect(() => {
     const clearCallbacks: Array<() => void> = [];
@@ -123,13 +121,15 @@ export function AudioRecorder(props: Props & HTMLAttributes<HTMLDivElement>) {
     setStatus('stopped');
 
     const audioBlob = await recorder.getBlob();
+
     onDone(audioBlob);
+
     setStatus('idle');
   }, [recorder, setStatus, onDone]);
 
   const formatSeconds = useCallback((seconds: number) => {
     return formatSecondsRaw(seconds);
-  }, [formatSecondsRaw]);
+  }, []);
 
   return (
     <RootContainer {...domProps}>
